@@ -69,6 +69,26 @@ def now_iso():
     return datetime.now(timezone.utc).isoformat(timespec="seconds")
 
 
+_DEXS = None
+
+
+def get_all_mids():
+    """Merge mids from main dex + every builder-deployed perp dex (HIP-3).
+    Elite PnL is concentrated in builder dexs (e.g. xyz: equity perps),
+    so missing these silently drops their best signals."""
+    global _DEXS
+    if _DEXS is None:
+        dexs = post({"type": "perpDexs"}) or []
+        _DEXS = [d["name"] for d in dexs if d and d.get("name")]
+        log(f"builder dexs discovered: {_DEXS}")
+    mids = get_all_mids()
+    for dx in _DEXS:
+        m = post({"type": "allMids", "dex": dx})
+        if m:
+            mids.update(m)
+    return mids
+
+
 def load_state():
     if os.path.exists(STATE):
         st = json.load(open(STATE))
@@ -255,7 +275,7 @@ def git_commit(msg):
 def run_cycle(st):
     st["cycle"] += 1
     ts = now_iso()
-    mids = post({"type": "allMids"}) or {}
+    mids = get_all_mids()
     all_events, elite_positions = [], {}
     for group, addrs in (("elite", st["elite"]), ("worst", st["worst"])):
         for addr in addrs:
