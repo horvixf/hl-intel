@@ -81,7 +81,7 @@ def get_all_mids():
         dexs = post({"type": "perpDexs"}) or []
         _DEXS = [d["name"] for d in dexs if d and d.get("name")]
         log(f"builder dexs discovered: {_DEXS}")
-    mids = get_all_mids()
+    mids = post({"type": "allMids"}) or {}
     for dx in _DEXS:
         m = post({"type": "allMids", "dex": dx})
         if m:
