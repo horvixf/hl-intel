@@ -42,6 +42,7 @@ TP_PX = 0.05
 STOP_PX = 0.025
 MAX_HOLD_H = 48
 STALE_LIMIT = 5
+PORT_MAX_NOTIONAL_X = 3.0     # total open notional cap = 3x equity
 
 
 def log(msg):
@@ -164,6 +165,49 @@ def diff(addr, old, new, group, ts):
     return events
 
 
+def get_funding_map(held_coins):
+    """coin -> current hourly funding rate, only for dexs we actually hold."""
+    if not held_coins:
+        return {}
+    dexs = {""}
+    for c in held_coins:
+        dexs.add(c.split(":")[0] if ":" in c else "")
+    fmap = {}
+    for dx in dexs:
+        payload = {"type": "metaAndAssetCtxs"}
+        if dx:
+            payload["dex"] = dx
+        res = post(payload)
+        if not res:
+            continue
+        meta, ctxs = res
+        for a, ctx in zip(meta.get("universe", []), ctxs):
+            name = a["name"] if not dx else (a["name"] if a["name"].startswith(dx + ":") else f"{dx}:{a['name']}")
+            try:
+                fmap[name] = float(ctx.get("funding", 0) or 0)
+            except (TypeError, ValueError):
+                pass
+    return fmap
+
+
+def accrue_funding(paper, fmap):
+    """Hourly funding pro-rated per cycle. Positive rate: longs pay."""
+    now = time.time()
+    for pos in paper["positions"].values():
+        rate = fmap.get(pos["coin"])
+        if rate is None:
+            continue
+        last = pos.get("last_funding_ts", pos.get("opened_ts", now))
+        hours = max((now - last) / 3600.0, 0.0)
+        pos["last_funding_ts"] = now
+        if hours == 0:
+            continue
+        cost = rate * hours * pos["notional"]
+        signed = -cost if pos["side"] == "LONG" else cost
+        paper["equity"] += signed
+        paper["funding_net"] = paper.get("funding_net", 0.0) + signed
+
+
 def open_paper(paper, coin, side, mid, margin, src, tag, conv):
     notional = margin * LEV
     px = mid * (1 + SLIP) if side == "LONG" else mid * (1 - SLIP)
@@ -189,7 +233,8 @@ def close_paper(paper, key, mids, reason):
     px = mid * (1 - SLIP) if pos["side"] == "LONG" else mid * (1 + SLIP)
     ret = (px / pos["entry"] - 1) * (1 if pos["side"] == "LONG" else -1)
     pnl = pos["notional"] * ret
-    fee = pos["notional"] * FEE_MAKER
+    exit_notional = pos["notional"] * (px / pos["entry"])
+    fee = exit_notional * FEE_MAKER
     paper["equity"] += pnl - fee
     paper["realized"] += pnl
     paper["fees_paid"] += fee
@@ -209,6 +254,9 @@ def paper_on_events(paper, events, mids, elite_positions):
         if ev["group"] == "elite" and ev["event"] in ("OPEN", "FLIP"):
             if coin in paper["positions"] or len(paper["positions"]) >= MAX_POS:
                 continue
+            total_notional = sum(p["notional"] for p in paper["positions"].values())
+            if total_notional >= paper["equity"] * PORT_MAX_NOTIONAL_X:
+                continue
             conv = sum(1 for pos in elite_positions.values()
                        if pos.get(coin, {}).get("side") == ev["side"])
             margin = paper["equity"] * POS_FRAC * (CONV_BOOST if conv >= 2 else 1)
@@ -216,6 +264,8 @@ def paper_on_events(paper, events, mids, elite_positions):
                        ev["addr"], "copy", conv)
         elif ev["group"] == "worst" and ev["event"] == "OPEN":
             if coin in paper["positions"] or len(paper["positions"]) >= MAX_POS:
+                continue
+            if sum(p["notional"] for p in paper["positions"].values()) >= paper["equity"] * PORT_MAX_NOTIONAL_X:
                 continue
             fade_side = "SHORT" if ev["side"] == "LONG" else "LONG"
             margin = paper["equity"] * FADE_FRAC
@@ -297,6 +347,8 @@ def run_cycle(st):
             st["snapshots"][addr] = snap
     if st["cycle"] > 1 and mids:
         paper_on_events(st["paper"], all_events, mids, elite_positions)
+        fmap = get_funding_map(list(st["paper"]["positions"].keys()))
+        accrue_funding(st["paper"], fmap)
         manage_exits(st["paper"], mids)
     mtm = mark_to_market(st["paper"], mids) if mids else st["paper"]["equity"]
     st["equity_curve"].append({"t": ts, "cycle": st["cycle"],
