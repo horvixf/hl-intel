@@ -1,0 +1,26 @@
+name: screener
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '5 2 * * *'   # daily universe re-screen + wallet rotation
+permissions:
+  contents: write
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - run: pip install requests
+      - name: run screener
+        run: python screener/universe_screener.py
+      - name: commit
+        run: |
+          git config user.name "screener-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data
+          git commit -m "daily universe re-screen" || echo "no changes"
+          git pull --rebase -X ours || true
+          git push
