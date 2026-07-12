@@ -5,7 +5,7 @@
     "side": "SHORT",
     "size": 10.0,
     "entry": 66.39,
-    "notional": 668.44
+    "notional": 667.08
    }
   },
   "0x6807f127eaf85e3d0b9dbc7971bbed2afd041f8d": {
@@ -136,7 +136,7 @@
     "side": "LONG",
     "size": 129430.0,
     "entry": 2.310689,
-    "notional": 345603.986
+    "notional": 345345.126
    }
   },
   "0x657950bae8b1824aaac8aff24e2ca1de799ab87d": {},
@@ -152,7 +152,7 @@
     "side": "LONG",
     "size": 212835.0,
     "entry": 2.511633,
-    "notional": 568312.017
+    "notional": 567971.481
    }
   },
   "0x1f7b0d0c259f599536037b9c6c782c04a2aec71d": {
@@ -160,7 +160,7 @@
     "side": "LONG",
     "size": 1000.0,
     "entry": 441.6124,
-    "notional": 512720.0
+    "notional": 512070.0
    }
   },
   "0x91867345424fb158888ff9c5f1b1b2e7cd7d65d5": {
@@ -168,7 +168,7 @@
     "side": "LONG",
     "size": 81900.0,
     "entry": 2.439716,
-    "notional": 218697.57
+    "notional": 218558.34
    }
   },
   "0xf929122994e177079c924631ba13fb280f5cd1f9": {
@@ -176,7 +176,7 @@
     "side": "LONG",
     "size": 4000.0,
     "entry": 1658.74,
-    "notional": 7172800.0
+    "notional": 7171200.0
    }
   },
   "0x7f2eb25a18bf9fd2e7208bcad89dbc633d696f84": {},
@@ -194,7 +194,7 @@
     "side": "LONG",
     "size": 4.37678,
     "entry": 63976.0,
-    "notional": 278958.45008
+    "notional": 278914.68228
    }
   },
   "0x1b232b41b0e75550c59288b99874e4a8142fbe21": {
@@ -230,9 +230,86 @@
     "entry": 78.7542,
     "notional": 156619.71832
    }
+  },
+  "0x45855f715af1045a71d83e3ea16cbb5edf89549a": {
+   "TRB": {
+    "side": "LONG",
+    "size": 159.14,
+    "entry": 16.034,
+    "notional": 2375.48278
+   },
+   "GRASS": {
+    "side": "LONG",
+    "size": 6242.2,
+    "entry": 0.4057,
+    "notional": 2438.390586
+   },
+   "HYPE": {
+    "side": "LONG",
+    "size": 163.37,
+    "entry": 66.9484,
+    "notional": 10895.96215
+   },
+   "VVV": {
+    "side": "LONG",
+    "size": 1250.78,
+    "entry": 10.6551,
+    "notional": 13438.38032
+   },
+   "XMR": {
+    "side": "LONG",
+    "size": 73.275,
+    "entry": 335.381,
+    "notional": 23915.4945
+   }
+  },
+  "0xc16c69d13583ced94245f79afb8751a1883bf2c6": {
+   "ADA": {
+    "side": "SHORT",
+    "size": 3690000.0,
+    "entry": 0.167228,
+    "notional": 602208.0
+   }
+  },
+  "0x7260543c767a511dfa146fd3163a36f9f20801b0": {},
+  "0x1081e214bd6f0137234b92432d9b6033b88965b7": {},
+  "0xfcecc2a54724cf0502eb7c916e2717ef76a510ed": {},
+  "0xd58097a67e91cd410d0fda4ad7db2618c917fe30": {
+   "BTC": {
+    "side": "LONG",
+    "size": 7.88321,
+    "entry": 64305.4,
+    "notional": 502365.44046
+   }
+  },
+  "0x4606b21970d19eb9c1930837db5afba3cd59cd22": {},
+  "0x2bf9a0ef83d8066189b5caee94c57114a67540ab": {},
+  "0xcecf774b031d6c1c1f8e4ec003979ee1dfabc7de": {
+   "BTC": {
+    "side": "LONG",
+    "size": 6.20164,
+    "entry": 64499.0,
+    "notional": 395205.71064
+   }
+  },
+  "0xd129d392e5db2bb3bd6db5c2580c9634ac570aa6": {
+   "XPL": {
+    "side": "LONG",
+    "size": 3711394.0,
+    "entry": 0.095432,
+    "notional": 336003.633002
+   }
+  },
+  "0x91b8fe97424c29806a490f18f0356fd08fb584a9": {
+   "SOL": {
+    "side": "LONG",
+    "size": 7000.0,
+    "entry": 73.9145,
+    "notional": 532336.0
+   }
   }
  },
- "cycle": 129,
+ "cycle": 132,
  "fail_counts": {
   "0x3daf7f1cfd1c289e9b2fb7abb2efbd39f77455d7": 0,
   "0x6807f127eaf85e3d0b9dbc7971bbed2afd041f8d": 0,
@@ -253,10 +330,21 @@
   "0xde839b383711263ce67ce0cdb563c01c3f618598": 0,
   "0xe6e3355646051ff76174dd36f6e0fbe2b2cb67f7": 0,
   "0x182bdc6eecfe166e68dddba00ac98d72d8e0d459": 0,
-  "0xc8378d5bd334b984b5ada4e8ee09a49fe4d8d97d": 0
+  "0xc8378d5bd334b984b5ada4e8ee09a49fe4d8d97d": 0,
+  "0x45855f715af1045a71d83e3ea16cbb5edf89549a": 0,
+  "0xc16c69d13583ced94245f79afb8751a1883bf2c6": 0,
+  "0x7260543c767a511dfa146fd3163a36f9f20801b0": 0,
+  "0x1081e214bd6f0137234b92432d9b6033b88965b7": 0,
+  "0xfcecc2a54724cf0502eb7c916e2717ef76a510ed": 0,
+  "0xd58097a67e91cd410d0fda4ad7db2618c917fe30": 0,
+  "0x4606b21970d19eb9c1930837db5afba3cd59cd22": 0,
+  "0x2bf9a0ef83d8066189b5caee94c57114a67540ab": 0,
+  "0xcecf774b031d6c1c1f8e4ec003979ee1dfabc7de": 0,
+  "0xd129d392e5db2bb3bd6db5c2580c9634ac570aa6": 0,
+  "0x91b8fe97424c29806a490f18f0356fd08fb584a9": 0
  },
  "paper": {
-  "equity": 99.81466388962274,
+  "equity": 99.81446218190013,
   "positions": {
    "ETH": {
     "coin": "ETH",
@@ -269,7 +357,7 @@
     "opened_ts": 1783814688.7043476,
     "tag": "copy",
     "convergence": 2,
-    "last_funding_ts": 1783836759.5129392
+    "last_funding_ts": 1783837404.4687374
    },
    "BTC": {
     "coin": "BTC",
@@ -282,14 +370,14 @@
     "opened_ts": 1783835515.4374774,
     "tag": "fade",
     "convergence": 0,
-    "last_funding_ts": 1783836759.5129392
+    "last_funding_ts": 1783837404.4687374
    }
   },
   "realized": -0.13676400708441894,
   "fees_paid": 0.04050712842906727,
   "wins": 0,
   "losses": 1,
-  "funding_net": -0.008064974863828105
+  "funding_net": -0.008266682586428643
  },
  "equity_curve": [
   {
@@ -936,30 +1024,45 @@
    "t": "2026-07-12T06:12:29+00:00",
    "cycle": 129,
    "equity_mtm": 100.2937
+  },
+  {
+   "t": "2026-07-12T06:12:51+00:00",
+   "cycle": 130,
+   "equity_mtm": 100.3712
+  },
+  {
+   "t": "2026-07-12T06:18:03+00:00",
+   "cycle": 131,
+   "equity_mtm": 100.3385
+  },
+  {
+   "t": "2026-07-12T06:23:13+00:00",
+   "cycle": 132,
+   "equity_mtm": 100.3163
   }
  ],
  "elite": [
   "0x3daf7f1cfd1c289e9b2fb7abb2efbd39f77455d7",
-  "0x6807f127eaf85e3d0b9dbc7971bbed2afd041f8d",
-  "0xfae1d8c606a26071a01b59f3f02e157083114b90",
   "0xba67690d19571752e0f845acd48b3349131b723b",
-  "0x657950bae8b1824aaac8aff24e2ca1de799ab87d",
-  "0x96a27a8e80a8d9c42a08d033be8ed3e4c4d84cc0",
-  "0x41c684cbde3e449cc67c70aacb6132e3eb25b06d",
   "0x1f7b0d0c259f599536037b9c6c782c04a2aec71d",
+  "0x41c684cbde3e449cc67c70aacb6132e3eb25b06d",
   "0x91867345424fb158888ff9c5f1b1b2e7cd7d65d5",
+  "0x45855f715af1045a71d83e3ea16cbb5edf89549a",
+  "0x96a27a8e80a8d9c42a08d033be8ed3e4c4d84cc0",
+  "0x657950bae8b1824aaac8aff24e2ca1de799ab87d",
+  "0xc16c69d13583ced94245f79afb8751a1883bf2c6",
+  "0x7260543c767a511dfa146fd3163a36f9f20801b0",
   "0xf929122994e177079c924631ba13fb280f5cd1f9",
-  "0x7f2eb25a18bf9fd2e7208bcad89dbc633d696f84",
-  "0xc84677e568e8a18f1587458f1c38bfed06f248d0"
+  "0x1081e214bd6f0137234b92432d9b6033b88965b7"
  ],
  "worst": [
-  "0x7b51c5d9366077e1b3c1cba383389752f486071b",
+  "0xfcecc2a54724cf0502eb7c916e2717ef76a510ed",
+  "0xd58097a67e91cd410d0fda4ad7db2618c917fe30",
+  "0x4606b21970d19eb9c1930837db5afba3cd59cd22",
+  "0x2bf9a0ef83d8066189b5caee94c57114a67540ab",
   "0x6bde78a5b2091bcbc915155328bd138b534387d3",
-  "0x1b232b41b0e75550c59288b99874e4a8142fbe21",
-  "0x0b506be94c45382b11685cff769e5e76fcd8bd65",
-  "0xde839b383711263ce67ce0cdb563c01c3f618598",
-  "0xe6e3355646051ff76174dd36f6e0fbe2b2cb67f7",
-  "0x182bdc6eecfe166e68dddba00ac98d72d8e0d459",
-  "0xc8378d5bd334b984b5ada4e8ee09a49fe4d8d97d"
+  "0xcecf774b031d6c1c1f8e4ec003979ee1dfabc7de",
+  "0xd129d392e5db2bb3bd6db5c2580c9634ac570aa6",
+  "0x91b8fe97424c29806a490f18f0356fd08fb584a9"
  ]
 }
