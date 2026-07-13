@@ -22,6 +22,8 @@ jobs:
         run: |
           git config user.name "engine-bot"
           git config user.email "bot@users.noreply.github.com"
+      - name: sync to latest committed state
+        run: git pull --rebase origin main || true
       - name: run engine loop
         env:
           LOOP_MINUTES: '330'

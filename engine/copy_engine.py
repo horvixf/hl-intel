@@ -312,12 +312,22 @@ def git_commit(msg):
                            capture_output=True, text=True)
         if "nothing to commit" in r.stdout + r.stderr:
             return
-        subprocess.run(["git", "pull", "--rebase", "-X", "ours"], check=False)
-        p = subprocess.run(["git", "push"], capture_output=True, text=True)
-        if p.returncode != 0:
-            log(f"git push failed: {p.stderr[:200]}")
-        else:
-            log("data committed + pushed")
+        for attempt in range(3):
+            p = subprocess.run(["git", "push"], capture_output=True, text=True)
+            if p.returncode == 0:
+                log("data committed + pushed")
+                return
+            rb = subprocess.run(["git", "pull", "--rebase"],
+                                capture_output=True, text=True)
+            if rb.returncode != 0:
+                subprocess.run(["git", "rebase", "--abort"], check=False)
+                # our full-snapshot data is newer; replay it on top of remote
+                subprocess.run(["git", "checkout", "data"], check=False)
+                subprocess.run(["git", "reset", "--hard", "origin/main"],
+                               check=False)
+                log("push conflict: state will re-commit next interval")
+                return
+        log(f"git push failed after retries: {p.stderr[:150]}")
     except Exception as e:
         log(f"git error (non-fatal): {e}")
 
