@@ -107,3 +107,6 @@
 {"t": "2026-07-14T21:59:00+00:00", "act": "OPEN", "tag": "copy", "coin": "PENDLE", "side": "LONG", "px": 1.569920835, "notional": 87.03, "fee": 0.0131, "conv": 1, "src": "0x8d7d49eb"}
 {"t": "2026-07-14T22:04:11+00:00", "act": "OPEN", "tag": "copy", "coin": "GRASS", "side": "SHORT", "px": 0.394761536, "notional": 87.02, "fee": 0.0131, "conv": 1, "src": "0x8d7d49eb"}
 {"t": "2026-07-14T22:30:09+00:00", "act": "CLOSE", "tag": "copy", "coin": "GRASS", "side": "SHORT", "px": 0.396458902, "pnl": -0.3742, "fee": 0.0131, "reason": "src_closed"}
+{"t": "2026-07-14T23:22:03+00:00", "act": "OPEN", "tag": "copy", "coin": "FET", "side": "SHORT", "px": 0.16279114800000002, "notional": 86.66, "fee": 0.013, "conv": 1, "src": "0x8d7d49eb"}
+{"t": "2026-07-14T23:27:14+00:00", "act": "CLOSE", "tag": "copy", "coin": "PENDLE", "side": "LONG", "px": 1.570078835, "pnl": 0.0088, "fee": 0.0131, "reason": "src_closed"}
+{"t": "2026-07-14T23:27:14+00:00", "act": "CLOSE", "tag": "copy", "coin": "FET", "side": "SHORT", "px": 0.162768816, "pnl": 0.0119, "fee": 0.013, "reason": "src_closed"}
