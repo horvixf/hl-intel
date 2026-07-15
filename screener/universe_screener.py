@@ -103,6 +103,26 @@ def screen(rows):
     return scored
 
 
+def median_hold_hours(addr, cap_fills=1500):
+    """Flat-to-flat round-trip median hold from recent fills (copyability)."""
+    fills = post({"type": "userFills", "user": addr}) or []
+    fills = sorted(fills[:cap_fills], key=lambda f: f["time"])
+    holds, open_ts = [], {}
+    per_day = len(fills) / max((fills[-1]["time"] - fills[0]["time"]) / 86_400_000, 0.2) if fills else 0
+    for f in fills:
+        d, coin = f.get("dir", ""), f["coin"]
+        startpos = abs(float(f.get("startPosition", 0)))
+        if d.startswith("Open") and coin not in open_ts and startpos < 1e-9:
+            open_ts[coin] = f["time"]
+        elif d.startswith("Close") and coin in open_ts:
+            remaining = startpos - float(f["sz"])
+            if remaining <= max(startpos * 0.02, 1e-9):
+                holds.append((f["time"] - open_ts.pop(coin)) / 3_600_000)
+    holds.sort()
+    med = holds[len(holds) // 2] if holds else None
+    return med, per_day
+
+
 def deep_scan(addr):
     """Live positions + resting orders (targets/stops) for one wallet."""
     st = post({"type": "clearinghouseState", "user": addr})
@@ -170,8 +190,22 @@ def main():
     print(f"Passed screen (eq {MIN_EQ}-{MAX_EQ}, vlm>{MIN_MONTH_VLM/1e6:.0f}M): "
           f"{len(scored)}")
 
-    elite = [s for s in scored if s["pos_windows"] == 4
-             and not s["spike_flag"]][:TOP_N_DEEP]
+    MIN_HOLD_H, MAX_TRADES_DAY, ELITE_TARGET = 4.0, 40, 16
+    elite, checked = [], 0
+    for s in scored:
+        if s["pos_windows"] != 4 or s["spike_flag"]:
+            continue
+        checked += 1
+        if checked > 60 or len(elite) >= ELITE_TARGET:
+            break
+        med, per_day = median_hold_hours(s["address"])
+        s["med_hold_h"] = round(med, 2) if med is not None else None
+        s["trades_per_day"] = round(per_day, 1)
+        if med is not None and med >= MIN_HOLD_H and per_day <= MAX_TRADES_DAY:
+            elite.append(s)
+    print(f"copyability filter: {len(elite)} elites kept "
+          f"(hold>={MIN_HOLD_H}h, <= {MAX_TRADES_DAY} tr/day) "
+          f"from {checked} checked")
     worst = [s for s in scored
              if s["roi_day"] < 0 and s["roi_week"] < 0
              and s["roi_month"] < 0][-BOT_N_DEEP:]

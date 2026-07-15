@@ -38,8 +38,8 @@ FADE_FRAC = 0.15
 MAX_POS = 4
 FEE_MAKER = 0.00015
 SLIP = 0.0003
-TP_PX = 0.05
-STOP_PX = 0.025
+TP_PX = None            # v3: TP truncated src-follow alpha; removed
+STOP_PX = 0.04          # v3: 2.5% clipped winners (p95 winner MAE 0.8%)
 MAX_HOLD_H = 48
 STALE_LIMIT = 5
 PORT_MAX_NOTIONAL_X = 3.0     # total open notional cap = 3x equity
@@ -263,14 +263,7 @@ def paper_on_events(paper, events, mids, elite_positions):
             open_paper(paper, coin, ev["side"], mid, margin,
                        ev["addr"], "copy", conv)
         elif ev["group"] == "worst" and ev["event"] == "OPEN":
-            if coin in paper["positions"] or len(paper["positions"]) >= MAX_POS:
-                continue
-            if sum(p["notional"] for p in paper["positions"].values()) >= paper["equity"] * PORT_MAX_NOTIONAL_X:
-                continue
-            fade_side = "SHORT" if ev["side"] == "LONG" else "LONG"
-            margin = paper["equity"] * FADE_FRAC
-            open_paper(paper, coin, fade_side, mid, margin,
-                       ev["addr"], "fade", 0)
+            pass  # v3: fade disabled (paired study: wr 0.29, negative all stops); events still logged
         elif (ev["event"] in ("CLOSE", "FLIP") and coin in paper["positions"]
               and paper["positions"][coin]["src"] == ev["addr"]):
             close_paper(paper, coin, mids, "src_closed")
@@ -284,7 +277,7 @@ def manage_exits(paper, mids):
             continue
         ret = (mid / pos["entry"] - 1) * (1 if pos["side"] == "LONG" else -1)
         held_h = (time.time() - pos.get("opened_ts", time.time())) / 3600
-        if ret >= TP_PX:
+        if TP_PX is not None and ret >= TP_PX:
             close_paper(paper, key, mids, "take_profit")
         elif ret <= -STOP_PX:
             close_paper(paper, key, mids, "stop_loss")
