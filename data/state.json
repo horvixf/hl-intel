@@ -408,9 +408,9 @@
   "0xd92027fc1bf15ea8e1c9c0a1aa4a9f58b5433f20": {
    "BTC": {
     "side": "SHORT",
-    "size": 9.5,
-    "entry": 64195.0,
-    "notional": 614700.35
+    "size": 9.7,
+    "entry": 64206.2,
+    "notional": 628560.0
    }
   },
   "0xbc76170c8a15b34941ba9e00567d7e0f11ba417c": {
@@ -418,7 +418,7 @@
     "side": "SHORT",
     "size": 55.13993,
     "entry": 65144.0,
-    "notional": 3567845.712629
+    "notional": 3573861.478992
    }
   },
   "0x7c1ad4cc246da4a20e12fc16d4cf4f338d57fef5": {},
@@ -428,7 +428,7 @@
     "side": "SHORT",
     "size": 1465.28,
     "entry": 68.246,
-    "notional": 97833.81504
+    "notional": 98235.30176
    }
   },
   "0x7632be1bdb486be27a1c39ff4208ffd5853c59ed": {
@@ -436,7 +436,7 @@
     "side": "LONG",
     "size": 55.537,
     "entry": 1800.75,
-    "notional": 106425.5531
+    "notional": 106742.114
    }
   },
   "0x4efcddbf958781d8c7b49b1233c1d6f8112ec971": {
@@ -444,7 +444,7 @@
     "side": "LONG",
     "size": 0.74973,
     "entry": 63988.0,
-    "notional": 48512.02938
+    "notional": 48595.24941
    }
   },
   "0x14e2ad432297508f8ef3b26d7e99e81d64d05b57": {},
@@ -453,13 +453,13 @@
     "side": "LONG",
     "size": 1500.0,
     "entry": 76.4083,
-    "notional": 115809.0
+    "notional": 116013.0
    },
    "XRP": {
     "side": "LONG",
     "size": 150000.0,
     "entry": 1.078927,
-    "notional": 166860.0
+    "notional": 167190.0
    }
   },
   "0xf2fe51f77c1beb2e226db19eaaa2c2c2ce02ccfa": {
@@ -467,7 +467,7 @@
     "side": "LONG",
     "size": 6.07343,
     "entry": 65440.1,
-    "notional": 392987.36158
+    "notional": 393645.721392
    }
   },
   "0x1e167fc0b27b14a0d707fba8d5325ca0db28abef": {
@@ -475,13 +475,13 @@
     "side": "LONG",
     "size": 16.27956,
     "entry": 61325.3,
-    "notional": 1053385.20936
+    "notional": 1055149.913664
    },
    "HYPE": {
     "side": "LONG",
     "size": 17670.75,
     "entry": 65.042,
-    "notional": 1179840.636
+    "notional": 1184859.129
    }
   },
   "0xf04ac903c91a028c9a6de6dcb86875920f02206c": {
@@ -489,7 +489,7 @@
     "side": "LONG",
     "size": 219.1,
     "entry": 546.8798,
-    "notional": 125416.54279
+    "notional": 125336.155
    }
   },
   "0xb86c32de384f449ce1dc7e298dc80e39ca347db9": {},
@@ -498,19 +498,19 @@
     "side": "SHORT",
     "size": 2.4424,
     "entry": 59263.3,
-    "notional": 158036.22472
+    "notional": 158302.69056
    },
    "XRP": {
     "side": "SHORT",
     "size": 79808.0,
     "entry": 1.053994,
-    "notional": 88770.4384
+    "notional": 88953.9968
    },
    "ZEC": {
     "side": "SHORT",
     "size": 147.48,
     "entry": 406.5559,
-    "notional": 84419.0268
+    "notional": 84365.934
    }
   },
   "0x178031baf4bf011a2c2190066c2d762e45d4eff8": {},
@@ -519,11 +519,11 @@
     "side": "SHORT",
     "size": 202.6597,
     "entry": 1930.1,
-    "notional": 388342.596931
+    "notional": 389410.61355
    }
   }
  },
- "cycle": 1122,
+ "cycle": 1125,
  "fail_counts": {
   "0x3daf7f1cfd1c289e9b2fb7abb2efbd39f77455d7": 0,
   "0x6807f127eaf85e3d0b9dbc7971bbed2afd041f8d": 0,
@@ -604,7 +604,7 @@
   "0x0696a951a96bef98d3c593c3ae772b70ee4c26e5": 0
  },
  "paper": {
-  "equity": 104.8851147076693,
+  "equity": 104.88539085900686,
   "positions": {
    "BTC": {
     "coin": "BTC",
@@ -617,14 +617,14 @@
     "opened_ts": 1784043274.301851,
     "tag": "copy",
     "convergence": 1,
-    "last_funding_ts": 1784159305.1967385
+    "last_funding_ts": 1784160232.9496348
    }
   },
   "realized": 6.965354273384151,
   "fees_paid": 1.959341499155174,
   "wins": 43,
   "losses": 36,
-  "funding_net": -0.12089806655941102
+  "funding_net": -0.12062191522184772
  },
  "equity_curve": [
   {
@@ -6236,6 +6236,21 @@
    "t": "2026-07-15T23:48:15+00:00",
    "cycle": 1122,
    "equity_mtm": 105.0419
+  },
+  {
+   "t": "2026-07-15T23:53:26+00:00",
+   "cycle": 1123,
+   "equity_mtm": 104.9388
+  },
+  {
+   "t": "2026-07-15T23:58:35+00:00",
+   "cycle": 1124,
+   "equity_mtm": 104.9865
+  },
+  {
+   "t": "2026-07-16T00:03:43+00:00",
+   "cycle": 1125,
+   "equity_mtm": 104.8914
   }
  ],
  "elite": [
