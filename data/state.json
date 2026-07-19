@@ -394,13 +394,13 @@
     "side": "LONG",
     "size": 3.02492,
     "entry": 64607.6,
-    "notional": 195086.16556
+    "notional": 195146.66396
    },
    "ETH": {
     "side": "LONG",
     "size": 115.8769,
     "entry": 1858.52,
-    "notional": 216098.83081
+    "notional": 216330.58461
    }
   },
   "0x8180902dad7f4c1953770ab40d3b6f03cc56012f": {},
@@ -484,7 +484,7 @@
     "side": "SHORT",
     "size": 2.4424,
     "entry": 59263.3,
-    "notional": 157517.7032
+    "notional": 157566.5512
    },
    "XRP": {
     "side": "SHORT",
@@ -496,7 +496,7 @@
     "side": "SHORT",
     "size": 147.48,
     "entry": 406.5559,
-    "notional": 81429.6072
+    "notional": 81289.5012
    }
   },
   "0x178031baf4bf011a2c2190066c2d762e45d4eff8": {},
@@ -561,7 +561,7 @@
     "side": "SHORT",
     "size": 6.10484,
     "entry": 64846.0,
-    "notional": 393695.02676
+    "notional": 393841.54292
    }
   },
   "0x6f577a1b7e3915d4d8c49c951e2332912a62d8a1": {
@@ -659,7 +659,7 @@
     "side": "LONG",
     "size": 128205.0,
     "entry": 0.078,
-    "notional": 9373.708575
+    "notional": 9416.016225
    }
   },
   "0x42b9594f12bddd170416e94c42e4cb5e42965f39": {
@@ -667,7 +667,7 @@
     "side": "LONG",
     "size": 15.0,
     "entry": 59072.3,
-    "notional": 967335.0
+    "notional": 967695.0
    }
   },
   "0x2306ce07ddca3829cdb1a2a14653dbefc211a9f1": {},
@@ -676,7 +676,7 @@
     "side": "SHORT",
     "size": 89.2949,
     "entry": 1861.9,
-    "notional": 166526.05901
+    "notional": 166713.5783
    }
   },
   "0xa917f318592113e15f0c94eb29f751f98a297fa6": {
@@ -696,14 +696,14 @@
     "side": "LONG",
     "size": 1.54542,
     "entry": 64708.0,
-    "notional": 99668.77206
+    "notional": 99699.68046
    }
   },
   "0x01946c26e741b819f9a36ccf274d92aab8b57f42": {},
   "0x259b9c4cfeadaef8a5b842710a777364988415b3": {},
   "0x1eb117402eb2b3a5186eb9510de42cd255b3ca20": {}
  },
- "cycle": 2214,
+ "cycle": 2217,
  "fail_counts": {
   "0x3daf7f1cfd1c289e9b2fb7abb2efbd39f77455d7": 0,
   "0x6807f127eaf85e3d0b9dbc7971bbed2afd041f8d": 0,
@@ -11901,6 +11901,21 @@
   {
    "t": "2026-07-19T20:50:29+00:00",
    "cycle": 2214,
+   "equity_mtm": 91.5796
+  },
+  {
+   "t": "2026-07-19T20:55:38+00:00",
+   "cycle": 2215,
+   "equity_mtm": 91.5796
+  },
+  {
+   "t": "2026-07-19T21:00:47+00:00",
+   "cycle": 2216,
+   "equity_mtm": 91.5796
+  },
+  {
+   "t": "2026-07-19T21:05:57+00:00",
+   "cycle": 2217,
    "equity_mtm": 91.5796
   }
  ],
