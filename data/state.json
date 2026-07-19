@@ -394,7 +394,7 @@
     "side": "LONG",
     "size": 3.02492,
     "entry": 64607.6,
-    "notional": 194977.26844
+    "notional": 194983.31828
    },
    "ETH": {
     "side": "LONG",
@@ -490,19 +490,19 @@
     "side": "SHORT",
     "size": 2.4424,
     "entry": 59263.3,
-    "notional": 157429.7768
+    "notional": 157434.6616
    },
    "XRP": {
     "side": "SHORT",
     "size": 79808.0,
     "entry": 1.053994,
-    "notional": 87214.1824
+    "notional": 87118.4128
    },
    "ZEC": {
     "side": "SHORT",
     "size": 147.48,
     "entry": 406.5559,
-    "notional": 81249.6816
+    "notional": 81229.0344
    }
   },
   "0x178031baf4bf011a2c2190066c2d762e45d4eff8": {},
@@ -567,7 +567,7 @@
     "side": "SHORT",
     "size": 6.10484,
     "entry": 64846.0,
-    "notional": 393536.30092
+    "notional": 393554.61544
    }
   },
   "0x6f577a1b7e3915d4d8c49c951e2332912a62d8a1": {
@@ -660,13 +660,20 @@
     "notional": 379830.539712
    }
   },
-  "0x5aed695b43875c60dc65e9a918f4d925588ef5d1": {},
+  "0x5aed695b43875c60dc65e9a918f4d925588ef5d1": {
+   "CASHCAT": {
+    "side": "LONG",
+    "size": 128205.0,
+    "entry": 0.078,
+    "notional": 10287.810225
+   }
+  },
   "0x42b9594f12bddd170416e94c42e4cb5e42965f39": {
    "BTC": {
     "side": "LONG",
     "size": 15.0,
     "entry": 59072.3,
-    "notional": 966945.0
+    "notional": 966990.0
    }
   },
   "0x2306ce07ddca3829cdb1a2a14653dbefc211a9f1": {},
@@ -695,14 +702,14 @@
     "side": "LONG",
     "size": 1.54542,
     "entry": 64708.0,
-    "notional": 99613.13694
+    "notional": 99627.04572
    }
   },
   "0x01946c26e741b819f9a36ccf274d92aab8b57f42": {},
   "0x259b9c4cfeadaef8a5b842710a777364988415b3": {},
   "0x1eb117402eb2b3a5186eb9510de42cd255b3ca20": {}
  },
- "cycle": 2181,
+ "cycle": 2184,
  "fail_counts": {
   "0x3daf7f1cfd1c289e9b2fb7abb2efbd39f77455d7": 0,
   "0x6807f127eaf85e3d0b9dbc7971bbed2afd041f8d": 0,
@@ -823,13 +830,27 @@
   "0x1eb117402eb2b3a5186eb9510de42cd255b3ca20": 0
  },
  "paper": {
-  "equity": 95.08929844006278,
-  "positions": {},
+  "equity": 95.0761329179212,
+  "positions": {
+   "CASHCAT": {
+    "coin": "CASHCAT",
+    "side": "LONG",
+    "entry": 0.0799219694,
+    "notional": 85.5803685960565,
+    "margin": 28.52678953201883,
+    "src": "0x5aed695b43875c60dc65e9a918f4d925588ef5d1",
+    "opened": "2026-07-19T18:10:41+00:00",
+    "opened_ts": 1784484641.4420285,
+    "tag": "copy",
+    "convergence": 1,
+    "last_funding_ts": 1784484951.4135027
+   }
+  },
   "realized": -2.4899918331631397,
-  "fees_paid": 2.158895558204932,
+  "fees_paid": 2.17173261349434,
   "wins": 46,
   "losses": 40,
-  "funding_net": -0.2618141685685999
+  "funding_net": -0.26214263542076716
  },
  "equity_curve": [
   {
@@ -11736,6 +11757,21 @@
    "t": "2026-07-19T18:04:58+00:00",
    "cycle": 2181,
    "equity_mtm": 95.0893
+  },
+  {
+   "t": "2026-07-19T18:05:22+00:00",
+   "cycle": 2182,
+   "equity_mtm": 95.0893
+  },
+  {
+   "t": "2026-07-19T18:10:32+00:00",
+   "cycle": 2183,
+   "equity_mtm": 95.0508
+  },
+  {
+   "t": "2026-07-19T18:15:42+00:00",
+   "cycle": 2184,
+   "equity_mtm": 95.7615
   }
  ],
  "elite": [
