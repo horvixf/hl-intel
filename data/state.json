@@ -432,7 +432,7 @@
     "side": "SHORT",
     "size": 3.0,
     "entry": 65260.0,
-    "notional": 195369.0
+    "notional": 195360.0
    }
   },
   "0x35b5d0398429785e5071560252e8a33d0bd57248": {
@@ -710,7 +710,7 @@
     "side": "LONG",
     "size": 9487.0,
     "entry": 0.050138,
-    "notional": 456.049577
+    "notional": 469.075228
    }
   },
   "0xaa446e32b8c1f1bb82e6a548c6baf54654ebe911": {},
@@ -841,19 +841,19 @@
     "side": "LONG",
     "size": 1.5,
     "entry": 65610.0,
-    "notional": 97684.5
+    "notional": 97680.0
    },
    "HYPE": {
     "side": "LONG",
     "size": 400.0,
     "entry": 59.159,
-    "notional": 23580.4
+    "notional": 23716.0
    },
    "FARTCOIN": {
     "side": "LONG",
     "size": 100000.0,
     "entry": 0.13635,
-    "notional": 13441.0
+    "notional": 13398.0
    }
   },
   "0x47c31fb35f5174e9e213b6fe043bf8daaf43e9f9": {
@@ -924,7 +924,7 @@
     "side": "SHORT",
     "size": 1507.59,
     "entry": 97.4188,
-    "notional": 144811.55745
+    "notional": 144974.37717
    }
   },
   "0x98ab8cf3a98d5cffdf3d9a2cfa48660095566913": {},
@@ -934,7 +934,7 @@
   "0x899c0eef91d624cc4debab1ced1f05d89132d15a": {},
   "0x88222ce80472e60d1fa44843b9e1da88ec73d685": {}
  },
- "cycle": 3208,
+ "cycle": 3211,
  "fail_counts": {
   "0x3daf7f1cfd1c289e9b2fb7abb2efbd39f77455d7": 0,
   "0x6807f127eaf85e3d0b9dbc7971bbed2afd041f8d": 0,
@@ -1090,7 +1090,7 @@
   "0x88222ce80472e60d1fa44843b9e1da88ec73d685": 0
  },
  "paper": {
-  "equity": 99.26202742612608,
+  "equity": 99.2610310416322,
   "positions": {
    "ETH": {
     "coin": "ETH",
@@ -1103,7 +1103,7 @@
     "opened_ts": 1784780897.5770016,
     "tag": "copy",
     "convergence": 1,
-    "last_funding_ts": 1784810641.2732084
+    "last_funding_ts": 1784811569.1802807
    },
    "BTC": {
     "coin": "BTC",
@@ -1116,7 +1116,7 @@
     "opened_ts": 1784795772.0247028,
     "tag": "copy",
     "convergence": 1,
-    "last_funding_ts": 1784810641.2732084
+    "last_funding_ts": 1784811569.1802807
    },
    "FARTCOIN": {
     "coin": "FARTCOIN",
@@ -1129,7 +1129,7 @@
     "opened_ts": 1784797318.637675,
     "tag": "copy",
     "convergence": 1,
-    "last_funding_ts": 1784810641.2732084
+    "last_funding_ts": 1784811569.1802807
    },
    "HYPE": {
     "coin": "HYPE",
@@ -1142,14 +1142,14 @@
     "opened_ts": 1784800721.9576602,
     "tag": "copy",
     "convergence": 1,
-    "last_funding_ts": 1784810641.2732084
+    "last_funding_ts": 1784811569.1802807
    }
   },
   "realized": 1.9531587963227124,
   "fees_paid": 2.4505821969009682,
   "wins": 50,
   "losses": 43,
-  "funding_net": -0.2405491732950223
+  "funding_net": -0.24154555778887996
  },
  "equity_curve": [
   {
@@ -17191,6 +17191,21 @@
    "t": "2026-07-23T12:43:52+00:00",
    "cycle": 3208,
    "equity_mtm": 96.1158
+  },
+  {
+   "t": "2026-07-23T12:49:02+00:00",
+   "cycle": 3209,
+   "equity_mtm": 95.4307
+  },
+  {
+   "t": "2026-07-23T12:54:11+00:00",
+   "cycle": 3210,
+   "equity_mtm": 96.6553
+  },
+  {
+   "t": "2026-07-23T12:59:20+00:00",
+   "cycle": 3211,
+   "equity_mtm": 96.2383
   }
  ],
  "elite": [
