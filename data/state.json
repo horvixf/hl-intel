@@ -432,7 +432,7 @@
     "side": "SHORT",
     "size": 3.0,
     "entry": 65260.0,
-    "notional": 198063.0
+    "notional": 196335.0
    }
   },
   "0x35b5d0398429785e5071560252e8a33d0bd57248": {
@@ -710,7 +710,7 @@
     "side": "LONG",
     "size": 9487.0,
     "entry": 0.050138,
-    "notional": 430.320833
+    "notional": 429.865457
    }
   },
   "0xaa446e32b8c1f1bb82e6a548c6baf54654ebe911": {},
@@ -899,9 +899,23 @@
     "notional": 33237.05097
    }
   },
-  "0x54c3bbda87e624e460d4ac44ee28cffdd92c17d0": {}
+  "0x54c3bbda87e624e460d4ac44ee28cffdd92c17d0": {},
+  "0x03595e94fae0b50e3cf01f3c3b322bcc8ea615ba": {
+   "AAVE": {
+    "side": "SHORT",
+    "size": 1507.59,
+    "entry": 97.4188,
+    "notional": 146216.63133
+   }
+  },
+  "0x98ab8cf3a98d5cffdf3d9a2cfa48660095566913": {},
+  "0xa3be5c26f4365fc4985ed0c82668930e4c75f920": {},
+  "0xb6fa56133085267b2aaae0c3f6295608cbfa1952": {},
+  "0xa4dedda59f2908b92ae192cfd494839373bcb3c4": {},
+  "0x899c0eef91d624cc4debab1ced1f05d89132d15a": {},
+  "0x88222ce80472e60d1fa44843b9e1da88ec73d685": {}
  },
- "cycle": 3141,
+ "cycle": 3144,
  "fail_counts": {
   "0x3daf7f1cfd1c289e9b2fb7abb2efbd39f77455d7": 0,
   "0x6807f127eaf85e3d0b9dbc7971bbed2afd041f8d": 0,
@@ -1047,10 +1061,17 @@
   "0xb93f49e6f08be6916ccf9bb827c86fc1d4dfd177": 0,
   "0x3ed4033676d0bdb3938728ca4ac673d00e74bd06": 0,
   "0x64ad72a926e693bbdaf4209b00d6005bfe228640": 0,
-  "0x54c3bbda87e624e460d4ac44ee28cffdd92c17d0": 0
+  "0x54c3bbda87e624e460d4ac44ee28cffdd92c17d0": 0,
+  "0x03595e94fae0b50e3cf01f3c3b322bcc8ea615ba": 0,
+  "0x98ab8cf3a98d5cffdf3d9a2cfa48660095566913": 0,
+  "0xa3be5c26f4365fc4985ed0c82668930e4c75f920": 0,
+  "0xb6fa56133085267b2aaae0c3f6295608cbfa1952": 0,
+  "0xa4dedda59f2908b92ae192cfd494839373bcb3c4": 0,
+  "0x899c0eef91d624cc4debab1ced1f05d89132d15a": 0,
+  "0x88222ce80472e60d1fa44843b9e1da88ec73d685": 0
  },
  "paper": {
-  "equity": 99.31828215556227,
+  "equity": 99.31813755817596,
   "positions": {
    "ETH": {
     "coin": "ETH",
@@ -1063,14 +1084,14 @@
     "opened_ts": 1784780897.5770016,
     "tag": "copy",
     "convergence": 1,
-    "last_funding_ts": 1784790488.6885366
+    "last_funding_ts": 1784791128.8122425
    }
   },
   "realized": 1.9531587963227124,
   "fees_paid": 2.410364980240397,
   "wins": 50,
   "losses": 43,
-  "funding_net": -0.22451166051933893
+  "funding_net": -0.2246562579056537
  },
  "equity_curve": [
   {
@@ -16777,27 +16798,39 @@
    "t": "2026-07-23T07:07:57+00:00",
    "cycle": 3141,
    "equity_mtm": 99.1215
+  },
+  {
+   "t": "2026-07-23T07:08:20+00:00",
+   "cycle": 3142,
+   "equity_mtm": 99.1262
+  },
+  {
+   "t": "2026-07-23T07:13:30+00:00",
+   "cycle": 3143,
+   "equity_mtm": 98.7681
+  },
+  {
+   "t": "2026-07-23T07:18:39+00:00",
+   "cycle": 3144,
+   "equity_mtm": 98.8622
   }
  ],
  "elite": [
-  "0x0351606ce9152cdf270d90133b3187ac5d1cf9db",
-  "0xc6a7757dfed3b596a5b5865d1dd92dff7f12d9ec",
-  "0x42b9594f12bddd170416e94c42e4cb5e42965f39",
-  "0x83016fe081f31a03be2bcb398c2b995d445ab6b1",
   "0x5d6f7c1e9f7a7dca19b01edbd59ebb9223356f8a",
-  "0x0a6b80da9b30809120c947b40d08ae18ca667e3e",
-  "0x1c26cdd513ad82b453f893e52d644887cf860089",
-  "0xe1b8ebfc9196fa4341d564b9d8b8df81f9e9d0ed",
-  "0x143f589239b6b6b025bd21a7118f20d9886dcfc4"
+  "0x39d60548ec0f5be5613b249c3ce4269418c45e64",
+  "0x03595e94fae0b50e3cf01f3c3b322bcc8ea615ba",
+  "0x98ab8cf3a98d5cffdf3d9a2cfa48660095566913",
+  "0x83016fe081f31a03be2bcb398c2b995d445ab6b1",
+  "0xa3be5c26f4365fc4985ed0c82668930e4c75f920"
  ],
  "worst": [
-  "0x470756b530bfa294b80dd4783a1fe13dcf3b3394",
-  "0xb93f49e6f08be6916ccf9bb827c86fc1d4dfd177",
-  "0x1aa1d90df49c3e5a67888798c16e73c4b4c323fc",
+  "0xb6fa56133085267b2aaae0c3f6295608cbfa1952",
+  "0xa4dedda59f2908b92ae192cfd494839373bcb3c4",
+  "0x5adbfb8050e54ff43456cf5b22a3954845aba562",
   "0x97a20f3a02a5cf82328b8051f137798810e0f289",
-  "0x3ed4033676d0bdb3938728ca4ac673d00e74bd06",
   "0x349eddf8e37221f96b1d96debe4339776272c77d",
-  "0x64ad72a926e693bbdaf4209b00d6005bfe228640",
-  "0x54c3bbda87e624e460d4ac44ee28cffdd92c17d0"
+  "0x899c0eef91d624cc4debab1ced1f05d89132d15a",
+  "0x88222ce80472e60d1fa44843b9e1da88ec73d685",
+  "0xd586c8c96b7e081cc8012b063dee55b2eeeef3a4"
  ]
 }
