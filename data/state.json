@@ -432,7 +432,7 @@
     "side": "SHORT",
     "size": 3.0,
     "entry": 65260.0,
-    "notional": 196752.0
+    "notional": 197064.0
    }
   },
   "0x35b5d0398429785e5071560252e8a33d0bd57248": {
@@ -710,7 +710,7 @@
     "side": "LONG",
     "size": 9487.0,
     "entry": 0.050138,
-    "notional": 452.62477
+    "notional": 452.805023
    }
   },
   "0xaa446e32b8c1f1bb82e6a548c6baf54654ebe911": {},
@@ -841,7 +841,13 @@
     "side": "LONG",
     "size": 1.5,
     "entry": 65610.0,
-    "notional": 98376.0
+    "notional": 98532.0
+   },
+   "FARTCOIN": {
+    "side": "LONG",
+    "size": 100000.0,
+    "entry": 0.13635,
+    "notional": 13633.0
    }
   },
   "0x47c31fb35f5174e9e213b6fe043bf8daaf43e9f9": {
@@ -912,7 +918,7 @@
     "side": "SHORT",
     "size": 1507.59,
     "entry": 97.4188,
-    "notional": 146809.1142
+    "notional": 146818.15974
    }
   },
   "0x98ab8cf3a98d5cffdf3d9a2cfa48660095566913": {},
@@ -922,14 +928,14 @@
     "side": "LONG",
     "size": 7000.0,
     "entry": 58.3,
-    "notional": 412076.0
+    "notional": 413700.0
    }
   },
   "0xa4dedda59f2908b92ae192cfd494839373bcb3c4": {},
   "0x899c0eef91d624cc4debab1ced1f05d89132d15a": {},
   "0x88222ce80472e60d1fa44843b9e1da88ec73d685": {}
  },
- "cycle": 3162,
+ "cycle": 3165,
  "fail_counts": {
   "0x3daf7f1cfd1c289e9b2fb7abb2efbd39f77455d7": 0,
   "0x6807f127eaf85e3d0b9dbc7971bbed2afd041f8d": 0,
@@ -1085,7 +1091,7 @@
   "0x88222ce80472e60d1fa44843b9e1da88ec73d685": 0
  },
  "paper": {
-  "equity": 99.30270132336392,
+  "equity": 99.28861921789323,
   "positions": {
    "ETH": {
     "coin": "ETH",
@@ -1098,7 +1104,7 @@
     "opened_ts": 1784780897.5770016,
     "tag": "copy",
     "convergence": 1,
-    "last_funding_ts": 1784796700.6384978
+    "last_funding_ts": 1784797628.3584256
    },
    "BTC": {
     "coin": "BTC",
@@ -1111,14 +1117,27 @@
     "opened_ts": 1784795772.0247028,
     "tag": "copy",
     "convergence": 1,
-    "last_funding_ts": 1784796700.6384978
+    "last_funding_ts": 1784797628.3584256
+   },
+   "FARTCOIN": {
+    "coin": "FARTCOIN",
+    "side": "LONG",
+    "entry": 0.13610081799999998,
+    "notional": 89.37225680655138,
+    "margin": 29.79075226885046,
+    "src": "0x83016fe081f31a03be2bcb398c2b995d445ab6b1",
+    "opened": "2026-07-23T09:01:58+00:00",
+    "opened_ts": 1784797318.637675,
+    "tag": "copy",
+    "convergence": 1,
+    "last_funding_ts": 1784797628.3584256
    }
   },
   "realized": 1.9531587963227124,
-  "fees_paid": 2.423772746471711,
+  "fees_paid": 2.4371785849926937,
   "wins": 50,
   "losses": 43,
-  "funding_net": -0.22668472648637572
+  "funding_net": -0.22736099343608657
  },
  "equity_curve": [
   {
@@ -16930,6 +16949,21 @@
    "t": "2026-07-23T08:51:31+00:00",
    "cycle": 3162,
    "equity_mtm": 99.1878
+  },
+  {
+   "t": "2026-07-23T08:56:41+00:00",
+   "cycle": 3163,
+   "equity_mtm": 99.256
+  },
+  {
+   "t": "2026-07-23T09:01:50+00:00",
+   "cycle": 3164,
+   "equity_mtm": 99.2249
+  },
+  {
+   "t": "2026-07-23T09:06:59+00:00",
+   "cycle": 3165,
+   "equity_mtm": 99.6609
   }
  ],
  "elite": [
