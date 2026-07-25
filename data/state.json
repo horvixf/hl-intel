@@ -721,7 +721,7 @@
     "side": "SHORT",
     "size": 0.76509,
     "entry": 65346.8,
-    "notional": 49224.36042
+    "notional": 49230.940194
    }
   },
   "0x01946c26e741b819f9a36ccf274d92aab8b57f42": {},
@@ -960,24 +960,31 @@
     "side": "LONG",
     "size": 2000.0,
     "entry": 57.4513,
-    "notional": 116720.0
+    "notional": 116736.0
    }
   },
   "0x90b5e0c5ca3b0c0c47b575b0f62c07eb8b39b010": {},
   "0x95ccaf0846757c74b33b146db85e757249b99c8a": {},
   "0xdbe452f1a0d0190e161b5fae8ee3a530f099d9a3": {},
-  "0xf382f419448b471da26225c4f849bb240be5578c": {},
+  "0xf382f419448b471da26225c4f849bb240be5578c": {
+   "BTC": {
+    "side": "LONG",
+    "size": 7.76764,
+    "entry": 64348.8,
+    "notional": 499821.224024
+   }
+  },
   "0x9e266d1253d06c0bb81a7c65faa26ab0a39525f9": {},
   "0x634fe24f2f7396f5d967ec3936df04f49a3e6951": {
    "BTC": {
     "side": "LONG",
     "size": 10.83019,
     "entry": 64031.0,
-    "notional": 696792.76422
+    "notional": 696890.23593
    }
   }
  },
- "cycle": 3838,
+ "cycle": 3841,
  "fail_counts": {
   "0x3daf7f1cfd1c289e9b2fb7abb2efbd39f77455d7": 0,
   "0x6807f127eaf85e3d0b9dbc7971bbed2afd041f8d": 0,
@@ -20345,6 +20352,21 @@
   {
    "t": "2026-07-25T18:04:17+00:00",
    "cycle": 3838,
+   "equity_mtm": 85.4318
+  },
+  {
+   "t": "2026-07-25T18:09:24+00:00",
+   "cycle": 3839,
+   "equity_mtm": 85.4318
+  },
+  {
+   "t": "2026-07-25T18:14:30+00:00",
+   "cycle": 3840,
+   "equity_mtm": 85.4318
+  },
+  {
+   "t": "2026-07-25T18:19:36+00:00",
+   "cycle": 3841,
    "equity_mtm": 85.4318
   }
  ],
