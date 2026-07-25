@@ -721,7 +721,7 @@
     "side": "SHORT",
     "size": 0.76509,
     "entry": 65346.8,
-    "notional": 48908.37825
+    "notional": 48940.51203
    }
   },
   "0x01946c26e741b819f9a36ccf274d92aab8b57f42": {},
@@ -960,7 +960,7 @@
     "side": "LONG",
     "size": 2000.0,
     "entry": 57.4513,
-    "notional": 114126.0
+    "notional": 114442.0
    }
   },
   "0x90b5e0c5ca3b0c0c47b575b0f62c07eb8b39b010": {},
@@ -970,7 +970,7 @@
   "0x9e266d1253d06c0bb81a7c65faa26ab0a39525f9": {},
   "0x634fe24f2f7396f5d967ec3936df04f49a3e6951": {}
  },
- "cycle": 3722,
+ "cycle": 3725,
  "fail_counts": {
   "0x3daf7f1cfd1c289e9b2fb7abb2efbd39f77455d7": 0,
   "0x6807f127eaf85e3d0b9dbc7971bbed2afd041f8d": 0,
@@ -1141,7 +1141,7 @@
   "0x634fe24f2f7396f5d967ec3936df04f49a3e6951": 0
  },
  "paper": {
-  "equity": 87.77149821381347,
+  "equity": 87.77133563344125,
   "positions": {
    "BTC": {
     "coin": "BTC",
@@ -1154,14 +1154,14 @@
     "opened_ts": 1784795772.0247028,
     "tag": "copy",
     "convergence": 1,
-    "last_funding_ts": 1784967278.6278713
+    "last_funding_ts": 1784968205.2164373
    }
   },
   "realized": -9.372901216337173,
   "fees_paid": 2.4893003084157317,
   "wins": 50,
   "losses": 46,
-  "funding_net": -0.36630026143300076
+  "funding_net": -0.3664628418052108
  },
  "equity_curve": [
   {
@@ -19773,6 +19773,21 @@
    "t": "2026-07-25T08:14:30+00:00",
    "cycle": 3722,
    "equity_mtm": 85.4617
+  },
+  {
+   "t": "2026-07-25T08:19:39+00:00",
+   "cycle": 3723,
+   "equity_mtm": 85.4835
+  },
+  {
+   "t": "2026-07-25T08:24:47+00:00",
+   "cycle": 3724,
+   "equity_mtm": 85.5039
+  },
+  {
+   "t": "2026-07-25T08:29:56+00:00",
+   "cycle": 3725,
+   "equity_mtm": 85.5188
   }
  ],
  "elite": [
