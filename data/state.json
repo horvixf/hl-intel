@@ -721,7 +721,7 @@
     "side": "SHORT",
     "size": 0.76509,
     "entry": 65346.8,
-    "notional": 49333.0032
+    "notional": 49299.33924
    }
   },
   "0x01946c26e741b819f9a36ccf274d92aab8b57f42": {},
@@ -960,7 +960,7 @@
     "side": "LONG",
     "size": 2500.0,
     "entry": 57.6603,
-    "notional": 146620.0
+    "notional": 146520.0
    }
   },
   "0x90b5e0c5ca3b0c0c47b575b0f62c07eb8b39b010": {},
@@ -970,13 +970,13 @@
     "side": "LONG",
     "size": 0.16647,
     "entry": 64548.1,
-    "notional": 10733.9856
+    "notional": 10726.66092
    },
    "HYPE": {
     "side": "LONG",
-    "size": 91.21,
-    "entry": 58.4709,
-    "notional": 5349.28408
+    "size": 104.21,
+    "entry": 58.4909,
+    "notional": 6107.53968
    }
   },
   "0xf382f419448b471da26225c4f849bb240be5578c": {},
@@ -986,11 +986,11 @@
     "side": "LONG",
     "size": 10.83019,
     "entry": 64031.0,
-    "notional": 698330.6512
+    "notional": 697835.711517
    }
   }
  },
- "cycle": 3971,
+ "cycle": 3974,
  "fail_counts": {
   "0x3daf7f1cfd1c289e9b2fb7abb2efbd39f77455d7": 0,
   "0x6807f127eaf85e3d0b9dbc7971bbed2afd041f8d": 0,
@@ -21023,6 +21023,21 @@
   {
    "t": "2026-07-26T05:16:41+00:00",
    "cycle": 3971,
+   "equity_mtm": 85.4318
+  },
+  {
+   "t": "2026-07-26T05:21:49+00:00",
+   "cycle": 3972,
+   "equity_mtm": 85.4318
+  },
+  {
+   "t": "2026-07-26T05:26:55+00:00",
+   "cycle": 3973,
+   "equity_mtm": 85.4318
+  },
+  {
+   "t": "2026-07-26T05:32:01+00:00",
+   "cycle": 3974,
    "equity_mtm": 85.4318
   }
  ],
