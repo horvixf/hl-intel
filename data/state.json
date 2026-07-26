@@ -721,7 +721,7 @@
     "side": "SHORT",
     "size": 0.76509,
     "entry": 65346.8,
-    "notional": 49368.19734
+    "notional": 49361.235021
    }
   },
   "0x01946c26e741b819f9a36ccf274d92aab8b57f42": {},
@@ -960,7 +960,7 @@
     "side": "LONG",
     "size": 2000.0,
     "entry": 57.4513,
-    "notional": 116898.0
+    "notional": 117059.0
    }
   },
   "0x90b5e0c5ca3b0c0c47b575b0f62c07eb8b39b010": {},
@@ -968,15 +968,15 @@
   "0xdbe452f1a0d0190e161b5fae8ee3a530f099d9a3": {
    "BTC": {
     "side": "LONG",
-    "size": 0.33972,
+    "size": 0.16647,
     "entry": 64548.1,
-    "notional": 21920.77272
+    "notional": 10740.6444
    },
    "HYPE": {
     "side": "LONG",
-    "size": 56.42,
-    "entry": 58.438,
-    "notional": 3297.69258
+    "size": 91.21,
+    "entry": 58.4709,
+    "notional": 5338.5213
    }
   },
   "0xf382f419448b471da26225c4f849bb240be5578c": {},
@@ -986,11 +986,11 @@
     "side": "LONG",
     "size": 10.83019,
     "entry": 64031.0,
-    "notional": 698828.83994
+    "notional": 698763.8588
    }
   }
  },
- "cycle": 3953,
+ "cycle": 3956,
  "fail_counts": {
   "0x3daf7f1cfd1c289e9b2fb7abb2efbd39f77455d7": 0,
   "0x6807f127eaf85e3d0b9dbc7971bbed2afd041f8d": 0,
@@ -20933,6 +20933,21 @@
   {
    "t": "2026-07-26T03:44:39+00:00",
    "cycle": 3953,
+   "equity_mtm": 85.4318
+  },
+  {
+   "t": "2026-07-26T03:49:47+00:00",
+   "cycle": 3954,
+   "equity_mtm": 85.4318
+  },
+  {
+   "t": "2026-07-26T03:54:53+00:00",
+   "cycle": 3955,
+   "equity_mtm": 85.4318
+  },
+  {
+   "t": "2026-07-26T03:59:59+00:00",
+   "cycle": 3956,
    "equity_mtm": 85.4318
   }
  ],
