@@ -439,7 +439,7 @@
     "side": "SHORT",
     "size": 20000.0,
     "entry": 1.14905,
-    "notional": 23773.4
+    "notional": 23740.0
    }
   },
   "0x35b5d0398429785e5071560252e8a33d0bd57248": {
@@ -673,7 +673,7 @@
     "side": "LONG",
     "size": 297116.0,
     "entry": 0.064703,
-    "notional": 10975.46504
+    "notional": 10474.82458
    }
   },
   "0xfdb549166275c26187f1e03b5ca657754981f38d": {},
@@ -814,7 +814,7 @@
     "side": "SHORT",
     "size": 8688.0,
     "entry": 2.251196,
-    "notional": 19716.5472
+    "notional": 19767.8064
    }
   },
   "0x8726718b568301f7e6e6c9a27e689a70f9cc3af9": {},
@@ -1004,25 +1004,25 @@
     "side": "LONG",
     "size": 17.0858,
     "entry": 64559.5,
-    "notional": 1111414.2042
+    "notional": 1111175.003
    },
    "ETH": {
     "side": "LONG",
     "size": 50.0816,
     "entry": 1861.59,
-    "notional": 97979.64224
+    "notional": 97974.63408
    },
    "SOL": {
     "side": "LONG",
     "size": 3041.0,
     "entry": 74.0181,
-    "notional": 233886.351
+    "notional": 233494.062
    },
    "ADA": {
     "side": "LONG",
     "size": 504027.0,
     "entry": 0.164839,
-    "notional": 82579.78368
+    "notional": 82433.61585
    }
   },
   "0xb897f7c719abba4a50c0104ecba7ab0fde9bd7a7": {
@@ -1030,7 +1030,7 @@
     "side": "LONG",
     "size": 40.0,
     "entry": 1926.68,
-    "notional": 78256.0
+    "notional": 78252.0
    }
   },
   "0x870e06945a0a374acf3da645cdec29bbffa75a6e": {
@@ -1082,7 +1082,7 @@
     "side": "SHORT",
     "size": 107000000.0,
     "entry": 0.002096,
-    "notional": 229408.0
+    "notional": 230157.0
    }
   },
   "0xde6b2a06407575b98724818445178c1f5fd53361": {
@@ -1090,7 +1090,7 @@
     "side": "LONG",
     "size": 2008.5061,
     "entry": 1885.23,
-    "notional": 3929441.33404
+    "notional": 3930445.58709
    }
   },
   "0xab47e5881d92c6a7c8d214b141b805f963ccc133": {
@@ -1098,22 +1098,22 @@
     "side": "LONG",
     "size": 34372037.0,
     "entry": 0.073497,
-    "notional": 2506821.402484
+    "notional": 2503727.919154
    }
   },
   "0xfbd234f73a3cfa398f36f396ba527c85006c3f9e": {
    "kPEPE": {
     "side": "LONG",
-    "size": 37464831.0,
-    "entry": 0.002945,
-    "notional": 111083.223915
+    "size": 45868192.0,
+    "entry": 0.002951,
+    "notional": 136412.003008
    }
   },
   "0xd1f73853fc7fb3bdfadb9382a695c2ab15f8d62d": {},
   "0xb905abfe95cfaac346b3ae9a7d272fdf174893db": {},
   "0x055180b41ebed54084d796b8ebc8e4c46c51b615": {}
  },
- "cycle": 4345,
+ "cycle": 4348,
  "fail_counts": {
   "0x3daf7f1cfd1c289e9b2fb7abb2efbd39f77455d7": 0,
   "0x6807f127eaf85e3d0b9dbc7971bbed2afd041f8d": 0,
@@ -1303,7 +1303,7 @@
   "0x055180b41ebed54084d796b8ebc8e4c46c51b615": 0
  },
  "paper": {
-  "equity": 82.0407035824327,
+  "equity": 82.0410170034948,
   "positions": {
    "SOL": {
     "coin": "SOL",
@@ -1316,7 +1316,7 @@
     "opened_ts": 1785045490.0469491,
     "tag": "copy",
     "convergence": 3,
-    "last_funding_ts": 1785156614.5174136
+    "last_funding_ts": 1785157542.4450004
    },
    "BTC": {
     "coin": "BTC",
@@ -1329,7 +1329,7 @@
     "opened_ts": 1785075058.4664285,
     "tag": "copy",
     "convergence": 1,
-    "last_funding_ts": 1785156614.5174136
+    "last_funding_ts": 1785157542.4450004
    },
    "ADA": {
     "coin": "ADA",
@@ -1342,14 +1342,14 @@
     "opened_ts": 1785090472.5115151,
     "tag": "copy",
     "convergence": 1,
-    "last_funding_ts": 1785156614.5174136
+    "last_funding_ts": 1785157542.4450004
    }
   },
   "realized": -15.023989493756066,
   "fees_paid": 2.565371822220862,
   "wins": 50,
   "losses": 48,
-  "funding_net": -0.36993510158988346
+  "funding_net": -0.36962168052777883
  },
  "equity_curve": [
   {
@@ -23076,6 +23076,21 @@
    "t": "2026-07-27T12:50:05+00:00",
    "cycle": 4345,
    "equity_mtm": 84.103
+  },
+  {
+   "t": "2026-07-27T12:55:15+00:00",
+   "cycle": 4346,
+   "equity_mtm": 84.1063
+  },
+  {
+   "t": "2026-07-27T13:00:24+00:00",
+   "cycle": 4347,
+   "equity_mtm": 84.0379
+  },
+  {
+   "t": "2026-07-27T13:05:33+00:00",
+   "cycle": 4348,
+   "equity_mtm": 83.8227
   }
  ],
  "elite": [
