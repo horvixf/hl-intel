@@ -439,7 +439,7 @@
     "side": "SHORT",
     "size": 20000.0,
     "entry": 1.14905,
-    "notional": 23981.0
+    "notional": 24206.0
    }
   },
   "0x35b5d0398429785e5071560252e8a33d0bd57248": {
@@ -673,7 +673,7 @@
     "side": "LONG",
     "size": 297116.0,
     "entry": 0.064703,
-    "notional": 10913.07068
+    "notional": 10372.616676
    }
   },
   "0xfdb549166275c26187f1e03b5ca657754981f38d": {},
@@ -814,7 +814,7 @@
     "side": "LONG",
     "size": 949.57,
     "entry": 57.8594,
-    "notional": 54963.01074
+    "notional": 54669.59361
    }
   },
   "0x8726718b568301f7e6e6c9a27e689a70f9cc3af9": {},
@@ -1004,22 +1004,29 @@
     "side": "LONG",
     "size": 17.72737,
     "entry": 64576.7,
-    "notional": 1144727.19038
+    "notional": 1144195.36928
    },
    "SOL": {
     "side": "LONG",
     "size": 3041.0,
     "entry": 74.0181,
-    "notional": 229014.669
+    "notional": 229090.694
    },
    "ADA": {
     "side": "LONG",
     "size": 504027.0,
     "entry": 0.164839,
-    "notional": 80198.760132
+    "notional": 79888.2795
    }
   },
-  "0xb897f7c719abba4a50c0104ecba7ab0fde9bd7a7": {},
+  "0xb897f7c719abba4a50c0104ecba7ab0fde9bd7a7": {
+   "ETH": {
+    "side": "LONG",
+    "size": 5.0,
+    "entry": 1925.0,
+    "notional": 9648.5
+   }
+  },
   "0x870e06945a0a374acf3da645cdec29bbffa75a6e": {
    "PUMP": {
     "side": "LONG",
@@ -1069,7 +1076,7 @@
     "side": "SHORT",
     "size": 107000000.0,
     "entry": 0.002096,
-    "notional": 227054.0
+    "notional": 225984.0
    }
   },
   "0xde6b2a06407575b98724818445178c1f5fd53361": {
@@ -1077,7 +1084,7 @@
     "side": "LONG",
     "size": 2008.5061,
     "entry": 1885.23,
-    "notional": 3874809.96812
+    "notional": 3875613.37056
    }
   },
   "0xab47e5881d92c6a7c8d214b141b805f963ccc133": {
@@ -1085,7 +1092,7 @@
     "side": "LONG",
     "size": 34372037.0,
     "entry": 0.073497,
-    "notional": 2454575.906244
+    "notional": 2457153.809019
    }
   },
   "0xfbd234f73a3cfa398f36f396ba527c85006c3f9e": {
@@ -1093,20 +1100,20 @@
     "side": "LONG",
     "size": 71002252.0,
     "entry": 0.002964,
-    "notional": 210592.679432
+    "notional": 210379.672676
    },
    "TAO": {
     "side": "LONG",
     "size": 50.339,
     "entry": 198.712,
-    "notional": 9779.86092
+    "notional": 9758.71854
    }
   },
   "0xd1f73853fc7fb3bdfadb9382a695c2ab15f8d62d": {},
   "0xb905abfe95cfaac346b3ae9a7d272fdf174893db": {},
   "0x055180b41ebed54084d796b8ebc8e4c46c51b615": {}
  },
- "cycle": 4376,
+ "cycle": 4379,
  "fail_counts": {
   "0x3daf7f1cfd1c289e9b2fb7abb2efbd39f77455d7": 0,
   "0x6807f127eaf85e3d0b9dbc7971bbed2afd041f8d": 0,
@@ -1296,7 +1303,7 @@
   "0x055180b41ebed54084d796b8ebc8e4c46c51b615": 0
  },
  "paper": {
-  "equity": 82.04729780584927,
+  "equity": 82.04804833061584,
   "positions": {
    "SOL": {
     "coin": "SOL",
@@ -1309,7 +1316,7 @@
     "opened_ts": 1785045490.0469491,
     "tag": "copy",
     "convergence": 3,
-    "last_funding_ts": 1785165937.9060926
+    "last_funding_ts": 1785166870.841423
    },
    "BTC": {
     "coin": "BTC",
@@ -1322,7 +1329,7 @@
     "opened_ts": 1785075058.4664285,
     "tag": "copy",
     "convergence": 1,
-    "last_funding_ts": 1785165937.9060926
+    "last_funding_ts": 1785166870.841423
    },
    "ADA": {
     "coin": "ADA",
@@ -1335,14 +1342,14 @@
     "opened_ts": 1785090472.5115151,
     "tag": "copy",
     "convergence": 1,
-    "last_funding_ts": 1785165937.9060926
+    "last_funding_ts": 1785166870.841423
    }
   },
   "realized": -15.023989493756066,
   "fees_paid": 2.565371822220862,
   "wins": 50,
   "losses": 48,
-  "funding_net": -0.3633408781733758
+  "funding_net": -0.362590353406791
  },
  "equity_curve": [
   {
@@ -23224,6 +23231,21 @@
    "t": "2026-07-27T15:25:26+00:00",
    "cycle": 4376,
    "equity_mtm": 80.1223
+  },
+  {
+   "t": "2026-07-27T15:30:39+00:00",
+   "cycle": 4377,
+   "equity_mtm": 80.1162
+  },
+  {
+   "t": "2026-07-27T15:35:49+00:00",
+   "cycle": 4378,
+   "equity_mtm": 79.7484
+  },
+  {
+   "t": "2026-07-27T15:40:59+00:00",
+   "cycle": 4379,
+   "equity_mtm": 79.9349
   }
  ],
  "elite": [
