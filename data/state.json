@@ -1148,7 +1148,7 @@
     "side": "SHORT",
     "size": 1001.34,
     "entry": 41.9383,
-    "notional": 52021.61568
+    "notional": 52041.942882
    }
   },
   "0xcb3ee3f1b22cdff8b6ca4839cd0784d34b85dea9": {
@@ -1156,7 +1156,7 @@
     "side": "SHORT",
     "size": 40.0,
     "entry": 64837.5,
-    "notional": 2502000.0
+    "notional": 2496200.0
    }
   },
   "0xc55f34dfe52212cf659e3e5cc7439e98f58c9720": {},
@@ -1219,13 +1219,13 @@
     "side": "LONG",
     "size": 1.78762,
     "entry": 64905.3,
-    "notional": 111815.631
+    "notional": 111556.4261
    },
    "HYPE": {
     "side": "SHORT",
     "size": 2268.65,
     "entry": 65.7748,
-    "notional": 117860.9048
+    "notional": 117901.7405
    }
   },
   "0x2f9beb4d627ec674e76989e672cac0ab06711118": {},
@@ -1234,34 +1234,40 @@
     "side": "SHORT",
     "size": 250.0,
     "entry": 1860.9,
-    "notional": 463720.0
+    "notional": 459850.0
    },
    "KAITO": {
     "side": "SHORT",
-    "size": 150000.0,
-    "entry": 1.222058,
-    "notional": 184530.0
+    "size": 200000.0,
+    "entry": 1.219468,
+    "notional": 244280.0
+   },
+   "PUMP": {
+    "side": "SHORT",
+    "size": 60001924.0,
+    "entry": 0.002054,
+    "notional": 123783.969212
    },
    "ZEC": {
     "side": "SHORT",
-    "size": 500.0,
-    "entry": 466.7834,
-    "notional": 231084.55
+    "size": 1300.0,
+    "entry": 463.3628,
+    "notional": 600294.5
    }
   },
   "0x020ca66c30bec2c4fe3861a94e4db4a498a35872": {
    "ETH": {
     "side": "LONG",
-    "size": 1701.0,
+    "size": 1200.0,
     "entry": 1918.11,
-    "notional": 3155150.88
+    "notional": 2207280.0
    }
   },
   "0x3618785fed530c6ea5bc279afee6081da86555ae": {},
   "0xb27c6663010d0f86df023638beb563cd1d7279af": {},
   "0xf68ad92ca0bc6481ad2c5d9baa48e30a25b95b5a": {}
  },
- "cycle": 5819,
+ "cycle": 5822,
  "fail_counts": {
   "0x3daf7f1cfd1c289e9b2fb7abb2efbd39f77455d7": 0,
   "0x6807f127eaf85e3d0b9dbc7971bbed2afd041f8d": 0,
@@ -30595,6 +30601,21 @@
   {
    "t": "2026-08-01T18:24:13+00:00",
    "cycle": 5819,
+   "equity_mtm": 72.6141
+  },
+  {
+   "t": "2026-08-01T18:29:25+00:00",
+   "cycle": 5820,
+   "equity_mtm": 72.6141
+  },
+  {
+   "t": "2026-08-01T18:34:36+00:00",
+   "cycle": 5821,
+   "equity_mtm": 72.6141
+  },
+  {
+   "t": "2026-08-01T18:39:47+00:00",
+   "cycle": 5822,
    "equity_mtm": 72.6141
   }
  ],
