@@ -1016,7 +1016,7 @@
     "side": "SHORT",
     "size": 5.0,
     "entry": 1878.7,
-    "notional": 9379.2
+    "notional": 9384.5
    }
   },
   "0x870e06945a0a374acf3da645cdec29bbffa75a6e": {
@@ -1065,7 +1065,7 @@
     "side": "LONG",
     "size": 41003.77,
     "entry": 1.2204,
-    "notional": 51476.132858
+    "notional": 51500.73512
    }
   },
   "0xaf11b310b7c49b842589dfdf3d2dcbd3f78072f9": {},
@@ -1161,7 +1161,7 @@
     "side": "SHORT",
     "size": 6.87518,
     "entry": 63435.0,
-    "notional": 436333.2987
+    "notional": 436381.42496
    }
   },
   "0xd9f7e56fb5e1824b6bc43d93dcd30586b990e95e": {
@@ -1169,7 +1169,7 @@
     "side": "SHORT",
     "size": 1001.34,
     "entry": 41.9383,
-    "notional": 52247.618118
+    "notional": 52255.92924
    }
   },
   "0xcb3ee3f1b22cdff8b6ca4839cd0784d34b85dea9": {
@@ -1177,7 +1177,7 @@
     "side": "SHORT",
     "size": 40.0,
     "entry": 64837.5,
-    "notional": 2538600.0
+    "notional": 2538880.0
    }
   },
   "0xc55f34dfe52212cf659e3e5cc7439e98f58c9720": {},
@@ -1240,13 +1240,13 @@
     "side": "LONG",
     "size": 1.78762,
     "entry": 64905.3,
-    "notional": 113451.3033
+    "notional": 113463.81664
    },
    "HYPE": {
     "side": "SHORT",
     "size": 2268.65,
     "entry": 65.7748,
-    "notional": 118373.6197
+    "notional": 118391.7689
    }
   },
   "0x2f9beb4d627ec674e76989e672cac0ab06711118": {},
@@ -1255,31 +1255,31 @@
     "side": "SHORT",
     "size": 5.0,
     "entry": 63482.4,
-    "notional": 317325.0
+    "notional": 317360.0
    },
    "ETH": {
     "side": "SHORT",
     "size": 400.0,
     "entry": 1866.56,
-    "notional": 750340.0
+    "notional": 750760.0
    },
    "KAITO": {
     "side": "SHORT",
     "size": 250000.0,
     "entry": 1.218544,
-    "notional": 292525.0
+    "notional": 291425.0
    },
    "PUMP": {
     "side": "SHORT",
     "size": 60001924.0,
     "entry": 0.002054,
-    "notional": 131584.219332
+    "notional": 131404.21356
    },
    "ZEC": {
     "side": "SHORT",
     "size": 1300.0,
     "entry": 463.3628,
-    "notional": 615199.0
+    "notional": 615134.0
    }
   },
   "0x020ca66c30bec2c4fe3861a94e4db4a498a35872": {
@@ -1287,7 +1287,7 @@
     "side": "LONG",
     "size": 1990.0,
     "entry": 1890.38,
-    "notional": 3732941.5
+    "notional": 3735031.0
    }
   },
   "0x3618785fed530c6ea5bc279afee6081da86555ae": {
@@ -1295,7 +1295,7 @@
     "side": "LONG",
     "size": 1369.86,
     "entry": 73.0,
-    "notional": 100560.05274
+    "notional": 100586.08008
    }
   },
   "0xb27c6663010d0f86df023638beb563cd1d7279af": {
@@ -1303,12 +1303,12 @@
     "side": "LONG",
     "size": 4.5,
     "entry": 52.175,
-    "notional": 234.801
+    "notional": 234.837
    }
   },
   "0xf68ad92ca0bc6481ad2c5d9baa48e30a25b95b5a": {}
  },
- "cycle": 5965,
+ "cycle": 5966,
  "fail_counts": {
   "0x3daf7f1cfd1c289e9b2fb7abb2efbd39f77455d7": 0,
   "0x6807f127eaf85e3d0b9dbc7971bbed2afd041f8d": 0,
@@ -1540,7 +1540,7 @@
   "0xf68ad92ca0bc6481ad2c5d9baa48e30a25b95b5a": 0
  },
  "paper": {
-  "equity": 74.44549198518429,
+  "equity": 74.44529320696428,
   "positions": {
    "ATOM": {
     "coin": "ATOM",
@@ -1553,7 +1553,7 @@
     "opened_ts": 1785614923.276595,
     "tag": "copy",
     "convergence": 1,
-    "last_funding_ts": 1785653627.5899196
+    "last_funding_ts": 1785653939.1328502
    },
    "BTC": {
     "coin": "BTC",
@@ -1566,7 +1566,7 @@
     "opened_ts": 1785634954.0322707,
     "tag": "copy",
     "convergence": 2,
-    "last_funding_ts": 1785653627.5899196
+    "last_funding_ts": 1785653939.1328502
    },
    "ETH": {
     "coin": "ETH",
@@ -1579,14 +1579,14 @@
     "opened_ts": 1785645223.9425619,
     "tag": "copy",
     "convergence": 1,
-    "last_funding_ts": 1785653627.5899196
+    "last_funding_ts": 1785653939.1328502
    }
   },
   "realized": -22.31586066157923,
   "fees_paid": 2.857803340183999,
   "wins": 54,
   "losses": 57,
-  "funding_net": -0.38084401305181176
+  "funding_net": -0.3810427912718336
  },
  "equity_curve": [
   {
@@ -31413,6 +31413,11 @@
    "t": "2026-08-02T06:53:36+00:00",
    "cycle": 5965,
    "equity_mtm": 77.1427
+  },
+  {
+   "t": "2026-08-02T06:58:48+00:00",
+   "cycle": 5966,
+   "equity_mtm": 77.1585
   }
  ],
  "elite": [
