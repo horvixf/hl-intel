@@ -549,7 +549,7 @@
     "side": "LONG",
     "size": 1000.0,
     "entry": 59.2014,
-    "notional": 57556.3
+    "notional": 57493.0
    }
   },
   "0x67c0fc4b0490ab7e76c08c2bbd30fac0059bbc7a": {
@@ -1137,7 +1137,7 @@
     "side": "SHORT",
     "size": 177.26,
     "entry": 518.5465,
-    "notional": 92322.3258
+    "notional": 92375.5038
    }
   },
   "0x638e96b7a155eb2b0859824f6b4acfedb25bf9bf": {},
@@ -1452,13 +1452,13 @@
     "side": "LONG",
     "size": 29554753.0,
     "entry": 0.001886,
-    "notional": 74005.101512
+    "notional": 73620.889723
    },
    "CASHCAT": {
     "side": "LONG",
     "size": 76704.0,
     "entry": 0.086502,
-    "notional": 7080.16272
+    "notional": 7075.023552
    }
   },
   "0x516b454cb9a41945fd0ff75ee6dfbc0c9d8e8677": {},
@@ -1468,7 +1468,7 @@
     "side": "SHORT",
     "size": 39.0,
     "entry": 63802.4,
-    "notional": 2522169.0
+    "notional": 2520414.0
    }
   },
   "0x4c464e9559e6a4a306dc0a5ffc020bb245d6cae8": {},
@@ -1478,13 +1478,13 @@
     "side": "SHORT",
     "size": 1.15404,
     "entry": 63981.0,
-    "notional": 74632.92084
+    "notional": 74582.14308
    }
   },
   "0xa9c71ebff5233f946c6d6c4c6e7ac1a1dda0b703": {},
   "0xf87c27f3e754d21d3271ea38cb269e603da80a7c": {}
  },
- "cycle": 6925,
+ "cycle": 6926,
  "fail_counts": {
   "0x3daf7f1cfd1c289e9b2fb7abb2efbd39f77455d7": 0,
   "0x6807f127eaf85e3d0b9dbc7971bbed2afd041f8d": 0,
@@ -1747,7 +1747,7 @@
   "0xf87c27f3e754d21d3271ea38cb269e603da80a7c": 0
  },
  "paper": {
-  "equity": 86.83791180502165,
+  "equity": 86.83808942735305,
   "positions": {
    "AVAX": {
     "coin": "AVAX",
@@ -1760,7 +1760,7 @@
     "opened_ts": 1785814231.0380173,
     "tag": "copy",
     "convergence": 1,
-    "last_funding_ts": 1785947479.7771628
+    "last_funding_ts": 1785947790.7640688
    },
    "BTC": {
     "coin": "BTC",
@@ -1773,7 +1773,7 @@
     "opened_ts": 1785830348.128265,
     "tag": "copy",
     "convergence": 3,
-    "last_funding_ts": 1785947479.7771628
+    "last_funding_ts": 1785947790.7640688
    },
    "ZEC": {
     "coin": "ZEC",
@@ -1786,14 +1786,14 @@
     "opened_ts": 1785937881.6844242,
     "tag": "copy",
     "convergence": 1,
-    "last_funding_ts": 1785947479.7771628
+    "last_funding_ts": 1785947790.7640688
    }
   },
   "realized": -9.847180494447997,
   "fees_paid": 3.0091957812533443,
   "wins": 58,
   "losses": 59,
-  "funding_net": -0.30571191927640756
+  "funding_net": -0.3055342969450031
  },
  "equity_curve": [
   {
@@ -36420,6 +36420,11 @@
    "t": "2026-08-05T16:31:10+00:00",
    "cycle": 6925,
    "equity_mtm": 90.2114
+  },
+  {
+   "t": "2026-08-05T16:36:21+00:00",
+   "cycle": 6926,
+   "equity_mtm": 90.2708
   }
  ],
  "elite": [
