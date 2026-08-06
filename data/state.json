@@ -1465,7 +1465,7 @@
     "side": "LONG",
     "size": 29554753.0,
     "entry": 0.001886,
-    "notional": 69039.903008
+    "notional": 69335.450538
    }
   },
   "0x516b454cb9a41945fd0ff75ee6dfbc0c9d8e8677": {},
@@ -1475,7 +1475,7 @@
     "side": "SHORT",
     "size": 27.0,
     "entry": 63836.8,
-    "notional": 1733832.0
+    "notional": 1738179.0
    }
   },
   "0x4c464e9559e6a4a306dc0a5ffc020bb245d6cae8": {},
@@ -1502,13 +1502,13 @@
     "side": "SHORT",
     "size": 128.32222,
     "entry": 63255.1,
-    "notional": 8240339.67952
+    "notional": 8260999.55694
    }
   },
   "0x8de28c5f15d5a3cb7d2c3f5d016fc1e8513cf908": {},
   "0x111cff56fc27d8d2a6e73f1b1880d5dae68efc43": {}
  },
- "cycle": 7172,
+ "cycle": 7175,
  "fail_counts": {
   "0x3daf7f1cfd1c289e9b2fb7abb2efbd39f77455d7": 0,
   "0x6807f127eaf85e3d0b9dbc7971bbed2afd041f8d": 0,
@@ -1775,7 +1775,7 @@
   "0x111cff56fc27d8d2a6e73f1b1880d5dae68efc43": 0
  },
  "paper": {
-  "equity": 91.14924918082556,
+  "equity": 91.14950083991472,
   "positions": {
    "ZEC": {
     "coin": "ZEC",
@@ -1788,14 +1788,14 @@
     "opened_ts": 1785937881.6844242,
     "tag": "copy",
     "convergence": 1,
-    "last_funding_ts": 1786022971.4762778
+    "last_funding_ts": 1786023898.7894094
    }
   },
   "realized": -5.524904220571807,
   "fees_paid": 3.036712154261402,
   "wins": 60,
   "losses": 59,
-  "funding_net": -0.2891344443405774
+  "funding_net": -0.28888278525141364
  },
  "equity_curve": [
   {
@@ -37657,6 +37657,21 @@
    "t": "2026-08-06T13:29:22+00:00",
    "cycle": 7172,
    "equity_mtm": 95.2959
+  },
+  {
+   "t": "2026-08-06T13:34:32+00:00",
+   "cycle": 7173,
+   "equity_mtm": 95.222
+  },
+  {
+   "t": "2026-08-06T13:39:41+00:00",
+   "cycle": 7174,
+   "equity_mtm": 95.0246
+  },
+  {
+   "t": "2026-08-06T13:44:49+00:00",
+   "cycle": 7175,
+   "equity_mtm": 94.7577
   }
  ],
  "elite": [
