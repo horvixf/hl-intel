@@ -1463,7 +1463,7 @@
     "side": "LONG",
     "size": 200.4577,
     "entry": 1910.3,
-    "notional": 380805.483536
+    "notional": 381855.881884
    }
   },
   "0x7979b2535c637928ff6eba01c0c25bcca458bff5": {},
@@ -1472,7 +1472,7 @@
     "side": "LONG",
     "size": 29554753.0,
     "entry": 0.001886,
-    "notional": 67828.158135
+    "notional": 67769.048629
    }
   },
   "0x516b454cb9a41945fd0ff75ee6dfbc0c9d8e8677": {},
@@ -1482,7 +1482,7 @@
     "side": "SHORT",
     "size": 24.96,
     "entry": 63802.4,
-    "notional": 1610244.48
+    "notional": 1611417.6
    }
   },
   "0x4c464e9559e6a4a306dc0a5ffc020bb245d6cae8": {},
@@ -1509,13 +1509,13 @@
     "side": "SHORT",
     "size": 128.32222,
     "entry": 63255.1,
-    "notional": 8278451.37886
+    "notional": 8284482.5232
    }
   },
   "0x8de28c5f15d5a3cb7d2c3f5d016fc1e8513cf908": {},
   "0x111cff56fc27d8d2a6e73f1b1880d5dae68efc43": {}
  },
- "cycle": 7145,
+ "cycle": 7148,
  "fail_counts": {
   "0x3daf7f1cfd1c289e9b2fb7abb2efbd39f77455d7": 0,
   "0x6807f127eaf85e3d0b9dbc7971bbed2afd041f8d": 0,
@@ -1782,7 +1782,7 @@
   "0x111cff56fc27d8d2a6e73f1b1880d5dae68efc43": 0
  },
  "paper": {
-  "equity": 91.14716200085475,
+  "equity": 91.14723557170319,
   "positions": {
    "ZEC": {
     "coin": "ZEC",
@@ -1795,14 +1795,14 @@
     "opened_ts": 1785937881.6844242,
     "tag": "copy",
     "convergence": 1,
-    "last_funding_ts": 1786014624.7615514
+    "last_funding_ts": 1786015551.7316256
    }
   },
   "realized": -5.524904220571807,
   "fees_paid": 3.036712154261402,
   "wins": 60,
   "losses": 59,
-  "funding_net": -0.2912216243113974
+  "funding_net": -0.29114805346294076
  },
  "equity_curve": [
   {
@@ -37529,6 +37529,21 @@
    "t": "2026-08-06T11:10:16+00:00",
    "cycle": 7145,
    "equity_mtm": 94.7765
+  },
+  {
+   "t": "2026-08-06T11:15:25+00:00",
+   "cycle": 7146,
+   "equity_mtm": 94.9891
+  },
+  {
+   "t": "2026-08-06T11:20:34+00:00",
+   "cycle": 7147,
+   "equity_mtm": 94.7358
+  },
+  {
+   "t": "2026-08-06T11:25:43+00:00",
+   "cycle": 7148,
+   "equity_mtm": 94.7027
   }
  ],
  "elite": [
