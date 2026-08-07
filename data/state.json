@@ -858,7 +858,14 @@
     "notional": 83286.72
    }
   },
-  "0x47c31fb35f5174e9e213b6fe043bf8daaf43e9f9": {},
+  "0x47c31fb35f5174e9e213b6fe043bf8daaf43e9f9": {
+   "SOL": {
+    "side": "LONG",
+    "size": 1332.18,
+    "entry": 73.7247,
+    "notional": 96921.42372
+   }
+  },
   "0x1aa1d90df49c3e5a67888798c16e73c4b4c323fc": {
    "SOL": {
     "side": "LONG",
@@ -1135,15 +1142,15 @@
   "0x9d6ca7aad4c3cbb1cc18b5e7b8e59496a03bb22f": {
    "HYPE": {
     "side": "SHORT",
-    "size": 3355.16,
-    "entry": 56.7496,
-    "notional": 188244.60696
+    "size": 6304.9,
+    "entry": 56.1592,
+    "notional": 347593.55043
    },
    "ZEC": {
     "side": "SHORT",
-    "size": 200.74,
-    "entry": 517.6794,
-    "notional": 101788.187952
+    "size": 76.44,
+    "entry": 494.6781,
+    "notional": 38372.88
    }
   },
   "0x638e96b7a155eb2b0859824f6b4acfedb25bf9bf": {},
@@ -1314,17 +1321,11 @@
   "0xb9a6c1c5fdc74f9a4076110bff09bb8beb62e7a0": {},
   "0xc27835cb2ec7e21e49497d1cba13dccaf02b4bfc": {},
   "0xccaeb98ce9ca54f76bf0029cf9f12c894e253dd6": {
-   "BTC": {
-    "side": "SHORT",
-    "size": 0.8697,
-    "entry": 62795.2,
-    "notional": 55938.2343
-   },
    "HYPE": {
     "side": "SHORT",
-    "size": 13239.5,
+    "size": 12039.5,
     "entry": 60.279,
-    "notional": 749699.927
+    "notional": 663746.06265
    }
   },
   "0x37f2af56f635c108aa1324402c17ec0e9e3ee9af": {
@@ -1506,9 +1507,42 @@
    }
   },
   "0x8de28c5f15d5a3cb7d2c3f5d016fc1e8513cf908": {},
-  "0x111cff56fc27d8d2a6e73f1b1880d5dae68efc43": {}
+  "0x111cff56fc27d8d2a6e73f1b1880d5dae68efc43": {},
+  "0x32802f989b4348a51dd0e61d23b78be1a0543469": {},
+  "0xcd40e0ef1bb138a6b8894ad5321cceadf4c28115": {},
+  "0xc0cfa138da783891fdad4e0f74a413816a438381": {},
+  "0xa99767ff6874018935af8924eeb3de3c7b578edc": {},
+  "0xbba0681681815bd70f9075e0235e7997b7b519d9": {
+   "kPEPE": {
+    "side": "LONG",
+    "size": 70641765.0,
+    "entry": 0.002925,
+    "notional": 197443.733175
+   },
+   "AAVE": {
+    "side": "SHORT",
+    "size": 0.03,
+    "entry": 90.0004,
+    "notional": 2.6946
+   },
+   "ONDO": {
+    "side": "SHORT",
+    "size": 19.0,
+    "entry": 0.365939,
+    "notional": 6.57818
+   },
+   "ENA": {
+    "side": "LONG",
+    "size": 2087320.0,
+    "entry": 0.092192,
+    "notional": 192018.82876
+   }
+  },
+  "0xef6985b07e44c98d640b6aeb15c0a25a86a800b7": {},
+  "0x91825573aa8e9089d37f038cee646e093774e612": {},
+  "0xe01ff44ed40070b19cc967b4f062c1b633f29195": {}
  },
- "cycle": 7282,
+ "cycle": 7285,
  "fail_counts": {
   "0x3daf7f1cfd1c289e9b2fb7abb2efbd39f77455d7": 0,
   "0x6807f127eaf85e3d0b9dbc7971bbed2afd041f8d": 0,
@@ -1772,10 +1806,18 @@
   "0x681ebca6c20d413bbb8201d10efd1a288cb7bad7": 0,
   "0xbc3fc3edfc56fcef9361b30078658a2a1d4d691b": 0,
   "0x8de28c5f15d5a3cb7d2c3f5d016fc1e8513cf908": 0,
-  "0x111cff56fc27d8d2a6e73f1b1880d5dae68efc43": 0
+  "0x111cff56fc27d8d2a6e73f1b1880d5dae68efc43": 0,
+  "0x32802f989b4348a51dd0e61d23b78be1a0543469": 0,
+  "0xcd40e0ef1bb138a6b8894ad5321cceadf4c28115": 0,
+  "0xc0cfa138da783891fdad4e0f74a413816a438381": 0,
+  "0xa99767ff6874018935af8924eeb3de3c7b578edc": 0,
+  "0xbba0681681815bd70f9075e0235e7997b7b519d9": 0,
+  "0xef6985b07e44c98d640b6aeb15c0a25a86a800b7": 0,
+  "0x91825573aa8e9089d37f038cee646e093774e612": 0,
+  "0xe01ff44ed40070b19cc967b4f062c1b633f29195": 0
  },
  "paper": {
-  "equity": 91.16489830021388,
+  "equity": 91.15264125323137,
   "positions": {
    "ZEC": {
     "coin": "ZEC",
@@ -1788,14 +1830,27 @@
     "opened_ts": 1785937881.6844242,
     "tag": "copy",
     "convergence": 1,
-    "last_funding_ts": 1786081095.0875335
+    "last_funding_ts": 1786081749.08928
+   },
+   "SOL": {
+    "coin": "SOL",
+    "side": "LONG",
+    "entry": 72.64028555,
+    "notional": 82.04840847019248,
+    "margin": 27.349469490064163,
+    "src": "0x47c31fb35f5174e9e213b6fe043bf8daaf43e9f9",
+    "opened": "2026-08-07T05:38:48+00:00",
+    "opened_ts": 1786081128.0182266,
+    "tag": "copy",
+    "convergence": 1,
+    "last_funding_ts": 1786081749.08928
    }
   },
   "realized": -5.524904220571807,
-  "fees_paid": 3.036712154261402,
+  "fees_paid": 3.049019415531931,
   "wins": 60,
   "losses": 59,
-  "funding_net": -0.273485324952295
+  "funding_net": -0.27343511066427223
  },
  "equity_curve": [
   {
@@ -38207,24 +38262,43 @@
    "t": "2026-08-07T05:38:07+00:00",
    "cycle": 7282,
    "equity_mtm": 93.9836
+  },
+  {
+   "t": "2026-08-07T05:38:38+00:00",
+   "cycle": 7283,
+   "equity_mtm": 93.9384
+  },
+  {
+   "t": "2026-08-07T05:43:48+00:00",
+   "cycle": 7284,
+   "equity_mtm": 93.9044
+  },
+  {
+   "t": "2026-08-07T05:48:58+00:00",
+   "cycle": 7285,
+   "equity_mtm": 93.7534
   }
  ],
  "elite": [
-  "0x98d6fc98b3c26b9dd3b7e4bac3e11ceb3e7171da",
-  "0x2e936a622d1701079f408160fb0b75ad738d36f0",
-  "0x39d60548ec0f5be5613b249c3ce4269418c45e64",
+  "0x32802f989b4348a51dd0e61d23b78be1a0543469",
+  "0x03595e94fae0b50e3cf01f3c3b322bcc8ea615ba",
+  "0x9d6ca7aad4c3cbb1cc18b5e7b8e59496a03bb22f",
+  "0xcd40e0ef1bb138a6b8894ad5321cceadf4c28115",
+  "0xc0cfa138da783891fdad4e0f74a413816a438381",
+  "0x47c31fb35f5174e9e213b6fe043bf8daaf43e9f9",
   "0xe8e840d49202ca67b74fa41e33011be4f1c23fbd",
-  "0x747932275df815ae819944e57ebb5b3e115ad68b",
-  "0xead1bf5330c1d872022eced43737608fb0943a8c"
+  "0xccaeb98ce9ca54f76bf0029cf9f12c894e253dd6",
+  "0xa99767ff6874018935af8924eeb3de3c7b578edc",
+  "0x747932275df815ae819944e57ebb5b3e115ad68b"
  ],
  "worst": [
-  "0x681ebca6c20d413bbb8201d10efd1a288cb7bad7",
-  "0xbc3fc3edfc56fcef9361b30078658a2a1d4d691b",
-  "0x8de28c5f15d5a3cb7d2c3f5d016fc1e8513cf908",
-  "0x5e7ad42187e083fc7615b689650b7b3b46ce4214",
-  "0x12f147f08112ff4c32c66bad45118302d20d807c",
-  "0x111cff56fc27d8d2a6e73f1b1880d5dae68efc43",
+  "0xbba0681681815bd70f9075e0235e7997b7b519d9",
+  "0xef6985b07e44c98d640b6aeb15c0a25a86a800b7",
+  "0x23b4564f88b0173243fbc6282e62088dbeb53651",
+  "0x91825573aa8e9089d37f038cee646e093774e612",
   "0xda271e1fd181a7956ba4542263665aa788e76008",
-  "0x7979b2535c637928ff6eba01c0c25bcca458bff5"
+  "0xd1f73853fc7fb3bdfadb9382a695c2ab15f8d62d",
+  "0x95ccaf0846757c74b33b146db85e757249b99c8a",
+  "0xe01ff44ed40070b19cc967b4f062c1b633f29195"
  ]
 }
