@@ -863,7 +863,7 @@
     "side": "LONG",
     "size": 1332.18,
     "entry": 73.7247,
-    "notional": 98081.08641
+    "notional": 98088.4134
    }
   },
   "0x1aa1d90df49c3e5a67888798c16e73c4b4c323fc": {
@@ -1118,9 +1118,9 @@
   "0xd1f73853fc7fb3bdfadb9382a695c2ab15f8d62d": {
    "HYPE": {
     "side": "LONG",
-    "size": 1500.0,
-    "entry": 56.7311,
-    "notional": 85087.5
+    "size": 2000.0,
+    "entry": 56.7536,
+    "notional": 113808.0
    }
   },
   "0xb905abfe95cfaac346b3ae9a7d272fdf174893db": {
@@ -1151,13 +1151,13 @@
     "side": "SHORT",
     "size": 6304.9,
     "entry": 56.1592,
-    "notional": 357676.977
+    "notional": 358774.0296
    },
    "ZEC": {
     "side": "SHORT",
     "size": 76.44,
     "entry": 494.6781,
-    "notional": 39000.4524
+    "notional": 39143.3952
    }
   },
   "0x638e96b7a155eb2b0859824f6b4acfedb25bf9bf": {},
@@ -1200,7 +1200,7 @@
     "side": "LONG",
     "size": 119998.0,
     "entry": 0.088741,
-    "notional": 10687.741868
+    "notional": 10752.900782
    }
   },
   "0x3053990d865606185cfa71100b273b502b3c36a0": {},
@@ -1339,7 +1339,7 @@
     "side": "SHORT",
     "size": 12039.5,
     "entry": 60.279,
-    "notional": 682928.598
+    "notional": 685095.708
    }
   },
   "0x37f2af56f635c108aa1324402c17ec0e9e3ee9af": {
@@ -1531,25 +1531,25 @@
     "side": "LONG",
     "size": 70641765.0,
     "entry": 0.002925,
-    "notional": 199562.986125
+    "notional": 200269.403775
    },
    "AAVE": {
     "side": "SHORT",
     "size": 0.03,
     "entry": 90.0004,
-    "notional": 2.69637
+    "notional": 2.69325
    },
    "ONDO": {
     "side": "SHORT",
     "size": 19.0,
     "entry": 0.365939,
-    "notional": 6.69693
+    "notional": 6.6994
    },
    "ENA": {
     "side": "LONG",
     "size": 2087320.0,
     "entry": 0.092192,
-    "notional": 202048.40136
+    "notional": 201904.37628
    }
   },
   "0xef6985b07e44c98d640b6aeb15c0a25a86a800b7": {
@@ -1557,7 +1557,7 @@
     "side": "LONG",
     "size": 10.0,
     "entry": 64903.0,
-    "notional": 650105.0
+    "notional": 650140.0
    }
   },
   "0x91825573aa8e9089d37f038cee646e093774e612": {
@@ -1565,12 +1565,12 @@
     "side": "LONG",
     "size": 1500.0,
     "entry": 56.2425,
-    "notional": 85086.0
+    "notional": 85356.0
    }
   },
   "0xe01ff44ed40070b19cc967b4f062c1b633f29195": {}
  },
- "cycle": 7355,
+ "cycle": 7358,
  "fail_counts": {
   "0x3daf7f1cfd1c289e9b2fb7abb2efbd39f77455d7": 0,
   "0x6807f127eaf85e3d0b9dbc7971bbed2afd041f8d": 0,
@@ -1845,7 +1845,7 @@
   "0xe01ff44ed40070b19cc967b4f062c1b633f29195": 0
  },
  "paper": {
-  "equity": 91.1443512022413,
+  "equity": 91.14524798032707,
   "positions": {
    "ZEC": {
     "coin": "ZEC",
@@ -1858,7 +1858,7 @@
     "opened_ts": 1785937881.6844242,
     "tag": "copy",
     "convergence": 1,
-    "last_funding_ts": 1786103207.658791
+    "last_funding_ts": 1786104135.9353046
    },
    "SOL": {
     "coin": "SOL",
@@ -1871,7 +1871,7 @@
     "opened_ts": 1786081128.0182266,
     "tag": "copy",
     "convergence": 1,
-    "last_funding_ts": 1786103207.658791
+    "last_funding_ts": 1786104135.9353046
    },
    "CC": {
     "coin": "CC",
@@ -1884,14 +1884,14 @@
     "opened_ts": 1786082992.3298957,
     "tag": "copy",
     "convergence": 1,
-    "last_funding_ts": 1786103207.658791
+    "last_funding_ts": 1786104135.9353046
    }
   },
   "realized": -5.524904220571807,
   "fees_paid": 3.061325018728906,
   "wins": 60,
   "losses": 59,
-  "funding_net": -0.2694195584573595
+  "funding_net": -0.2685227803715948
  },
  "equity_curve": [
   {
@@ -38668,6 +38668,21 @@
    "t": "2026-08-07T11:46:38+00:00",
    "cycle": 7355,
    "equity_mtm": 93.7666
+  },
+  {
+   "t": "2026-08-07T11:51:49+00:00",
+   "cycle": 7356,
+   "equity_mtm": 94.0032
+  },
+  {
+   "t": "2026-08-07T11:56:58+00:00",
+   "cycle": 7357,
+   "equity_mtm": 93.6032
+  },
+  {
+   "t": "2026-08-07T12:02:07+00:00",
+   "cycle": 7358,
+   "equity_mtm": 93.9589
   }
  ],
  "elite": [
