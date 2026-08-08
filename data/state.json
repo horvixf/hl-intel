@@ -1113,7 +1113,7 @@
     "side": "SHORT",
     "size": 160.0,
     "entry": 1914.06,
-    "notional": 305934.4
+    "notional": 305984.0
    }
   },
   "0xb905abfe95cfaac346b3ae9a7d272fdf174893db": {
@@ -1144,13 +1144,13 @@
     "side": "SHORT",
     "size": 6848.25,
     "entry": 56.142,
-    "notional": 370052.037
+    "notional": 370565.65575
    },
    "ZEC": {
     "side": "SHORT",
     "size": 134.18,
     "entry": 502.1663,
-    "notional": 67909.8398
+    "notional": 68010.4748
    }
   },
   "0x638e96b7a155eb2b0859824f6b4acfedb25bf9bf": {},
@@ -1193,7 +1193,7 @@
     "side": "LONG",
     "size": 8395026.0,
     "entry": 0.002499,
-    "notional": 20777.68935
+    "notional": 20710.529142
    }
   },
   "0x3053990d865606185cfa71100b273b502b3c36a0": {},
@@ -1332,7 +1332,7 @@
     "side": "SHORT",
     "size": 12039.5,
     "entry": 60.279,
-    "notional": 650566.422
+    "notional": 651469.3845
    }
   },
   "0x37f2af56f635c108aa1324402c17ec0e9e3ee9af": {
@@ -1524,32 +1524,32 @@
     "side": "LONG",
     "size": 70641765.0,
     "entry": 0.002925,
-    "notional": 200057.47848
+    "notional": 200269.403775
    },
    "AAVE": {
     "side": "SHORT",
     "size": 0.03,
     "entry": 90.0004,
-    "notional": 2.67795
+    "notional": 2.67735
    },
    "ONDO": {
     "side": "SHORT",
     "size": 19.0,
     "entry": 0.365939,
-    "notional": 6.63841
+    "notional": 6.64962
    },
    "ENA": {
     "side": "LONG",
     "size": 2087320.0,
     "entry": 0.092192,
-    "notional": 187766.95792
+    "notional": 187529.00344
    }
   },
   "0xef6985b07e44c98d640b6aeb15c0a25a86a800b7": {},
   "0x91825573aa8e9089d37f038cee646e093774e612": {},
   "0xe01ff44ed40070b19cc967b4f062c1b633f29195": {}
  },
- "cycle": 7531,
+ "cycle": 7534,
  "fail_counts": {
   "0x3daf7f1cfd1c289e9b2fb7abb2efbd39f77455d7": 0,
   "0x6807f127eaf85e3d0b9dbc7971bbed2afd041f8d": 0,
@@ -1824,7 +1824,7 @@
   "0xe01ff44ed40070b19cc967b4f062c1b633f29195": 0
  },
  "paper": {
-  "equity": 94.09436512071323,
+  "equity": 94.09589674951839,
   "positions": {
    "kBONK": {
     "coin": "kBONK",
@@ -1837,14 +1837,14 @@
     "opened_ts": 1786133595.6674676,
     "tag": "copy",
     "convergence": 1,
-    "last_funding_ts": 1786157144.9089308
+    "last_funding_ts": 1786158073.535153
    }
   },
   "realized": -2.59595679606657,
   "fees_paid": 3.1104698305361054,
   "wins": 63,
   "losses": 59,
-  "funding_net": -0.1992082526833873
+  "funding_net": -0.1976766238782234
  },
  "equity_curve": [
   {
@@ -39501,6 +39501,21 @@
    "t": "2026-08-08T02:45:36+00:00",
    "cycle": 7531,
    "equity_mtm": 92.99
+  },
+  {
+   "t": "2026-08-08T02:50:46+00:00",
+   "cycle": 7532,
+   "equity_mtm": 92.8219
+  },
+  {
+   "t": "2026-08-08T02:55:55+00:00",
+   "cycle": 7533,
+   "equity_mtm": 92.8562
+  },
+  {
+   "t": "2026-08-08T03:01:04+00:00",
+   "cycle": 7534,
+   "equity_mtm": 92.7556
   }
  ],
  "elite": [
