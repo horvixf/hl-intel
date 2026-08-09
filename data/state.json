@@ -1187,13 +1187,13 @@
     "side": "LONG",
     "size": 9848978.0,
     "entry": 0.002497,
-    "notional": 24573.20011
+    "notional": 24602.747044
    },
    "KAITO": {
     "side": "LONG",
     "size": 23751.0,
     "entry": 0.699164,
-    "notional": 16255.303155
+    "notional": 16249.00914
    }
   },
   "0x3053990d865606185cfa71100b273b502b3c36a0": {},
@@ -1547,7 +1547,7 @@
     "side": "SHORT",
     "size": 4295.26,
     "entry": 54.1078,
-    "notional": 235882.363894
+    "notional": 235895.6792
    }
   },
   "0xc70b82ac5ffe32c15b15060e766a4fffb3579d8c": {},
@@ -1559,7 +1559,7 @@
     "side": "LONG",
     "size": 6065626.0,
     "entry": 1.055852,
-    "notional": 4151344.76253
+    "notional": 4150283.27798
    }
   },
   "0x8362907bc2368f43d23d254371cda0628cfa6f1d": {},
@@ -1568,12 +1568,12 @@
     "side": "LONG",
     "size": 5.59814,
     "entry": 64406.0,
-    "notional": 364951.14381
+    "notional": 365009.92428
    }
   },
   "0x7433f67baf8b81d3dc473c71766ccdb9873f7edf": {}
  },
- "cycle": 7987,
+ "cycle": 7988,
  "fail_counts": {
   "0x3daf7f1cfd1c289e9b2fb7abb2efbd39f77455d7": 0,
   "0x6807f127eaf85e3d0b9dbc7971bbed2afd041f8d": 0,
@@ -1857,7 +1857,7 @@
   "0x7433f67baf8b81d3dc473c71766ccdb9873f7edf": 0
  },
  "paper": {
-  "equity": 91.2076769747993,
+  "equity": 91.20758621141304,
   "positions": {
    "kBONK": {
     "coin": "kBONK",
@@ -1870,14 +1870,14 @@
     "opened_ts": 1786133595.6674676,
     "tag": "copy",
     "convergence": 1,
-    "last_funding_ts": 1786296028.310958
+    "last_funding_ts": 1786296337.4567292
    }
   },
   "realized": -7.162885789642702,
   "fees_paid": 3.135192723147125,
   "wins": 63,
   "losses": 60,
-  "funding_net": 1.5057554875899226
+  "funding_net": 1.505664724203672
  },
  "equity_curve": [
   {
@@ -41814,6 +41814,11 @@
    "t": "2026-08-09T17:20:20+00:00",
    "cycle": 7987,
    "equity_mtm": 90.7777
+  },
+  {
+   "t": "2026-08-09T17:25:29+00:00",
+   "cycle": 7988,
+   "equity_mtm": 90.8788
   }
  ],
  "elite": [
