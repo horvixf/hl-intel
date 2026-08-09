@@ -1187,7 +1187,13 @@
     "side": "LONG",
     "size": 9848978.0,
     "entry": 0.002497,
-    "notional": 24888.367406
+    "notional": 24563.351132
+   },
+   "KAITO": {
+    "side": "LONG",
+    "size": 23751.0,
+    "entry": 0.699164,
+    "notional": 16560.38475
    }
   },
   "0x3053990d865606185cfa71100b273b502b3c36a0": {},
@@ -1541,11 +1547,40 @@
     "side": "SHORT",
     "size": 4295.26,
     "entry": 54.1078,
-    "notional": 234705.89218
+    "notional": 234748.84478
    }
-  }
+  },
+  "0xc70b82ac5ffe32c15b15060e766a4fffb3579d8c": {},
+  "0x042dc5e8d63a155860788c6f8cdde53a91d78c1f": {},
+  "0x02867e83eb85a3721422b4cddb8f4f64440eee0b": {},
+  "0x16588c497a83e9dfa298d048553a4ef5fd52f65b": {
+   "ETH": {
+    "side": "SHORT",
+    "size": 3400.0,
+    "entry": 1912.99,
+    "notional": 6518820.0
+   }
+  },
+  "0x2be36273621233a0d2ae8504af15b56ee1cf8082": {
+   "KAITO": {
+    "side": "LONG",
+    "size": 6065626.0,
+    "entry": 1.055852,
+    "notional": 4232897.1041
+   }
+  },
+  "0x8362907bc2368f43d23d254371cda0628cfa6f1d": {},
+  "0x43f9432048a9874842d9f1f2747e343296983009": {
+   "BTC": {
+    "side": "LONG",
+    "size": 5.59814,
+    "entry": 64406.0,
+    "notional": 362921.81806
+   }
+  },
+  "0x7433f67baf8b81d3dc473c71766ccdb9873f7edf": {}
  },
- "cycle": 7859,
+ "cycle": 7862,
  "fail_counts": {
   "0x3daf7f1cfd1c289e9b2fb7abb2efbd39f77455d7": 0,
   "0x6807f127eaf85e3d0b9dbc7971bbed2afd041f8d": 0,
@@ -1818,10 +1853,18 @@
   "0xef6985b07e44c98d640b6aeb15c0a25a86a800b7": 0,
   "0x91825573aa8e9089d37f038cee646e093774e612": 0,
   "0xe01ff44ed40070b19cc967b4f062c1b633f29195": 0,
-  "0x1e9b03ec06f463bc5d81c15e050425639cc43855": 0
+  "0x1e9b03ec06f463bc5d81c15e050425639cc43855": 0,
+  "0xc70b82ac5ffe32c15b15060e766a4fffb3579d8c": 0,
+  "0x042dc5e8d63a155860788c6f8cdde53a91d78c1f": 0,
+  "0x02867e83eb85a3721422b4cddb8f4f64440eee0b": 0,
+  "0x16588c497a83e9dfa298d048553a4ef5fd52f65b": 0,
+  "0x2be36273621233a0d2ae8504af15b56ee1cf8082": 0,
+  "0x8362907bc2368f43d23d254371cda0628cfa6f1d": 0,
+  "0x43f9432048a9874842d9f1f2747e343296983009": 0,
+  "0x7433f67baf8b81d3dc473c71766ccdb9873f7edf": 0
  },
  "paper": {
-  "equity": 94.10345170391085,
+  "equity": 94.12380732276364,
   "positions": {
    "kBONK": {
     "coin": "kBONK",
@@ -1834,14 +1877,27 @@
     "opened_ts": 1786133595.6674676,
     "tag": "copy",
     "convergence": 1,
-    "last_funding_ts": 1786257151.6483552
+    "last_funding_ts": 1786257790.6269333
+   },
+   "KAITO": {
+    "coin": "KAITO",
+    "side": "LONG",
+    "entry": 0.6934829825,
+    "notional": 84.69310653351977,
+    "margin": 28.231035511173253,
+    "src": "0xe8e840d49202ca67b74fa41e33011be4f1c23fbd",
+    "opened": "2026-08-09T06:32:55+00:00",
+    "opened_ts": 1786257175.6248715,
+    "tag": "copy",
+    "convergence": 1,
+    "last_funding_ts": 1786257790.6269333
    }
   },
   "realized": -2.59595679606657,
-  "fees_paid": 3.1104698305361054,
+  "fees_paid": 3.1231737965161335,
   "wins": 63,
   "losses": 59,
-  "funding_net": -0.19012166948571643
+  "funding_net": -0.15706208465291133
  },
  "equity_curve": [
   {
@@ -41138,25 +41194,38 @@
    "t": "2026-08-09T06:32:23+00:00",
    "cycle": 7859,
    "equity_mtm": 93.5386
+  },
+  {
+   "t": "2026-08-09T06:32:48+00:00",
+   "cycle": 7860,
+   "equity_mtm": 93.6017
+  },
+  {
+   "t": "2026-08-09T06:37:55+00:00",
+   "cycle": 7861,
+   "equity_mtm": 93.8376
+  },
+  {
+   "t": "2026-08-09T06:43:02+00:00",
+   "cycle": 7862,
+   "equity_mtm": 94.2063
   }
  ],
  "elite": [
-  "0x516b454cb9a41945fd0ff75ee6dfbc0c9d8e8677",
-  "0x32802f989b4348a51dd0e61d23b78be1a0543469",
   "0xcd40e0ef1bb138a6b8894ad5321cceadf4c28115",
-  "0x39d60548ec0f5be5613b249c3ce4269418c45e64",
-  "0xcb3ee3f1b22cdff8b6ca4839cd0784d34b85dea9",
-  "0xd0584dba197cc63e5df8a7641d01bc4aa8bc5c18",
-  "0x1bb2a56618ef9a4f71ee90690dd8d130572b0d38"
+  "0xc70b82ac5ffe32c15b15060e766a4fffb3579d8c",
+  "0xc0cfa138da783891fdad4e0f74a413816a438381",
+  "0xe8e840d49202ca67b74fa41e33011be4f1c23fbd",
+  "0x042dc5e8d63a155860788c6f8cdde53a91d78c1f"
  ],
  "worst": [
-  "0x1e9b03ec06f463bc5d81c15e050425639cc43855",
-  "0xbc3fc3edfc56fcef9361b30078658a2a1d4d691b",
+  "0x02867e83eb85a3721422b4cddb8f4f64440eee0b",
+  "0x16588c497a83e9dfa298d048553a4ef5fd52f65b",
+  "0x2be36273621233a0d2ae8504af15b56ee1cf8082",
+  "0x8362907bc2368f43d23d254371cda0628cfa6f1d",
+  "0x43f9432048a9874842d9f1f2747e343296983009",
+  "0x7433f67baf8b81d3dc473c71766ccdb9873f7edf",
   "0x91825573aa8e9089d37f038cee646e093774e612",
-  "0x5d6f7c1e9f7a7dca19b01edbd59ebb9223356f8a",
-  "0xd92027fc1bf15ea8e1c9c0a1aa4a9f58b5433f20",
-  "0xd1f73853fc7fb3bdfadb9382a695c2ab15f8d62d",
-  "0x5e7ad42187e083fc7615b689650b7b3b46ce4214",
-  "0x95ccaf0846757c74b33b146db85e757249b99c8a"
+  "0x1e9b03ec06f463bc5d81c15e050425639cc43855"
  ]
 }
