@@ -1187,13 +1187,13 @@
     "side": "LONG",
     "size": 9848978.0,
     "entry": 0.002497,
-    "notional": 24494.408286
+    "notional": 24523.95522
    },
    "KAITO": {
     "side": "LONG",
     "size": 23751.0,
     "entry": 0.699164,
-    "notional": 16154.48016
+    "notional": 15899.39442
    }
   },
   "0x3053990d865606185cfa71100b273b502b3c36a0": {},
@@ -1547,7 +1547,7 @@
     "side": "SHORT",
     "size": 4295.26,
     "entry": 54.1078,
-    "notional": 235002.26512
+    "notional": 235380.248
    }
   },
   "0xc70b82ac5ffe32c15b15060e766a4fffb3579d8c": {},
@@ -1559,7 +1559,7 @@
     "side": "LONG",
     "size": 6065626.0,
     "entry": 1.055852,
-    "notional": 4125596.18016
+    "notional": 4060451.35692
    }
   },
   "0x8362907bc2368f43d23d254371cda0628cfa6f1d": {},
@@ -1568,12 +1568,12 @@
     "side": "LONG",
     "size": 5.59814,
     "entry": 64406.0,
-    "notional": 364942.7466
+    "notional": 364914.7559
    }
   },
   "0x7433f67baf8b81d3dc473c71766ccdb9873f7edf": {}
  },
- "cycle": 7969,
+ "cycle": 7972,
  "fail_counts": {
   "0x3daf7f1cfd1c289e9b2fb7abb2efbd39f77455d7": 0,
   "0x6807f127eaf85e3d0b9dbc7971bbed2afd041f8d": 0,
@@ -1857,7 +1857,7 @@
   "0x7433f67baf8b81d3dc473c71766ccdb9873f7edf": 0
  },
  "paper": {
-  "equity": 95.758176626446,
+  "equity": 95.78013096388585,
   "positions": {
    "kBONK": {
     "coin": "kBONK",
@@ -1870,7 +1870,7 @@
     "opened_ts": 1786133595.6674676,
     "tag": "copy",
     "convergence": 1,
-    "last_funding_ts": 1786290471.6950786
+    "last_funding_ts": 1786291397.3363855
    },
    "KAITO": {
     "coin": "KAITO",
@@ -1883,14 +1883,14 @@
     "opened_ts": 1786257175.6248715,
     "tag": "copy",
     "convergence": 1,
-    "last_funding_ts": 1786290471.6950786
+    "last_funding_ts": 1786291397.3363855
    }
   },
   "realized": -2.59595679606657,
   "fees_paid": 3.1231737965161335,
   "wins": 63,
   "losses": 59,
-  "funding_net": 1.4773072190294962
+  "funding_net": 1.4992615564693599
  },
  "equity_curve": [
   {
@@ -41737,6 +41737,21 @@
    "t": "2026-08-09T15:47:43+00:00",
    "cycle": 7969,
    "equity_mtm": 93.4595
+  },
+  {
+   "t": "2026-08-09T15:52:52+00:00",
+   "cycle": 7970,
+   "equity_mtm": 93.0559
+  },
+  {
+   "t": "2026-08-09T15:58:01+00:00",
+   "cycle": 7971,
+   "equity_mtm": 93.5202
+  },
+  {
+   "t": "2026-08-09T16:03:09+00:00",
+   "cycle": 7972,
+   "equity_mtm": 92.2069
   }
  ],
  "elite": [
