@@ -803,13 +803,13 @@
     "side": "LONG",
     "size": 100000000.0,
     "entry": 0.001656,
-    "notional": 270000.0
+    "notional": 271600.0
    },
    "ZEC": {
     "side": "LONG",
     "size": 1000.0,
     "entry": 476.8514,
-    "notional": 503536.2
+    "notional": 501770.0
    }
   },
   "0x8f25818ff64be1abee91abca70c306b33b602062": {
@@ -858,7 +858,7 @@
     "side": "LONG",
     "size": 17902.19,
     "entry": 76.6683,
-    "notional": 1367995.84885
+    "notional": 1360817.07066
    }
   },
   "0x9f01844ba20eecdd20f4520975f28c938e852add": {},
@@ -1105,9 +1105,9 @@
   "0xd1f73853fc7fb3bdfadb9382a695c2ab15f8d62d": {
    "ETH": {
     "side": "SHORT",
-    "size": 100.0,
+    "size": 50.0,
     "entry": 1914.06,
-    "notional": 189100.0
+    "notional": 93805.0
    }
   },
   "0xb905abfe95cfaac346b3ae9a7d272fdf174893db": {
@@ -1187,13 +1187,13 @@
     "side": "LONG",
     "size": 9848978.0,
     "entry": 0.002497,
-    "notional": 24159.543034
+    "notional": 24061.053254
    },
    "KAITO": {
     "side": "LONG",
     "size": 26266.0,
     "entry": 0.695086,
-    "notional": 17033.501
+    "notional": 17059.50434
    }
   },
   "0x3053990d865606185cfa71100b273b502b3c36a0": {},
@@ -1210,7 +1210,7 @@
     "side": "LONG",
     "size": 30.0,
     "entry": 62909.7,
-    "notional": 1939830.0
+    "notional": 1934460.0
    }
   },
   "0xc55f34dfe52212cf659e3e5cc7439e98f58c9720": {},
@@ -1254,13 +1254,13 @@
     "side": "LONG",
     "size": 2.84171,
     "entry": 64755.9,
-    "notional": 183747.81031
+    "notional": 183239.14422
    },
    "HYPE": {
     "side": "SHORT",
     "size": 2268.65,
     "entry": 65.7748,
-    "notional": 123586.9774
+    "notional": 123031.15815
    }
   },
   "0x2f9beb4d627ec674e76989e672cac0ab06711118": {},
@@ -1332,7 +1332,7 @@
     "side": "SHORT",
     "size": 9239.5,
     "entry": 60.279,
-    "notional": 503331.002
+    "notional": 501067.3245
    }
   },
   "0x37f2af56f635c108aa1324402c17ec0e9e3ee9af": {
@@ -1510,7 +1510,7 @@
     "side": "SHORT",
     "size": 65.70099,
     "entry": 63255.1,
-    "notional": 4248291.71439
+    "notional": 4237516.75203
    }
   },
   "0x8de28c5f15d5a3cb7d2c3f5d016fc1e8513cf908": {},
@@ -1554,19 +1554,19 @@
     "side": "SHORT",
     "size": 42.72544,
     "entry": 64701.9,
-    "notional": 2762669.67584
+    "notional": 2755662.70368
    },
    "ENA": {
     "side": "SHORT",
     "size": 8948556.0,
     "entry": 0.089141,
-    "notional": 792770.473152
+    "notional": 790542.282708
    },
    "HYPE": {
     "side": "SHORT",
     "size": 2750.87,
     "entry": 53.8908,
-    "notional": 149831.63629
+    "notional": 149242.95011
    }
   },
   "0xc70b82ac5ffe32c15b15060e766a4fffb3579d8c": {},
@@ -1575,9 +1575,9 @@
   "0x16588c497a83e9dfa298d048553a4ef5fd52f65b": {
    "ETH": {
     "side": "SHORT",
-    "size": 3400.0,
-    "entry": 1898.55,
-    "notional": 6429706.0
+    "size": 4000.0,
+    "entry": 1895.32,
+    "notional": 7501200.0
    }
   },
   "0x2be36273621233a0d2ae8504af15b56ee1cf8082": {
@@ -1598,25 +1598,18 @@
    }
   },
   "0x7433f67baf8b81d3dc473c71766ccdb9873f7edf": {},
-  "0xcb735a17a743685df6b520ef0617102087e995da": {
-   "SOL": {
-    "side": "SHORT",
-    "size": 3992.78,
-    "entry": 76.6918,
-    "notional": 305108.2837
-   }
-  },
+  "0xcb735a17a743685df6b520ef0617102087e995da": {},
   "0xe1b02144c101e4f6c41bc746f854214404efa23d": {
    "BTC": {
     "side": "SHORT",
     "size": 17.83211,
     "entry": 65117.8,
-    "notional": 1153042.06471
+    "notional": 1149850.11702
    }
   },
   "0x698f77f4d84ab9a6283983ade08ab68ae875a600": {}
  },
- "cycle": 8245,
+ "cycle": 8247,
  "fail_counts": {
   "0x3daf7f1cfd1c289e9b2fb7abb2efbd39f77455d7": 0,
   "0x6807f127eaf85e3d0b9dbc7971bbed2afd041f8d": 0,
@@ -43135,6 +43128,16 @@
   {
    "t": "2026-08-10T15:08:11+00:00",
    "cycle": 8245,
+   "equity_mtm": 91.5793
+  },
+  {
+   "t": "2026-08-10T15:13:20+00:00",
+   "cycle": 8246,
+   "equity_mtm": 91.5793
+  },
+  {
+   "t": "2026-08-10T15:18:28+00:00",
+   "cycle": 8247,
    "equity_mtm": 91.5793
   }
  ],
