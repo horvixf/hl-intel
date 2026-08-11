@@ -291,13 +291,13 @@
     "side": "LONG",
     "size": 3400.0,
     "entry": 76.6148,
-    "notional": 258814.8
+    "notional": 258508.8
    },
    "PUMP": {
     "side": "LONG",
     "size": 7179130.0,
     "entry": 0.002871,
-    "notional": 19685.17446
+    "notional": 19455.4423
    }
   },
   "0x604be8b3161ded7d0f980a3fbc84f92f5097a072": {},
@@ -1186,13 +1186,13 @@
     "side": "LONG",
     "size": 15291760.0,
     "entry": 0.00244,
-    "notional": 35798.01016
+    "notional": 35706.2596
    },
    "KAITO": {
     "side": "LONG",
     "size": 28825.0,
     "entry": 0.690294,
-    "notional": 18625.562
+    "notional": 18664.1875
    }
   },
   "0x3053990d865606185cfa71100b273b502b3c36a0": {},
@@ -1603,17 +1603,10 @@
   "0x698f77f4d84ab9a6283983ade08ab68ae875a600": {},
   "0x46282a19f843e50faac7ec6a1195c323484aaf2a": {},
   "0x03d92cde581cd9d3d0f9caf98a02c8fe28382178": {},
-  "0xb2cccb881fa9c8ff45dbd5ddc998cfb001ce459e": {
-   "BTC": {
-    "side": "LONG",
-    "size": 11.03845,
-    "entry": 64346.4,
-    "notional": 710931.37225
-   }
-  },
+  "0xb2cccb881fa9c8ff45dbd5ddc998cfb001ce459e": {},
   "0x5139b3cb353e6c5755ca092ec175b2cc0ee734c8": {}
  },
- "cycle": 8493,
+ "cycle": 8496,
  "fail_counts": {
   "0x3daf7f1cfd1c289e9b2fb7abb2efbd39f77455d7": 0,
   "0x6807f127eaf85e3d0b9dbc7971bbed2afd041f8d": 0,
@@ -44376,6 +44369,21 @@
   {
    "t": "2026-08-11T12:07:23+00:00",
    "cycle": 8493,
+   "equity_mtm": 92.4715
+  },
+  {
+   "t": "2026-08-11T12:12:32+00:00",
+   "cycle": 8494,
+   "equity_mtm": 92.4715
+  },
+  {
+   "t": "2026-08-11T12:17:39+00:00",
+   "cycle": 8495,
+   "equity_mtm": 92.4715
+  },
+  {
+   "t": "2026-08-11T12:22:46+00:00",
+   "cycle": 8496,
    "equity_mtm": 92.4715
   }
  ],
