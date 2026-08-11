@@ -291,13 +291,13 @@
     "side": "LONG",
     "size": 3400.0,
     "entry": 76.6148,
-    "notional": 258862.4
+    "notional": 258913.4
    },
    "PUMP": {
     "side": "LONG",
     "size": 7179130.0,
     "entry": 0.002871,
-    "notional": 19663.63707
+    "notional": 19642.09968
    }
   },
   "0x604be8b3161ded7d0f980a3fbc84f92f5097a072": {},
@@ -1186,13 +1186,13 @@
     "side": "LONG",
     "size": 15291760.0,
     "entry": 0.00244,
-    "notional": 35843.88544
+    "notional": 35859.1772
    },
    "KAITO": {
     "side": "LONG",
     "size": 28825.0,
     "entry": 0.690294,
-    "notional": 18474.7496
+    "notional": 18542.546
    }
   },
   "0x3053990d865606185cfa71100b273b502b3c36a0": {},
@@ -1608,12 +1608,12 @@
     "side": "LONG",
     "size": 11.03845,
     "entry": 64346.4,
-    "notional": 709954.469425
+    "notional": 710213.873
    }
   },
   "0x5139b3cb353e6c5755ca092ec175b2cc0ee734c8": {}
  },
- "cycle": 8487,
+ "cycle": 8490,
  "fail_counts": {
   "0x3daf7f1cfd1c289e9b2fb7abb2efbd39f77455d7": 0,
   "0x6807f127eaf85e3d0b9dbc7971bbed2afd041f8d": 0,
@@ -44346,6 +44346,21 @@
   {
    "t": "2026-08-11T11:36:36+00:00",
    "cycle": 8487,
+   "equity_mtm": 92.4715
+  },
+  {
+   "t": "2026-08-11T11:41:44+00:00",
+   "cycle": 8488,
+   "equity_mtm": 92.4715
+  },
+  {
+   "t": "2026-08-11T11:46:52+00:00",
+   "cycle": 8489,
+   "equity_mtm": 92.4715
+  },
+  {
+   "t": "2026-08-11T11:51:59+00:00",
+   "cycle": 8490,
    "equity_mtm": 92.4715
   }
  ],
