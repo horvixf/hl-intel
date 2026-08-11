@@ -803,13 +803,13 @@
     "side": "LONG",
     "size": 100000000.0,
     "entry": 0.001656,
-    "notional": 282700.0
+    "notional": 281700.0
    },
    "ZEC": {
     "side": "LONG",
     "size": 1000.0,
     "entry": 476.8514,
-    "notional": 493340.0
+    "notional": 494010.0
    }
   },
   "0x8f25818ff64be1abee91abca70c306b33b602062": {
@@ -858,7 +858,7 @@
     "side": "LONG",
     "size": 17902.19,
     "entry": 76.6683,
-    "notional": 1362159.73491
+    "notional": 1363448.69259
    }
   },
   "0x9f01844ba20eecdd20f4520975f28c938e852add": {},
@@ -1107,7 +1107,7 @@
     "side": "SHORT",
     "size": 50.0,
     "entry": 1914.06,
-    "notional": 93865.0
+    "notional": 93940.0
    }
   },
   "0xb905abfe95cfaac346b3ae9a7d272fdf174893db": {
@@ -1187,13 +1187,13 @@
     "side": "LONG",
     "size": 9848978.0,
     "entry": 0.002497,
-    "notional": 23972.412452
+    "notional": 23933.01654
    },
    "KAITO": {
     "side": "LONG",
     "size": 28825.0,
     "entry": 0.690294,
-    "notional": 18613.74375
+    "notional": 18739.709
    }
   },
   "0x3053990d865606185cfa71100b273b502b3c36a0": {},
@@ -1210,7 +1210,7 @@
     "side": "LONG",
     "size": 30.0,
     "entry": 62909.7,
-    "notional": 1920540.0
+    "notional": 1921458.0
    }
   },
   "0xc55f34dfe52212cf659e3e5cc7439e98f58c9720": {},
@@ -1254,13 +1254,13 @@
     "side": "LONG",
     "size": 2.84171,
     "entry": 64755.9,
-    "notional": 181920.59078
+    "notional": 182007.547106
    },
    "HYPE": {
     "side": "SHORT",
     "size": 2268.65,
     "entry": 65.7748,
-    "notional": 125220.4054
+    "notional": 125426.625685
    }
   },
   "0x2f9beb4d627ec674e76989e672cac0ab06711118": {},
@@ -1332,7 +1332,7 @@
     "side": "SHORT",
     "size": 9039.5,
     "entry": 60.279,
-    "notional": 498944.242
+    "notional": 499765.93255
    }
   },
   "0x37f2af56f635c108aa1324402c17ec0e9e3ee9af": {
@@ -1510,7 +1510,7 @@
     "side": "SHORT",
     "size": 65.70099,
     "entry": 63255.1,
-    "notional": 4206013.127325
+    "notional": 4208056.428114
    }
   },
   "0x8de28c5f15d5a3cb7d2c3f5d016fc1e8513cf908": {},
@@ -1554,13 +1554,13 @@
     "side": "LONG",
     "size": 67.54775,
     "entry": 64043.3,
-    "notional": 4324238.085625
+    "notional": 4326095.64875
    },
    "LIT": {
     "side": "LONG",
     "size": 260960.0,
     "entry": 2.442962,
-    "notional": 640448.032
+    "notional": 636246.576
    }
   },
   "0xc70b82ac5ffe32c15b15060e766a4fffb3579d8c": {},
@@ -1590,7 +1590,7 @@
     "side": "SHORT",
     "size": 4190.63,
     "entry": 76.2621,
-    "notional": 318860.84607
+    "notional": 319175.14332
    }
   },
   "0xe1b02144c101e4f6c41bc746f854214404efa23d": {
@@ -1598,12 +1598,12 @@
     "side": "SHORT",
     "size": 16.02354,
     "entry": 64093.2,
-    "notional": 1025794.98372
+    "notional": 1026285.304044
    }
   },
   "0x698f77f4d84ab9a6283983ade08ab68ae875a600": {}
  },
- "cycle": 8384,
+ "cycle": 8387,
  "fail_counts": {
   "0x3daf7f1cfd1c289e9b2fb7abb2efbd39f77455d7": 0,
   "0x6807f127eaf85e3d0b9dbc7971bbed2afd041f8d": 0,
@@ -1890,7 +1890,7 @@
   "0x698f77f4d84ab9a6283983ade08ab68ae875a600": 0
  },
  "paper": {
-  "equity": 91.76548691984682,
+  "equity": 91.76575371910798,
   "positions": {
    "SOL": {
     "coin": "SOL",
@@ -1903,14 +1903,14 @@
     "opened_ts": 1786393720.2275465,
     "tag": "copy",
     "convergence": 1,
-    "last_funding_ts": 1786416627.5345325
+    "last_funding_ts": 1786417557.8445256
    }
   },
   "realized": -6.553972682221596,
   "fees_paid": 3.1850828718731954,
   "wins": 65,
   "losses": 60,
-  "funding_net": 1.5045424739423474
+  "funding_net": 1.5048092732035105
  },
  "equity_curve": [
   {
@@ -43832,6 +43832,21 @@
    "t": "2026-08-11T02:50:17+00:00",
    "cycle": 8384,
    "equity_mtm": 91.9605
+  },
+  {
+   "t": "2026-08-11T02:55:28+00:00",
+   "cycle": 8385,
+   "equity_mtm": 91.9909
+  },
+  {
+   "t": "2026-08-11T03:00:38+00:00",
+   "cycle": 8386,
+   "equity_mtm": 92.0051
+  },
+  {
+   "t": "2026-08-11T03:05:48+00:00",
+   "cycle": 8387,
+   "equity_mtm": 91.8839
   }
  ],
  "elite": [
