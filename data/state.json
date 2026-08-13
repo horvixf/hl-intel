@@ -1643,7 +1643,7 @@
     "side": "LONG",
     "size": 2.0,
     "entry": 63744.2,
-    "notional": 126868.0
+    "notional": 126932.0
    }
   },
   "0xf719dd4b9869653d0b84ae1dbb2c821f525f3ff0": {
@@ -1661,7 +1661,7 @@
     "side": "LONG",
     "size": 1007932.0,
     "entry": 0.100541,
-    "notional": 159948.72908
+    "notional": 159832.8169
    }
   },
   "0x45514f1a518b02e68939ac2397bc148586bdb3ad": {},
@@ -1671,7 +1671,7 @@
     "side": "LONG",
     "size": 266286.0,
     "entry": 1.015293,
-    "notional": 268549.431
+    "notional": 268309.7736
    }
   },
   "0xa30b4afcb6bfaa306a1e1a23f3f8f635a84f354f": {
@@ -1679,13 +1679,13 @@
     "side": "LONG",
     "size": 0.24897,
     "entry": 63975.0,
-    "notional": 15793.16298
+    "notional": 15800.88105
    }
   },
   "0xd5d62227bb13d285689de881e6d4e4462f637a4c": {},
   "0x396dc3e4d1051837bb559810d2b1ea7977775899": {}
  },
- "cycle": 9171,
+ "cycle": 9174,
  "fail_counts": {
   "0x3daf7f1cfd1c289e9b2fb7abb2efbd39f77455d7": 0,
   "0x6807f127eaf85e3d0b9dbc7971bbed2afd041f8d": 0,
@@ -1989,7 +1989,7 @@
   "0x396dc3e4d1051837bb559810d2b1ea7977775899": 0
  },
  "paper": {
-  "equity": 88.50067029172148,
+  "equity": 88.50092754133115,
   "positions": {
    "TRX": {
     "coin": "TRX",
@@ -2002,14 +2002,14 @@
     "opened_ts": 1786530507.5731077,
     "tag": "copy",
     "convergence": 1,
-    "last_funding_ts": 1786656368.6354408
+    "last_funding_ts": 1786657295.5797596
    }
   },
   "realized": -10.94304392057783,
   "fees_paid": 3.308639789136431,
   "wins": 68,
   "losses": 62,
-  "funding_net": 2.7523540014363297
+  "funding_net": 2.7526112510460075
  },
  "equity_curve": [
   {
@@ -47866,6 +47866,21 @@
    "t": "2026-08-13T21:26:00+00:00",
    "cycle": 9171,
    "equity_mtm": 89.2138
+  },
+  {
+   "t": "2026-08-13T21:31:09+00:00",
+   "cycle": 9172,
+   "equity_mtm": 89.2092
+  },
+  {
+   "t": "2026-08-13T21:36:17+00:00",
+   "cycle": 9173,
+   "equity_mtm": 89.2069
+  },
+  {
+   "t": "2026-08-13T21:41:27+00:00",
+   "cycle": 9174,
+   "equity_mtm": 89.2058
   }
  ],
  "elite": [
