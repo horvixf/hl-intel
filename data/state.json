@@ -1578,7 +1578,7 @@
     "side": "SHORT",
     "size": 3.00881,
     "entry": 63045.5,
-    "notional": 189359.45735
+    "notional": 188668.935455
    }
   },
   "0x698f77f4d84ab9a6283983ade08ab68ae875a600": {},
@@ -1682,7 +1682,7 @@
     "side": "LONG",
     "size": 53030301.0,
     "entry": 0.002201,
-    "notional": 153363.630492
+    "notional": 153310.600191
    }
   },
   "0xe392e9008c49e7f82e7927a741fcb12799ebdb2b": {
@@ -1690,7 +1690,7 @@
     "side": "SHORT",
     "size": 1.2297,
     "entry": 63480.0,
-    "notional": 77391.1695
+    "notional": 77109.5682
    }
   },
   "0xf6c3b538cec8e7236408931a64d73705657e8eb0": {},
@@ -1699,20 +1699,20 @@
     "side": "SHORT",
     "size": 6900161.0,
     "entry": 0.002293,
-    "notional": 15918.671427
+    "notional": 15980.772876
    }
   },
   "0x9f83e1ca9bf3b552fd9457f266189d0cdd66eceb": {},
   "0x10f1d87fbb7617df5641d1c2bcb26f143f43202f": {
    "BTC": {
     "side": "SHORT",
-    "size": 16.14578,
-    "entry": 63544.0,
-    "notional": 1016134.6643
+    "size": 18.16005,
+    "entry": 63459.0,
+    "notional": 1138735.015275
    }
   }
  },
- "cycle": 9299,
+ "cycle": 9302,
  "fail_counts": {
   "0x3daf7f1cfd1c289e9b2fb7abb2efbd39f77455d7": 0,
   "0x6807f127eaf85e3d0b9dbc7971bbed2afd041f8d": 0,
@@ -2022,7 +2022,7 @@
   "0x10f1d87fbb7617df5641d1c2bcb26f143f43202f": 0
  },
  "paper": {
-  "equity": 88.51150033177602,
+  "equity": 88.51175823977289,
   "positions": {
    "TRX": {
     "coin": "TRX",
@@ -2035,14 +2035,14 @@
     "opened_ts": 1786530507.5731077,
     "tag": "copy",
     "convergence": 1,
-    "last_funding_ts": 1786695392.3840609
+    "last_funding_ts": 1786696321.700738
    }
   },
   "realized": -10.94304392057783,
   "fees_paid": 3.308639789136431,
   "wins": 68,
   "losses": 62,
-  "funding_net": 2.763184041490915
+  "funding_net": 2.7634419494877687
  },
  "equity_curve": [
   {
@@ -48539,6 +48539,21 @@
    "t": "2026-08-14T08:16:23+00:00",
    "cycle": 9299,
    "equity_mtm": 89.2223
+  },
+  {
+   "t": "2026-08-14T08:21:33+00:00",
+   "cycle": 9300,
+   "equity_mtm": 89.2248
+  },
+  {
+   "t": "2026-08-14T08:26:42+00:00",
+   "cycle": 9301,
+   "equity_mtm": 89.3102
+  },
+  {
+   "t": "2026-08-14T08:31:52+00:00",
+   "cycle": 9302,
+   "equity_mtm": 89.3553
   }
  ],
  "elite": [
