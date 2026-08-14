@@ -937,7 +937,7 @@
     "side": "LONG",
     "size": 2230.0293,
     "entry": 1890.25,
-    "notional": 4192009.07814
+    "notional": 4185764.9961
    }
   },
   "0x95ccaf0846757c74b33b146db85e757249b99c8a": {},
@@ -1081,11 +1081,11 @@
    }
   },
   "0xab47e5881d92c6a7c8d214b141b805f963ccc133": {
-   "DOGE": {
+   "ENA": {
     "side": "LONG",
-    "size": 34372037.0,
-    "entry": 0.073497,
-    "notional": 2420719.449799
+    "size": 2088738.0,
+    "entry": 0.094556,
+    "notional": 178816.86018
    }
   },
   "0xfbd234f73a3cfa398f36f396ba527c85006c3f9e": {},
@@ -1587,14 +1587,7 @@
     "notional": 367279.14124
    }
   },
-  "0xe1b02144c101e4f6c41bc746f854214404efa23d": {
-   "BTC": {
-    "side": "LONG",
-    "size": 9.39137,
-    "entry": 63419.9,
-    "notional": 598784.35983
-   }
-  },
+  "0xe1b02144c101e4f6c41bc746f854214404efa23d": {},
   "0x698f77f4d84ab9a6283983ade08ab68ae875a600": {},
   "0x46282a19f843e50faac7ec6a1195c323484aaf2a": {},
   "0x03d92cde581cd9d3d0f9caf98a02c8fe28382178": {},
@@ -1690,9 +1683,43 @@
    }
   },
   "0xd5d62227bb13d285689de881e6d4e4462f637a4c": {},
-  "0x396dc3e4d1051837bb559810d2b1ea7977775899": {}
+  "0x396dc3e4d1051837bb559810d2b1ea7977775899": {},
+  "0x8b08061b16a74adba15d96ab611945b9a0dce0ed": {
+   "PUMP": {
+    "side": "LONG",
+    "size": 53030301.0,
+    "entry": 0.002201,
+    "notional": 152143.933569
+   }
+  },
+  "0xe392e9008c49e7f82e7927a741fcb12799ebdb2b": {
+   "BTC": {
+    "side": "SHORT",
+    "size": 1.2297,
+    "entry": 63480.0,
+    "notional": 77704.00518
+   }
+  },
+  "0xf6c3b538cec8e7236408931a64d73705657e8eb0": {},
+  "0x96abd7547c7ef5a0c4f2bf04dcd74dd96a461b56": {
+   "kBONK": {
+    "side": "SHORT",
+    "size": 6900161.0,
+    "entry": 0.002293,
+    "notional": 15884.170622
+   }
+  },
+  "0x9f83e1ca9bf3b552fd9457f266189d0cdd66eceb": {},
+  "0x10f1d87fbb7617df5641d1c2bcb26f143f43202f": {
+   "BTC": {
+    "side": "SHORT",
+    "size": 12.41046,
+    "entry": 63686.8,
+    "notional": 784209.521124
+   }
+  }
  },
- "cycle": 9275,
+ "cycle": 9278,
  "fail_counts": {
   "0x3daf7f1cfd1c289e9b2fb7abb2efbd39f77455d7": 0,
   "0x6807f127eaf85e3d0b9dbc7971bbed2afd041f8d": 0,
@@ -1993,10 +2020,16 @@
   "0xf3ee94871a2b21307d076db89b4cc35d820b603b": 0,
   "0xa30b4afcb6bfaa306a1e1a23f3f8f635a84f354f": 0,
   "0xd5d62227bb13d285689de881e6d4e4462f637a4c": 0,
-  "0x396dc3e4d1051837bb559810d2b1ea7977775899": 0
+  "0x396dc3e4d1051837bb559810d2b1ea7977775899": 0,
+  "0x8b08061b16a74adba15d96ab611945b9a0dce0ed": 0,
+  "0xe392e9008c49e7f82e7927a741fcb12799ebdb2b": 0,
+  "0xf6c3b538cec8e7236408931a64d73705657e8eb0": 0,
+  "0x96abd7547c7ef5a0c4f2bf04dcd74dd96a461b56": 0,
+  "0x9f83e1ca9bf3b552fd9457f266189d0cdd66eceb": 0,
+  "0x10f1d87fbb7617df5641d1c2bcb26f143f43202f": 0
  },
  "paper": {
-  "equity": 88.50951386402944,
+  "equity": 88.5096917207613,
   "positions": {
    "TRX": {
     "coin": "TRX",
@@ -2009,14 +2042,14 @@
     "opened_ts": 1786530507.5731077,
     "tag": "copy",
     "convergence": 1,
-    "last_funding_ts": 1786688234.569538
+    "last_funding_ts": 1786688875.4384878
    }
   },
   "realized": -10.94304392057783,
   "fees_paid": 3.308639789136431,
   "wins": 68,
   "losses": 62,
-  "funding_net": 2.761197573744329
+  "funding_net": 2.7613754304761886
  },
  "equity_curve": [
   {
@@ -48393,24 +48426,40 @@
    "t": "2026-08-14T06:17:05+00:00",
    "cycle": 9275,
    "equity_mtm": 89.3033
+  },
+  {
+   "t": "2026-08-14T06:17:26+00:00",
+   "cycle": 9276,
+   "equity_mtm": 89.3033
+  },
+  {
+   "t": "2026-08-14T06:22:37+00:00",
+   "cycle": 9277,
+   "equity_mtm": 89.3034
+  },
+  {
+   "t": "2026-08-14T06:27:46+00:00",
+   "cycle": 9278,
+   "equity_mtm": 89.2952
   }
  ],
  "elite": [
-  "0x613ead0ea5af374af0ccfc117ef116a8e8d133fe",
   "0x1bb2a56618ef9a4f71ee90690dd8d130572b0d38",
-  "0x45514f1a518b02e68939ac2397bc148586bdb3ad",
-  "0xbde87de8fc4394383d7cc1474b652eb4e5c03392",
+  "0x8b08061b16a74adba15d96ab611945b9a0dce0ed",
   "0x07427c476501e03b1802541625cefd1df24484d2",
-  "0xc9c3092d25c97e2c01fa5502f0b61fef4b4ce485"
+  "0x13f2ca08112fd5b5df3c78c5e583d95d69900235",
+  "0xe392e9008c49e7f82e7927a741fcb12799ebdb2b",
+  "0xf6c3b538cec8e7236408931a64d73705657e8eb0",
+  "0x042dc5e8d63a155860788c6f8cdde53a91d78c1f"
  ],
  "worst": [
-  "0xb39df6c5f0ef3a6e97f9ea5585f756f210fb0b99",
-  "0xf3ee94871a2b21307d076db89b4cc35d820b603b",
-  "0xa30b4afcb6bfaa306a1e1a23f3f8f635a84f354f",
-  "0xd5d62227bb13d285689de881e6d4e4462f637a4c",
-  "0x02867e83eb85a3721422b4cddb8f4f64440eee0b",
+  "0x96abd7547c7ef5a0c4f2bf04dcd74dd96a461b56",
+  "0x9f83e1ca9bf3b552fd9457f266189d0cdd66eceb",
+  "0xe1b02144c101e4f6c41bc746f854214404efa23d",
+  "0x10f1d87fbb7617df5641d1c2bcb26f143f43202f",
+  "0xab47e5881d92c6a7c8d214b141b805f963ccc133",
   "0x396dc3e4d1051837bb559810d2b1ea7977775899",
-  "0x9b58213333765a0f3a417b189b417346dd5e2783",
+  "0xb2cccb881fa9c8ff45dbd5ddc998cfb001ce459e",
   "0x90b5e0c5ca3b0c0c47b575b0f62c07eb8b39b010"
  ]
 }
