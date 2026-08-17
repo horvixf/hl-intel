@@ -418,7 +418,7 @@
     "side": "SHORT",
     "size": 79.01604,
     "entry": 63518.1,
-    "notional": 5018498.338896
+    "notional": 5008826.7756
    }
   },
   "0x7c1ad4cc246da4a20e12fc16d4cf4f338d57fef5": {},
@@ -640,7 +640,7 @@
     "side": "LONG",
     "size": 1.06256,
     "entry": 63193.0,
-    "notional": 67485.735744
+    "notional": 67355.6784
    }
   },
   "0x2ae0c7bda14523fc6cc58d10150779517108f731": {
@@ -865,7 +865,7 @@
     "side": "LONG",
     "size": 60.44383,
     "entry": 63498.4,
-    "notional": 3838932.708492
+    "notional": 3831534.3837
    }
   },
   "0x1c26cdd513ad82b453f893e52d644887cf860089": {
@@ -1061,7 +1061,7 @@
     "side": "LONG",
     "size": 87.95668,
     "entry": 63157.8,
-    "notional": 5586339.842832
+    "notional": 5575573.9452
    }
   },
   "0xfbd234f73a3cfa398f36f396ba527c85006c3f9e": {},
@@ -1150,13 +1150,13 @@
     "side": "LONG",
     "size": 20971138.0,
     "entry": 0.002399,
-    "notional": 49261.203162
+    "notional": 49156.347472
    },
    "JUP": {
     "side": "LONG",
     "size": 150250.0,
     "entry": 0.171929,
-    "notional": 25474.8875
+    "notional": 25425.305
    }
   },
   "0x3053990d865606185cfa71100b273b502b3c36a0": {},
@@ -1372,7 +1372,7 @@
     "side": "LONG",
     "size": 7.12303,
     "entry": 63415.5,
-    "notional": 452400.730572
+    "notional": 451528.8717
    }
   },
   "0xb36147aa91470d1f63743d3c85a7de79148a0aa0": {
@@ -1680,7 +1680,7 @@
     "side": "LONG",
     "size": 1.43365,
     "entry": 63027.0,
-    "notional": 91054.55226
+    "notional": 90879.0735
    }
   },
   "0xf6c3b538cec8e7236408931a64d73705657e8eb0": {},
@@ -1838,13 +1838,13 @@
     "side": "SHORT",
     "size": 3.0,
     "entry": 62801.0,
-    "notional": 190537.2
+    "notional": 190170.0
    }
   },
   "0xbd163a8befc0a6d92d2e4983d7e178ed8907144a": {},
   "0x3b662e6562aad0c6fe52f31ca6d9915ff64118cf": {}
  },
- "cycle": 10145,
+ "cycle": 10148,
  "fail_counts": {
   "0x3daf7f1cfd1c289e9b2fb7abb2efbd39f77455d7": 0,
   "0x6807f127eaf85e3d0b9dbc7971bbed2afd041f8d": 0,
@@ -2167,7 +2167,7 @@
   "0x3b662e6562aad0c6fe52f31ca6d9915ff64118cf": 0
  },
  "paper": {
-  "equity": 88.8338626230249,
+  "equity": 88.8336133991264,
   "positions": {
    "JUP": {
     "coin": "JUP",
@@ -2180,14 +2180,14 @@
     "opened_ts": 1786942854.0955143,
     "tag": "copy",
     "convergence": 1,
-    "last_funding_ts": 1786953634.883453
+    "last_funding_ts": 1786954560.1806164
    }
   },
   "realized": -10.478457999682098,
   "fees_paid": 3.404756283895322,
   "wins": 69,
   "losses": 65,
-  "funding_net": 2.717076906603034
+  "funding_net": 2.7168276827045394
  },
  "equity_curve": [
   {
@@ -52914,6 +52914,21 @@
    "t": "2026-08-17T08:00:27+00:00",
    "cycle": 10145,
    "equity_mtm": 88.7769
+  },
+  {
+   "t": "2026-08-17T08:05:37+00:00",
+   "cycle": 10146,
+   "equity_mtm": 88.7014
+  },
+  {
+   "t": "2026-08-17T08:10:45+00:00",
+   "cycle": 10147,
+   "equity_mtm": 88.6235
+  },
+  {
+   "t": "2026-08-17T08:15:52+00:00",
+   "cycle": 10148,
+   "equity_mtm": 88.647
   }
  ],
  "elite": [
