@@ -1832,7 +1832,7 @@
     "side": "SHORT",
     "size": 4.0,
     "entry": 63015.7,
-    "notional": 258948.0
+    "notional": 258832.0
    }
   },
   "0xbd163a8befc0a6d92d2e4983d7e178ed8907144a": {},
@@ -1842,7 +1842,7 @@
     "side": "LONG",
     "size": 4.88587,
     "entry": 63544.0,
-    "notional": 316296.56619
+    "notional": 316154.87596
    }
   },
   "0x3938a7d74f692a8a662fb17d6081e3a494de22e6": {},
@@ -1851,7 +1851,7 @@
     "side": "SHORT",
     "size": 4.62731,
     "entry": 64136.0,
-    "notional": 299558.16747
+    "notional": 299423.97548
    }
   },
   "0xf91f433581d6a477eb640322e5972fd4f8d0920c": {},
@@ -1860,12 +1860,12 @@
     "side": "SHORT",
     "size": 312.0,
     "entry": 63581.5,
-    "notional": 20197944.0
+    "notional": 20188896.0
    }
   },
   "0xdabb1b4497f0d951c8b3357b85f0cbcb9ed1aaab": {}
  },
- "cycle": 10613,
+ "cycle": 10616,
  "fail_counts": {
   "0x3daf7f1cfd1c289e9b2fb7abb2efbd39f77455d7": 0,
   "0x6807f127eaf85e3d0b9dbc7971bbed2afd041f8d": 0,
@@ -55266,6 +55266,21 @@
   {
    "t": "2026-08-18T23:40:16+00:00",
    "cycle": 10613,
+   "equity_mtm": 85.2378
+  },
+  {
+   "t": "2026-08-18T23:45:27+00:00",
+   "cycle": 10614,
+   "equity_mtm": 85.2378
+  },
+  {
+   "t": "2026-08-18T23:50:35+00:00",
+   "cycle": 10615,
+   "equity_mtm": 85.2378
+  },
+  {
+   "t": "2026-08-18T23:55:44+00:00",
+   "cycle": 10616,
    "equity_mtm": 85.2378
   }
  ],
