@@ -290,7 +290,7 @@
     "side": "SHORT",
     "size": 461584948.0,
     "entry": 0.002574,
-    "notional": 1198274.525008
+    "notional": 1197351.355112
    }
   },
   "0x91b8fe97424c29806a490f18f0356fd08fb584a9": {
@@ -414,7 +414,7 @@
     "side": "LONG",
     "size": 218.6092,
     "entry": 1913.54,
-    "notional": 417784.04212
+    "notional": 417488.9197
    }
   },
   "0x8180902dad7f4c1953770ab40d3b6f03cc56012f": {},
@@ -1528,7 +1528,7 @@
     "side": "SHORT",
     "size": 1200.0,
     "entry": 1893.59,
-    "notional": 2293320.0
+    "notional": 2291700.0
    }
   },
   "0x2be36273621233a0d2ae8504af15b56ee1cf8082": {
@@ -1825,7 +1825,7 @@
     "side": "SHORT",
     "size": 10.0,
     "entry": 63955.5,
-    "notional": 642670.0
+    "notional": 642320.0
    }
   },
   "0xbd163a8befc0a6d92d2e4983d7e178ed8907144a": {},
@@ -1835,7 +1835,7 @@
     "side": "LONG",
     "size": 4.88587,
     "entry": 63544.0,
-    "notional": 313995.32142
+    "notional": 313829.20184
    }
   },
   "0x3938a7d74f692a8a662fb17d6081e3a494de22e6": {},
@@ -1844,7 +1844,7 @@
     "side": "SHORT",
     "size": 4.62731,
     "entry": 64136.0,
-    "notional": 297378.70446
+    "notional": 297221.37592
    }
   },
   "0xf91f433581d6a477eb640322e5972fd4f8d0920c": {},
@@ -1853,12 +1853,12 @@
     "side": "SHORT",
     "size": 319.63144,
     "entry": 63597.5,
-    "notional": 20541753.75448
+    "notional": 20530886.28552
    }
   },
   "0xdabb1b4497f0d951c8b3357b85f0cbcb9ed1aaab": {}
  },
- "cycle": 10686,
+ "cycle": 10687,
  "fail_counts": {
   "0x3daf7f1cfd1c289e9b2fb7abb2efbd39f77455d7": 0,
   "0x6807f127eaf85e3d0b9dbc7971bbed2afd041f8d": 0,
@@ -55624,6 +55624,11 @@
   {
    "t": "2026-08-19T05:51:54+00:00",
    "cycle": 10686,
+   "equity_mtm": 85.2378
+  },
+  {
+   "t": "2026-08-19T05:57:04+00:00",
+   "cycle": 10687,
    "equity_mtm": 85.2378
   }
  ],
