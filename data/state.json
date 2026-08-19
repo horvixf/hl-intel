@@ -1263,7 +1263,14 @@
     "notional": 234.837
    }
   },
-  "0xf68ad92ca0bc6481ad2c5d9baa48e30a25b95b5a": {},
+  "0xf68ad92ca0bc6481ad2c5d9baa48e30a25b95b5a": {
+   "BTC": {
+    "side": "LONG",
+    "size": 0.51162,
+    "entry": 64663.0,
+    "notional": 33211.30068
+   }
+  },
   "0xead1bf5330c1d872022eced43737608fb0943a8c": {},
   "0x7ad6bcd10c7344f68a93c6545893934fde5a7cdc": {},
   "0x499cdce5c5a2738284c2c638692d0a95a91ead67": {},
@@ -1652,7 +1659,7 @@
     "side": "LONG",
     "size": 53030301.0,
     "entry": 0.002201,
-    "notional": 159303.024204
+    "notional": 160310.599923
    }
   },
   "0xe392e9008c49e7f82e7927a741fcb12799ebdb2b": {},
@@ -1821,7 +1828,7 @@
     "side": "LONG",
     "size": 4.88587,
     "entry": 63544.0,
-    "notional": 315666.28896
+    "notional": 317195.56627
    }
   },
   "0x3938a7d74f692a8a662fb17d6081e3a494de22e6": {},
@@ -1837,9 +1844,9 @@
   "0xff84dd888de8ac2ed9a44860dc44e57025d68f1d": {
    "BTC": {
     "side": "SHORT",
-    "size": 339.23676,
+    "size": 289.23676,
     "entry": 63630.2,
-    "notional": 21915712.40628
+    "notional": 18775515.03864
    }
   },
   "0xdabb1b4497f0d951c8b3357b85f0cbcb9ed1aaab": {},
@@ -1848,7 +1855,7 @@
     "side": "LONG",
     "size": 4.0,
     "entry": 65056.4,
-    "notional": 258432.0
+    "notional": 259684.0
    }
   },
   "0x92e9b91aa2171694d740e7066f787739ca1af9de": {
@@ -1856,13 +1863,13 @@
     "side": "LONG",
     "size": 3.53974,
     "entry": 64111.7,
-    "notional": 228695.52192
+    "notional": 229803.46054
    },
    "ETH": {
     "side": "LONG",
     "size": 109.5602,
     "entry": 1896.29,
-    "notional": 210914.34102
+    "notional": 212283.84352
    }
   },
   "0x5cf2cc2c71231c23cd5c5a008b9339da33f0fa57": {
@@ -1870,33 +1877,27 @@
     "side": "SHORT",
     "size": 5000.0,
     "entry": 58.2702,
-    "notional": 294847.5
+    "notional": 296500.0
    }
   },
   "0x3b36a6f0214b7722f37d1dfbef2f912f61fb0073": {
-   "BTC": {
-    "side": "SHORT",
-    "size": 0.84746,
-    "entry": 63381.1,
-    "notional": 54748.45838
-   },
    "SOL": {
     "side": "SHORT",
     "size": 1977.36,
     "entry": 76.807,
-    "notional": 153453.0228
+    "notional": 155333.49216
    }
   },
   "0x6d91e49b8dc6eb2ba01f85f80626ef0878d3a39b": {
-   "ZEC": {
-    "side": "SHORT",
-    "size": 202.71,
-    "entry": 509.1317,
-    "notional": 103248.3114
+   "BTC": {
+    "side": "LONG",
+    "size": 6.24035,
+    "entry": 64651.0,
+    "notional": 405086.0799
    }
   }
  },
- "cycle": 10766,
+ "cycle": 10769,
  "fail_counts": {
   "0x3daf7f1cfd1c289e9b2fb7abb2efbd39f77455d7": 0,
   "0x6807f127eaf85e3d0b9dbc7971bbed2afd041f8d": 0,
@@ -56067,6 +56068,21 @@
   {
    "t": "2026-08-19T12:35:09+00:00",
    "cycle": 10766,
+   "equity_mtm": 85.2378
+  },
+  {
+   "t": "2026-08-19T12:40:18+00:00",
+   "cycle": 10767,
+   "equity_mtm": 85.2378
+  },
+  {
+   "t": "2026-08-19T12:45:24+00:00",
+   "cycle": 10768,
+   "equity_mtm": 85.2378
+  },
+  {
+   "t": "2026-08-19T12:50:31+00:00",
+   "cycle": 10769,
    "equity_mtm": 85.2378
   }
  ],
