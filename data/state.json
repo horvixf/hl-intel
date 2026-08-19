@@ -1521,7 +1521,7 @@
     "side": "SHORT",
     "size": 1200.0,
     "entry": 1893.59,
-    "notional": 2300724.0
+    "notional": 2300280.0
    }
   },
   "0x2be36273621233a0d2ae8504af15b56ee1cf8082": {
@@ -1659,7 +1659,7 @@
     "side": "LONG",
     "size": 53030301.0,
     "entry": 0.002201,
-    "notional": 157606.054572
+    "notional": 158189.387883
    }
   },
   "0xe392e9008c49e7f82e7927a741fcb12799ebdb2b": {},
@@ -1828,7 +1828,7 @@
     "side": "LONG",
     "size": 4.88587,
     "entry": 63544.0,
-    "notional": 314430.16385
+    "notional": 314405.7345
    }
   },
   "0x3938a7d74f692a8a662fb17d6081e3a494de22e6": {},
@@ -1846,7 +1846,7 @@
     "side": "SHORT",
     "size": 339.23676,
     "entry": 63630.2,
-    "notional": 21831242.45304
+    "notional": 21829885.506
    }
   },
   "0xdabb1b4497f0d951c8b3357b85f0cbcb9ed1aaab": {},
@@ -1855,7 +1855,7 @@
     "side": "LONG",
     "size": 4.0,
     "entry": 65056.4,
-    "notional": 257420.0
+    "notional": 257400.0
    }
   },
   "0x92e9b91aa2171694d740e7066f787739ca1af9de": {
@@ -1863,13 +1863,13 @@
     "side": "LONG",
     "size": 3.53974,
     "entry": 64111.7,
-    "notional": 227796.42796
+    "notional": 227782.269
    },
    "ETH": {
     "side": "LONG",
     "size": 109.5602,
     "entry": 1896.29,
-    "notional": 210056.484654
+    "notional": 210015.94738
    }
   },
   "0x5cf2cc2c71231c23cd5c5a008b9339da33f0fa57": {
@@ -1877,7 +1877,7 @@
     "side": "SHORT",
     "size": 5000.0,
     "entry": 58.2702,
-    "notional": 291075.0
+    "notional": 291144.0
    }
   },
   "0x3b36a6f0214b7722f37d1dfbef2f912f61fb0073": {
@@ -1885,13 +1885,13 @@
     "side": "SHORT",
     "size": 0.84746,
     "entry": 63381.1,
-    "notional": 54537.44084
+    "notional": 54534.051
    },
    "SOL": {
     "side": "SHORT",
     "size": 1977.36,
     "entry": 76.807,
-    "notional": 152683.82976
+    "notional": 152662.0788
    }
   },
   "0x6d91e49b8dc6eb2ba01f85f80626ef0878d3a39b": {
@@ -1899,11 +1899,11 @@
     "side": "SHORT",
     "size": 202.71,
     "entry": 509.1317,
-    "notional": 102366.5229
+    "notional": 102400.9836
    }
   }
  },
- "cycle": 10738,
+ "cycle": 10741,
  "fail_counts": {
   "0x3daf7f1cfd1c289e9b2fb7abb2efbd39f77455d7": 0,
   "0x6807f127eaf85e3d0b9dbc7971bbed2afd041f8d": 0,
@@ -55934,6 +55934,21 @@
   {
    "t": "2026-08-19T10:15:55+00:00",
    "cycle": 10738,
+   "equity_mtm": 85.2378
+  },
+  {
+   "t": "2026-08-19T10:21:07+00:00",
+   "cycle": 10739,
+   "equity_mtm": 85.2378
+  },
+  {
+   "t": "2026-08-19T10:26:15+00:00",
+   "cycle": 10740,
+   "equity_mtm": 85.2378
+  },
+  {
+   "t": "2026-08-19T10:31:24+00:00",
+   "cycle": 10741,
    "equity_mtm": 85.2378
   }
  ],
