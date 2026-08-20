@@ -1652,13 +1652,13 @@
     "side": "SHORT",
     "size": 3.60517,
     "entry": 68352.5,
-    "notional": 249708.49488
+    "notional": 249935.62059
    },
    "PUMP": {
     "side": "LONG",
     "size": 50378788.0,
     "entry": 0.002201,
-    "notional": 154461.364008
+    "notional": 156224.621588
    }
   },
   "0xe392e9008c49e7f82e7927a741fcb12799ebdb2b": {},
@@ -1827,7 +1827,7 @@
     "side": "SHORT",
     "size": 4.2464,
     "entry": 69674.9,
-    "notional": 294126.896
+    "notional": 294390.1728
    }
   },
   "0x3938a7d74f692a8a662fb17d6081e3a494de22e6": {},
@@ -1845,23 +1845,36 @@
     "side": "SHORT",
     "size": 20.0,
     "entry": 69493.0,
-    "notional": 1385320.0
+    "notional": 1386440.0
    }
   },
   "0xdabb1b4497f0d951c8b3357b85f0cbcb9ed1aaab": {},
-  "0xaa9fc48c6fc41b61fa4ddf1746c4fb13e7d258a5": {},
+  "0xaa9fc48c6fc41b61fa4ddf1746c4fb13e7d258a5": {
+   "TRUMP": {
+    "side": "SHORT",
+    "size": 15737.7,
+    "entry": 1.77283,
+    "notional": 27721.95855
+   },
+   "CASHCAT": {
+    "side": "LONG",
+    "size": 114754.0,
+    "entry": 0.118632,
+    "notional": 13645.39814
+   }
+  },
   "0x92e9b91aa2171694d740e7066f787739ca1af9de": {
    "BTC": {
     "side": "LONG",
     "size": 3.53974,
     "entry": 64111.7,
-    "notional": 245180.0911
+    "notional": 245399.55498
    },
    "ETH": {
     "side": "LONG",
     "size": 109.5602,
     "entry": 1896.29,
-    "notional": 246970.60284
+    "notional": 246992.51488
    }
   },
   "0x5cf2cc2c71231c23cd5c5a008b9339da33f0fa57": {},
@@ -1869,13 +1882,13 @@
   "0x6d91e49b8dc6eb2ba01f85f80626ef0878d3a39b": {
    "BTC": {
     "side": "SHORT",
-    "size": 12.79762,
-    "entry": 69464.2,
-    "notional": 886439.94692
+    "size": 10.05199,
+    "entry": 69340.9,
+    "notional": 696824.05078
    }
   }
  },
- "cycle": 10916,
+ "cycle": 10919,
  "fail_counts": {
   "0x3daf7f1cfd1c289e9b2fb7abb2efbd39f77455d7": 0,
   "0x6807f127eaf85e3d0b9dbc7971bbed2afd041f8d": 0,
@@ -2209,7 +2222,7 @@
   "0x6d91e49b8dc6eb2ba01f85f80626ef0878d3a39b": 0
  },
  "paper": {
-  "equity": 87.38983804548101,
+  "equity": 87.36585170803653,
   "positions": {
    "BTC": {
     "coin": "BTC",
@@ -2222,14 +2235,40 @@
     "opened_ts": 1787178739.922889,
     "tag": "copy",
     "convergence": 3,
-    "last_funding_ts": 1787188617.8375354
+    "last_funding_ts": 1787189542.7574441
+   },
+   "TRUMP": {
+    "coin": "TRUMP",
+    "side": "SHORT",
+    "entry": 1.774617455,
+    "notional": 78.65085424093292,
+    "margin": 26.216951413644303,
+    "src": "0xaa9fc48c6fc41b61fa4ddf1746c4fb13e7d258a5",
+    "opened": "2026-08-20T01:22:06+00:00",
+    "opened_ts": 1787188926.5523827,
+    "tag": "copy",
+    "convergence": 1,
+    "last_funding_ts": 1787189542.7574441
+   },
+   "CASHCAT": {
+    "coin": "CASHCAT",
+    "side": "LONG",
+    "entry": 0.1187005995,
+    "notional": 78.64012246458684,
+    "margin": 26.21337415486228,
+    "src": "0xaa9fc48c6fc41b61fa4ddf1746c4fb13e7d258a5",
+    "opened": "2026-08-20T01:27:14+00:00",
+    "opened_ts": 1787189234.4396012,
+    "tag": "copy",
+    "convergence": 1,
+    "last_funding_ts": 1787189542.7574441
    }
   },
   "realized": -11.68709861196923,
-  "fees_paid": 3.633271266916971,
+  "fees_paid": 3.656864913422799,
   "wins": 73,
   "losses": 69,
-  "funding_net": 2.710207924367938
+  "funding_net": 2.7098152334292784
  },
  "equity_curve": [
   {
@@ -56811,6 +56850,21 @@
    "t": "2026-08-20T01:16:50+00:00",
    "cycle": 10916,
    "equity_mtm": 87.5763
+  },
+  {
+   "t": "2026-08-20T01:21:59+00:00",
+   "cycle": 10917,
+   "equity_mtm": 87.6602
+  },
+  {
+   "t": "2026-08-20T01:27:07+00:00",
+   "cycle": 10918,
+   "equity_mtm": 87.2573
+  },
+  {
+   "t": "2026-08-20T01:32:15+00:00",
+   "cycle": 10919,
+   "equity_mtm": 88.4771
   }
  ],
  "elite": [
