@@ -409,3 +409,5 @@
 {"t": "2026-09-06T01:16:32+00:00", "act": "OPEN", "tag": "copy", "coin": "ARB", "side": "LONG", "px": 0.192617768, "notional": 71.28, "fee": 0.0107, "conv": 1, "src": "0x384fd95e"}
 {"t": "2026-09-06T01:32:08+00:00", "act": "CLOSE", "tag": "copy", "coin": "ARB", "side": "LONG", "px": 0.191412559, "pnl": -0.446, "fee": 0.0106, "reason": "src_closed"}
 {"t": "2026-09-06T03:47:49+00:00", "act": "OPEN", "tag": "copy", "coin": "PENGU", "side": "LONG", "px": 0.008940681399999999, "notional": 70.85, "fee": 0.0106, "conv": 1, "src": "0xf83a6fc4"}
+{"t": "2026-09-06T14:25:07+00:00", "act": "CLOSE", "tag": "copy", "coin": "LIT", "side": "LONG", "px": 4.549884625, "pnl": -1.4053, "fee": 0.0162, "reason": "max_hold"}
+{"t": "2026-09-06T14:25:07+00:00", "act": "CLOSE", "tag": "copy", "coin": "PENGU", "side": "LONG", "px": 0.0085784257, "pnl": -2.8708, "fee": 0.0102, "reason": "stop_loss"}
