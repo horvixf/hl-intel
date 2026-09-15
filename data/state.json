@@ -490,13 +490,13 @@
     "side": "LONG",
     "size": 78.969,
     "entry": 2533.51,
-    "notional": 195464.0688
+    "notional": 195533.56152
    },
    "LIT": {
     "side": "LONG",
     "size": 130144.0,
     "entry": 4.779719,
-    "notional": 570681.44
+    "notional": 571748.6208
    }
   },
   "0x178031baf4bf011a2c2190066c2d762e45d4eff8": {},
@@ -3226,7 +3226,7 @@
     "side": "LONG",
     "size": 345.14,
     "entry": 1172.6222,
-    "notional": 394805.646
+    "notional": 394909.188
    }
   },
   "0x2f7b23210488e418aeb330434cf93c988098ffe5": {},
@@ -3846,19 +3846,19 @@
     "side": "LONG",
     "size": 101392.9,
     "entry": 0.47977,
-    "notional": 51394.033152
+    "notional": 51380.852075
    },
    "RENDER": {
     "side": "LONG",
     "size": 20552.1,
     "entry": 1.49618,
-    "notional": 27942.63516
+    "notional": 27967.29768
    },
    "XMR": {
     "side": "LONG",
     "size": 145.759,
     "entry": 530.723,
-    "notional": 75415.7066
+    "notional": 75434.65527
    }
   },
   "0xcdf73290cb271fc6b5aa3723eae9a0086baaa50f": {},
@@ -3883,7 +3883,7 @@
     "side": "SHORT",
     "size": 6.0,
     "entry": 77534.3,
-    "notional": 461658.0
+    "notional": 461976.0
    }
   },
   "0xf855fad4fe75406295fde3a8c6ee766f56dc1b36": {
@@ -3934,7 +3934,7 @@
     "side": "LONG",
     "size": 1997652.0,
     "entry": 0.200289,
-    "notional": 308677.18704
+    "notional": 308101.863264
    }
   },
   "0x4d7a99d36d2bd21aece4c96fee3ab8ff5c904be4": {
@@ -3966,7 +3966,7 @@
     "side": "LONG",
     "size": 397122.0,
     "entry": 0.1724,
-    "notional": 61327.55046
+    "notional": 61248.920304
    }
   },
   "0x022a28b812c3bba67d42f5a555f29d44de91d5d8": {
@@ -3982,7 +3982,7 @@
     "side": "LONG",
     "size": 11.8399,
     "entry": 2498.76,
-    "notional": 29306.12048
+    "notional": 29316.539592
    }
   },
   "0x47818abc02d61af1e586d3ceb035591aeae4548f": {
@@ -4118,7 +4118,7 @@
     "side": "SHORT",
     "size": 53.8329,
     "entry": 76812.2,
-    "notional": 4142064.8247
+    "notional": 4144917.9684
    }
   },
   "0x48aa8c493f882117d32d857480a133bb9541ab79": {
@@ -4126,7 +4126,7 @@
     "side": "LONG",
     "size": 2.06983,
     "entry": 78769.3,
-    "notional": 159258.92969
+    "notional": 159368.63068
    }
   },
   "0x2c13891b6d8fede1478e00567cea0004b931172a": {
@@ -4134,13 +4134,13 @@
     "side": "LONG",
     "size": 2.6001,
     "entry": 77151.2,
-    "notional": 200059.4943
+    "notional": 200197.2996
    },
    "ETH": {
     "side": "LONG",
     "size": 60.0106,
     "entry": 2240.81,
-    "notional": 148526.235
+    "notional": 148586.2456
    }
   },
   "0xe0b0d675a903ae6fd3bffbfa86ee0939c21805d8": {},
@@ -4151,12 +4151,12 @@
     "side": "LONG",
     "size": 80.0,
     "entry": 1158.5847,
-    "notional": 91504.0
+    "notional": 91536.0
    }
   },
   "0x27bad23bf5e789c6f943ff8fc090e42c4a24ad80": {}
  },
- "cycle": 18332,
+ "cycle": 18333,
  "fail_counts": {
   "0x3daf7f1cfd1c289e9b2fb7abb2efbd39f77455d7": 0,
   "0x6807f127eaf85e3d0b9dbc7971bbed2afd041f8d": 0,
@@ -4703,7 +4703,7 @@
   "0x27bad23bf5e789c6f943ff8fc090e42c4a24ad80": 0
  },
  "paper": {
-  "equity": 89.44889585253071,
+  "equity": 89.44864839379748,
   "positions": {
    "ETH": {
     "coin": "ETH",
@@ -4716,7 +4716,7 @@
     "opened_ts": 1789389610.112195,
     "tag": "copy",
     "convergence": 3,
-    "last_funding_ts": 1789467646.9076214
+    "last_funding_ts": 1789467960.4429128
    },
    "BTC": {
     "coin": "BTC",
@@ -4729,14 +4729,14 @@
     "opened_ts": 1789415383.333973,
     "tag": "copy",
     "convergence": 2,
-    "last_funding_ts": 1789467646.9076214
+    "last_funding_ts": 1789467960.4429128
    }
   },
   "realized": -5.809887484683695,
   "fees_paid": 5.765874527521456,
   "wins": 110,
   "losses": 110,
-  "funding_net": 1.024657864737505
+  "funding_net": 1.0244104060042674
  },
  "equity_curve": [
   {
@@ -96398,6 +96398,11 @@
    "t": "2026-09-15T10:20:35+00:00",
    "cycle": 18332,
    "equity_mtm": 84.7519
+  },
+  {
+   "t": "2026-09-15T10:25:48+00:00",
+   "cycle": 18333,
+   "equity_mtm": 84.8527
   }
  ],
  "elite": [
