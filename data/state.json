@@ -1938,7 +1938,7 @@
     "side": "SHORT",
     "size": 7.72816,
     "entry": 80306.0,
-    "notional": 620864.91808
+    "notional": 620863.372448
    }
   },
   "0x3376feb027dffa68c6f92ce6e35c0ff57cd18a05": {
@@ -3677,37 +3677,37 @@
     "side": "LONG",
     "size": 96391.5,
     "entry": 0.16094,
-    "notional": 20592.116145
+    "notional": 20552.59563
    },
    "UNI": {
     "side": "LONG",
     "size": 5013.2,
     "entry": 5.78842,
-    "notional": 43985.8168
+    "notional": 44041.96464
    },
    "NEAR": {
     "side": "LONG",
     "size": 16621.9,
     "entry": 1.98245,
-    "notional": 59198.89685
+    "notional": 59429.94126
    },
    "ENA": {
     "side": "LONG",
     "size": 304675.0,
     "entry": 0.152497,
-    "notional": 62289.889725
+    "notional": 61946.521
    },
    "LIT": {
     "side": "LONG",
     "size": 3265.0,
     "entry": 3.713546,
-    "notional": 15290.3215
+    "notional": 15289.995
    },
    "PONS": {
     "side": "LONG",
     "size": 23009.0,
     "entry": 0.345855,
-    "notional": 13279.87444
+    "notional": 13241.21932
    }
   },
   "0xb2e5d07630a5af64984c839dda967a631fdabc9b": {
@@ -4002,13 +4002,13 @@
     "side": "LONG",
     "size": 95.6271,
     "entry": 2518.21,
-    "notional": 245780.77242
+    "notional": 245809.46055
    },
    "NEAR": {
     "side": "LONG",
     "size": 38725.1,
     "entry": 2.88656,
-    "notional": 137919.44365
+    "notional": 138457.72254
    }
   },
   "0x47818abc02d61af1e586d3ceb035591aeae4548f": {
@@ -4391,7 +4391,7 @@
     "side": "SHORT",
     "size": 6772.0,
     "entry": 8.86,
-    "notional": 59417.528
+    "notional": 59493.3744
    }
   },
   "0x7b48403431accf4106b8bf9f4dc5d14d970f3ce8": {
@@ -4428,7 +4428,7 @@
     "side": "SHORT",
     "size": 4.23961,
     "entry": 80779.0,
-    "notional": 340597.54857
+    "notional": 340600.940258
    }
   },
   "0xbac2d8e1e3ef8cba378564667be59a2e2d8ed897": {
@@ -4444,7 +4444,7 @@
     "side": "LONG",
     "size": 4.88289,
     "entry": 75686.9,
-    "notional": 392276.73393
+    "notional": 392280.640242
    }
   },
   "0x8bf9b4f90d223f534b5670e01fa2ed2f9cf767fb": {
@@ -4452,31 +4452,31 @@
     "side": "LONG",
     "size": 1700.0,
     "entry": 96.5142,
-    "notional": 183770.0
+    "notional": 183685.0
    },
    "AVAX": {
     "side": "LONG",
     "size": 4000.0,
     "entry": 7.7738,
-    "notional": 39055.2
+    "notional": 39166.0
    },
    "STX": {
     "side": "LONG",
     "size": 45000.0,
     "entry": 0.26758,
-    "notional": 14143.05
+    "notional": 14255.1
    },
    "NEAR": {
     "side": "LONG",
     "size": 6000.0,
     "entry": 2.84867,
-    "notional": 21369.0
+    "notional": 21452.4
    },
    "ZEC": {
     "side": "LONG",
     "size": 140.0,
     "entry": 913.8979,
-    "notional": 201110.0
+    "notional": 201586.0
    }
   },
   "0xb371766bcdcd556ce6b6cf164be6019d01441042": {
@@ -4484,32 +4484,38 @@
     "side": "SHORT",
     "size": 17.00432,
     "entry": 78571.5,
-    "notional": 1366076.05584
+    "notional": 1366089.659296
    },
    "ETH": {
     "side": "SHORT",
-    "size": 200.0037,
-    "entry": 2589.87,
-    "notional": 514049.50974
+    "size": 250.0037,
+    "entry": 2586.02,
+    "notional": 642634.51085
    }
   },
   "0xabda27612fb3be912571dfe95cacd193a84f2311": {},
   "0xccf3fff396a14d55d93366f870c007425e9f2a75": {
+   "ETH": {
+    "side": "SHORT",
+    "size": 478.956,
+    "entry": 2570.54,
+    "notional": 1231156.398
+   },
+   "SOL": {
+    "side": "SHORT",
+    "size": 3210.48,
+    "entry": 108.0157,
+    "notional": 346892.364
+   },
    "UNI": {
     "side": "SHORT",
-    "size": 4979.3,
-    "entry": 8.77989,
-    "notional": 43688.3782
-   },
-   "ZEC": {
-    "side": "LONG",
-    "size": 67.38,
-    "entry": 1448.1834,
-    "notional": 96798.108
+    "size": 11679.3,
+    "entry": 8.7767,
+    "notional": 102604.98636
    }
   }
  },
- "cycle": 19733,
+ "cycle": 19736,
  "fail_counts": {
   "0x3daf7f1cfd1c289e9b2fb7abb2efbd39f77455d7": 0,
   "0x6807f127eaf85e3d0b9dbc7971bbed2afd041f8d": 0,
@@ -5090,7 +5096,7 @@
   "0xccf3fff396a14d55d93366f870c007425e9f2a75": 0
  },
  "paper": {
-  "equity": 112.36553583271488,
+  "equity": 112.3656920613751,
   "positions": {
    "AVAX": {
     "coin": "AVAX",
@@ -5103,7 +5109,7 @@
     "opened_ts": 1789758617.695995,
     "tag": "copy",
     "convergence": 1,
-    "last_funding_ts": 1789901823.510843
+    "last_funding_ts": 1789902752.102467
    },
    "BTC": {
     "coin": "BTC",
@@ -5116,14 +5122,14 @@
     "opened_ts": 1789764857.3794057,
     "tag": "copy",
     "convergence": 2,
-    "last_funding_ts": 1789901823.510843
+    "last_funding_ts": 1789902752.102467
    }
   },
   "realized": 17.82951295618779,
   "fees_paid": 6.270108732755707,
   "wins": 119,
   "losses": 116,
-  "funding_net": 0.8061316092845761
+  "funding_net": 0.8062878379448126
  },
  "equity_curve": [
   {
@@ -103790,6 +103796,21 @@
    "t": "2026-09-20T10:56:54+00:00",
    "cycle": 19733,
    "equity_mtm": 130.5385
+  },
+  {
+   "t": "2026-09-20T11:02:04+00:00",
+   "cycle": 19734,
+   "equity_mtm": 130.5842
+  },
+  {
+   "t": "2026-09-20T11:07:14+00:00",
+   "cycle": 19735,
+   "equity_mtm": 131.1099
+  },
+  {
+   "t": "2026-09-20T11:12:23+00:00",
+   "cycle": 19736,
+   "equity_mtm": 130.9225
   }
  ],
  "elite": [
