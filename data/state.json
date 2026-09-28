@@ -4017,7 +4017,7 @@
     "side": "SHORT",
     "size": 18.02323,
     "entry": 85289.4,
-    "notional": 1508922.83883
+    "notional": 1512617.60098
    }
   },
   "0x98399de6ca852dd8b7dd21225a32c28c95574b25": {
@@ -5042,7 +5042,14 @@
    }
   },
   "0x54fb2d85d4c6da7f71bba9f3a1b5047a25603f1c": {},
-  "0x65df90bee127f9d5da5095ac9b395d1152002f43": {},
+  "0x65df90bee127f9d5da5095ac9b395d1152002f43": {
+   "BTC": {
+    "side": "SHORT",
+    "size": 6.57192,
+    "entry": 84043.0,
+    "notional": 551554.95792
+   }
+  },
   "0xfd2f37d266d4e7c04e9e33421f2513bf49d32d11": {
    "BTC": {
     "side": "LONG",
@@ -5148,7 +5155,7 @@
     "side": "LONG",
     "size": 16.35764,
     "entry": 87266.7,
-    "notional": 1369347.11732
+    "notional": 1372831.29464
    }
   },
   "0x711d0883044c616763e61082b932e270d268e560": {
@@ -5156,7 +5163,7 @@
     "side": "LONG",
     "size": 17000.0,
     "entry": 5.17007,
-    "notional": 84107.5
+    "notional": 84376.1
    }
   },
   "0xcbe3a5b97e4d438ca2435e40505fd98fc332e4b1": {
@@ -5173,39 +5180,45 @@
     "side": "LONG",
     "size": 10819.3,
     "entry": 13.96056,
-    "notional": 160861.3524
+    "notional": 163360.6107
    },
    "TRB": {
     "side": "LONG",
     "size": 522.04,
     "entry": 18.8064,
-    "notional": 9999.6762
+    "notional": 9991.32356
+   },
+   "PENDLE": {
+    "side": "LONG",
+    "size": 11625.0,
+    "entry": 2.414509,
+    "notional": 28056.4725
    },
    "ONDO": {
     "side": "LONG",
     "size": 340680.0,
     "entry": 0.515938,
-    "notional": 177814.5192
+    "notional": 178172.2332
    },
    "HBAR": {
     "side": "LONG",
     "size": 926008.0,
     "entry": 0.113963,
-    "notional": 117723.39704
+    "notional": 117973.4192
    }
   },
   "0xfe35dfb17f226a61d1f8f318990e6d27944d6002": {
    "BTC": {
     "side": "LONG",
-    "size": 28.07661,
-    "entry": 83122.6,
-    "notional": 2350377.25293
+    "size": 28.77164,
+    "entry": 83141.4,
+    "notional": 2414688.65864
    }
   },
   "0x2bc0cc3b1a9d19ec8cea4e5ad76a8f553a81e106": {},
   "0x0743f8217b4b913743327497fbb6eecfa074cb25": {}
  },
- "cycle": 22060,
+ "cycle": 22063,
  "fail_counts": {
   "0x3daf7f1cfd1c289e9b2fb7abb2efbd39f77455d7": 0,
   "0x6807f127eaf85e3d0b9dbc7971bbed2afd041f8d": 0,
@@ -5839,7 +5852,7 @@
   "0x0743f8217b4b913743327497fbb6eecfa074cb25": 0
  },
  "paper": {
-  "equity": 127.97964032153332,
+  "equity": 127.97835415948482,
   "positions": {
    "HYPE": {
     "coin": "HYPE",
@@ -5852,7 +5865,7 @@
     "opened_ts": 1790583138.9554212,
     "tag": "copy",
     "convergence": 2,
-    "last_funding_ts": 1790612514.0090044
+    "last_funding_ts": 1790613438.3943677
    },
    "ONDO": {
     "coin": "ONDO",
@@ -5865,7 +5878,7 @@
     "opened_ts": 1790589953.1948304,
     "tag": "copy",
     "convergence": 1,
-    "last_funding_ts": 1790612514.0090044
+    "last_funding_ts": 1790613438.3943677
    },
    "LINK": {
     "coin": "LINK",
@@ -5878,14 +5891,14 @@
     "opened_ts": 1790592114.891901,
     "tag": "copy",
     "convergence": 1,
-    "last_funding_ts": 1790612514.0090044
+    "last_funding_ts": 1790613438.3943677
    }
   },
   "realized": 35.049664522397265,
   "fees_paid": 7.272349971538438,
   "wins": 129,
   "losses": 129,
-  "funding_net": 0.20232577067640348
+  "funding_net": 0.20103960862789857
  },
  "equity_curve": [
   {
@@ -116187,6 +116200,21 @@
    "t": "2026-09-28T16:21:46+00:00",
    "cycle": 22060,
    "equity_mtm": 137.8686
+  },
+  {
+   "t": "2026-09-28T16:26:55+00:00",
+   "cycle": 22061,
+   "equity_mtm": 140.6306
+  },
+  {
+   "t": "2026-09-28T16:32:03+00:00",
+   "cycle": 22062,
+   "equity_mtm": 140.9436
+  },
+  {
+   "t": "2026-09-28T16:37:10+00:00",
+   "cycle": 22063,
+   "equity_mtm": 140.7272
   }
  ],
  "elite": [
