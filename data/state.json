@@ -516,7 +516,7 @@
     "side": "LONG",
     "size": 31596.0,
     "entry": 4.74852,
-    "notional": 102232.0176
+    "notional": 102712.2768
    }
   },
   "0x178031baf4bf011a2c2190066c2d762e45d4eff8": {},
@@ -5789,7 +5789,14 @@
    }
   },
   "0x86210bfd1220bcc22a445c9c0261a8541ff6101b": {},
-  "0x4b67337795c5e1ca1aaea307f57b79419c632c88": {},
+  "0x4b67337795c5e1ca1aaea307f57b79419c632c88": {
+   "kPEPE": {
+    "side": "LONG",
+    "size": 247341084.0,
+    "entry": 0.004059,
+    "notional": 1005936.188628
+   }
+  },
   "0x3b3d9656b93d21729e15e0bc3566dd4fd1e5b464": {
    "BTC": {
     "side": "LONG",
@@ -5828,13 +5835,13 @@
     "side": "LONG",
     "size": 7675.5,
     "entry": 5.21133,
-    "notional": 40287.93195
+    "notional": 40357.779
    },
    "ENA": {
     "side": "LONG",
     "size": 441337.0,
     "entry": 0.240702,
-    "notional": 91096.37017
+    "notional": 91228.77127
    }
   },
   "0x45f54ca868ba81ccf309413f34014228d43a92e3": {
@@ -5877,7 +5884,7 @@
     "side": "LONG",
     "size": 16179.8,
     "entry": 4.73323,
-    "notional": 84926.15222
+    "notional": 85055.59062
    }
   },
   "0xc3baee00470d78c489b623f405e57d5d99bc0f33": {
@@ -6196,13 +6203,13 @@
     "side": "LONG",
     "size": 19000.0,
     "entry": 1.954526,
-    "notional": 40699.9
+    "notional": 40793.0
    },
    "ENA": {
     "side": "LONG",
     "size": 620000.0,
     "entry": 0.190757,
-    "notional": 127974.2
+    "notional": 128160.2
    }
   },
   "0x3f240a16bb7c34302cab342227207acc3d9e0d4d": {
@@ -6210,13 +6217,13 @@
     "side": "LONG",
     "size": 40.96,
     "entry": 2555.4,
-    "notional": 100716.544
+    "notional": 100634.624
    },
    "JUP": {
     "side": "LONG",
     "size": 86024.0,
     "entry": 0.35391,
-    "notional": 26611.5244
+    "notional": 26664.85928
    }
   },
   "0xe668c4300f51344d8e6cee6294cb9cd1fb5fb5ca": {
@@ -6224,7 +6231,7 @@
     "side": "SHORT",
     "size": 544.0662,
     "entry": 2476.72,
-    "notional": 1337804.37918
+    "notional": 1336716.24678
    }
   },
   "0xbdc131d074c1fc164e64c3e81353fd946ab71155": {},
@@ -6236,11 +6243,11 @@
     "side": "LONG",
     "size": 193568.0,
     "entry": 1.325509,
-    "notional": 258006.7872
+    "notional": 258243.714432
    }
   }
  },
- "cycle": 27095,
+ "cycle": 27098,
  "fail_counts": {
   "0x3daf7f1cfd1c289e9b2fb7abb2efbd39f77455d7": 0,
   "0x6807f127eaf85e3d0b9dbc7971bbed2afd041f8d": 0,
@@ -6989,7 +6996,7 @@
   "0x28a213d7d17a93bf6242064bd7270ab2140b9f10": 0
  },
  "paper": {
-  "equity": 133.89784684788694,
+  "equity": 133.87894690238448,
   "positions": {
    "UNI": {
     "coin": "UNI",
@@ -7002,7 +7009,7 @@
     "opened_ts": 1792043307.125531,
     "tag": "copy",
     "convergence": 1,
-    "last_funding_ts": 1792157960.1638067
+    "last_funding_ts": 1792158889.9786906
    },
    "ENA": {
     "coin": "ENA",
@@ -7015,14 +7022,27 @@
     "opened_ts": 1792043307.1259015,
     "tag": "copy",
     "convergence": 1,
-    "last_funding_ts": 1792157960.1638067
+    "last_funding_ts": 1792158889.9786906
+   },
+   "kPEPE": {
+    "coin": "kPEPE",
+    "side": "LONG",
+    "entry": 0.0040682201000000005,
+    "notional": 120.50756717074503,
+    "margin": 40.16918905691501,
+    "src": "0x4b67337795c5e1ca1aaea307f57b79419c632c88",
+    "opened": "2026-10-16T13:54:49+00:00",
+    "opened_ts": 1792158889.3287513,
+    "tag": "copy",
+    "convergence": 1,
+    "last_funding_ts": 1792158889.9786906
    }
   },
   "realized": 43.21204179467666,
-  "fees_paid": 8.654556143811327,
+  "fees_paid": 8.672632278886939,
   "wins": 149,
   "losses": 146,
-  "funding_net": -0.6596388029773232
+  "funding_net": -0.6604626134041742
  },
  "equity_curve": [
   {
@@ -142499,6 +142519,21 @@
    "t": "2026-10-16T13:39:10+00:00",
    "cycle": 27095,
    "equity_mtm": 157.86
+  },
+  {
+   "t": "2026-10-16T13:44:21+00:00",
+   "cycle": 27096,
+   "equity_mtm": 158.3287
+  },
+  {
+   "t": "2026-10-16T13:49:31+00:00",
+   "cycle": 27097,
+   "equity_mtm": 157.2194
+  },
+  {
+   "t": "2026-10-16T13:54:40+00:00",
+   "cycle": 27098,
+   "equity_mtm": 157.9208
   }
  ],
  "elite": [
