@@ -516,7 +516,7 @@
     "side": "LONG",
     "size": 31596.0,
     "entry": 4.74852,
-    "notional": 104345.063292
+    "notional": 102705.9576
    }
   },
   "0x178031baf4bf011a2c2190066c2d762e45d4eff8": {},
@@ -5828,13 +5828,13 @@
     "side": "LONG",
     "size": 7675.5,
     "entry": 5.21133,
-    "notional": 40655.5884
+    "notional": 40127.514
    },
    "ENA": {
     "side": "LONG",
     "size": 441337.0,
     "entry": 0.240702,
-    "notional": 91043.40973
+    "notional": 90549.11229
    }
   },
   "0x45f54ca868ba81ccf309413f34014228d43a92e3": {
@@ -5877,7 +5877,7 @@
     "side": "LONG",
     "size": 16179.8,
     "entry": 4.73323,
-    "notional": 85701.16464
+    "notional": 84587.9944
    }
   },
   "0xc3baee00470d78c489b623f405e57d5d99bc0f33": {
@@ -6196,13 +6196,13 @@
     "side": "LONG",
     "size": 19000.0,
     "entry": 1.954526,
-    "notional": 41152.1
+    "notional": 40680.9
    },
    "ENA": {
     "side": "LONG",
     "size": 620000.0,
     "entry": 0.190757,
-    "notional": 127899.8
+    "notional": 127205.4
    }
   },
   "0x3f240a16bb7c34302cab342227207acc3d9e0d4d": {
@@ -6210,13 +6210,13 @@
     "side": "LONG",
     "size": 40.96,
     "entry": 2555.4,
-    "notional": 101236.736
+    "notional": 100937.728
    },
    "JUP": {
     "side": "LONG",
     "size": 86024.0,
     "entry": 0.35391,
-    "notional": 26882.5
+    "notional": 26644.21352
    }
   },
   "0xe668c4300f51344d8e6cee6294cb9cd1fb5fb5ca": {
@@ -6224,7 +6224,7 @@
     "side": "SHORT",
     "size": 544.0662,
     "entry": 2476.72,
-    "notional": 1344714.01992
+    "notional": 1340742.33666
    }
   },
   "0xbdc131d074c1fc164e64c3e81353fd946ab71155": {},
@@ -6235,7 +6235,7 @@
     "side": "SHORT",
     "size": 3.51512,
     "entry": 82057.3,
-    "notional": 289217.04336
+    "notional": 288289.754704
    }
   },
   "0x28a213d7d17a93bf6242064bd7270ab2140b9f10": {
@@ -6243,11 +6243,11 @@
     "side": "LONG",
     "size": 193568.0,
     "entry": 1.325509,
-    "notional": 259323.0496
+    "notional": 258471.3504
    }
   }
  },
- "cycle": 27083,
+ "cycle": 27086,
  "fail_counts": {
   "0x3daf7f1cfd1c289e9b2fb7abb2efbd39f77455d7": 0,
   "0x6807f127eaf85e3d0b9dbc7971bbed2afd041f8d": 0,
@@ -6996,7 +6996,7 @@
   "0x28a213d7d17a93bf6242064bd7270ab2140b9f10": 0
  },
  "paper": {
-  "equity": 133.90114137020498,
+  "equity": 133.900318647584,
   "positions": {
    "UNI": {
     "coin": "UNI",
@@ -7009,7 +7009,7 @@
     "opened_ts": 1792043307.125531,
     "tag": "copy",
     "convergence": 1,
-    "last_funding_ts": 1792154242.7149658
+    "last_funding_ts": 1792155171.0526605
    },
    "ENA": {
     "coin": "ENA",
@@ -7022,14 +7022,14 @@
     "opened_ts": 1792043307.1259015,
     "tag": "copy",
     "convergence": 1,
-    "last_funding_ts": 1792154242.7149658
+    "last_funding_ts": 1792155171.0526605
    }
   },
   "realized": 43.21204179467666,
   "fees_paid": 8.654556143811327,
   "wins": 149,
   "losses": 146,
-  "funding_net": -0.65634428065931
+  "funding_net": -0.6571670032802772
  },
  "equity_curve": [
   {
@@ -142446,6 +142446,21 @@
    "t": "2026-10-16T12:37:13+00:00",
    "cycle": 27083,
    "equity_mtm": 158.8502
+  },
+  {
+   "t": "2026-10-16T12:42:24+00:00",
+   "cycle": 27084,
+   "equity_mtm": 158.9107
+  },
+  {
+   "t": "2026-10-16T12:47:32+00:00",
+   "cycle": 27085,
+   "equity_mtm": 157.2804
+  },
+  {
+   "t": "2026-10-16T12:52:41+00:00",
+   "cycle": 27086,
+   "equity_mtm": 156.7495
   }
  ],
  "elite": [
