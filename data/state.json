@@ -516,7 +516,7 @@
     "side": "LONG",
     "size": 31596.0,
     "entry": 4.74852,
-    "notional": 99612.7092
+    "notional": 100282.5444
    }
   },
   "0x178031baf4bf011a2c2190066c2d762e45d4eff8": {},
@@ -5794,7 +5794,7 @@
     "side": "LONG",
     "size": 247341084.0,
     "entry": 0.004059,
-    "notional": 987632.948412
+    "notional": 992085.087924
    }
   },
   "0x3b3d9656b93d21729e15e0bc3566dd4fd1e5b464": {
@@ -5835,7 +5835,7 @@
     "side": "LONG",
     "size": 441337.0,
     "entry": 0.240702,
-    "notional": 89045.918468
+    "notional": 89322.19543
    }
   },
   "0x45f54ca868ba81ccf309413f34014228d43a92e3": {
@@ -6190,13 +6190,13 @@
     "side": "LONG",
     "size": 19000.0,
     "entry": 1.954526,
-    "notional": 40116.6
+    "notional": 40272.4
    },
    "ENA": {
     "side": "LONG",
     "size": 620000.0,
     "entry": 0.190757,
-    "notional": 125097.4
+    "notional": 125481.8
    }
   },
   "0x3f240a16bb7c34302cab342227207acc3d9e0d4d": {
@@ -6204,13 +6204,13 @@
     "side": "LONG",
     "size": 40.96,
     "entry": 2555.4,
-    "notional": 100006.2976
+    "notional": 100061.184
    },
    "JUP": {
     "side": "LONG",
     "size": 86024.0,
     "entry": 0.35391,
-    "notional": 26124.62856
+    "notional": 26162.47912
    }
   },
   "0xe668c4300f51344d8e6cee6294cb9cd1fb5fb5ca": {
@@ -6218,7 +6218,7 @@
     "side": "SHORT",
     "size": 544.0662,
     "entry": 2476.72,
-    "notional": 1328370.271272
+    "notional": 1329099.31998
    }
   },
   "0xbdc131d074c1fc164e64c3e81353fd946ab71155": {},
@@ -6234,7 +6234,7 @@
    }
   }
  },
- "cycle": 27116,
+ "cycle": 27119,
  "fail_counts": {
   "0x3daf7f1cfd1c289e9b2fb7abb2efbd39f77455d7": 0,
   "0x6807f127eaf85e3d0b9dbc7971bbed2afd041f8d": 0,
@@ -6983,7 +6983,7 @@
   "0x28a213d7d17a93bf6242064bd7270ab2140b9f10": 0
  },
  "paper": {
-  "equity": 133.87254860186215,
+  "equity": 133.87171824364353,
   "positions": {
    "UNI": {
     "coin": "UNI",
@@ -6996,7 +6996,7 @@
     "opened_ts": 1792043307.125531,
     "tag": "copy",
     "convergence": 1,
-    "last_funding_ts": 1792164469.8642313
+    "last_funding_ts": 1792165399.8368423
    },
    "ENA": {
     "coin": "ENA",
@@ -7009,7 +7009,7 @@
     "opened_ts": 1792043307.1259015,
     "tag": "copy",
     "convergence": 1,
-    "last_funding_ts": 1792164469.8642313
+    "last_funding_ts": 1792165399.8368423
    },
    "kPEPE": {
     "coin": "kPEPE",
@@ -7022,14 +7022,14 @@
     "opened_ts": 1792158889.3287513,
     "tag": "copy",
     "convergence": 1,
-    "last_funding_ts": 1792164469.8642313
+    "last_funding_ts": 1792165399.8368423
    }
   },
   "realized": 43.21204179467666,
   "fees_paid": 8.672632278886939,
   "wins": 149,
   "losses": 146,
-  "funding_net": -0.6668609139264832
+  "funding_net": -0.6676912721451211
  },
  "equity_curve": [
   {
@@ -142611,6 +142611,21 @@
    "t": "2026-10-16T15:27:40+00:00",
    "cycle": 27116,
    "equity_mtm": 149.527
+  },
+  {
+   "t": "2026-10-16T15:32:51+00:00",
+   "cycle": 27117,
+   "equity_mtm": 148.3369
+  },
+  {
+   "t": "2026-10-16T15:38:00+00:00",
+   "cycle": 27118,
+   "equity_mtm": 149.635
+  },
+  {
+   "t": "2026-10-16T15:43:10+00:00",
+   "cycle": 27119,
+   "equity_mtm": 150.9888
   }
  ],
  "elite": [
