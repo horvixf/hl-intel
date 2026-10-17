@@ -6079,19 +6079,19 @@
     "side": "SHORT",
     "size": 1188.6088,
     "entry": 2645.34,
-    "notional": 2826892.081216
+    "notional": 2836733.76208
    },
    "SOL": {
     "side": "SHORT",
     "size": 550.0,
     "entry": 107.76,
-    "notional": 56138.5
+    "notional": 56485.0
    },
    "FARTCOIN": {
     "side": "SHORT",
     "size": 416363.1,
     "entry": 0.16658,
-    "notional": 60739.049028
+    "notional": 61271.993796
    }
   },
   "0x0eba880f6be60142c70019d2dd46c49c47204eea": {
@@ -6239,13 +6239,13 @@
     "side": "SHORT",
     "size": 100.0,
     "entry": 2551.47,
-    "notional": 237832.0
+    "notional": 238640.0
    },
    "HYPE": {
     "side": "SHORT",
     "size": 2200.0,
     "entry": 86.656,
-    "notional": 171463.6
+    "notional": 171421.8
    }
   },
   "0x9c575a602acb7a04dfa7c37fff770662a9a84341": {
@@ -6253,7 +6253,7 @@
     "side": "LONG",
     "size": 30285.0,
     "entry": 5.03038,
-    "notional": 146682.369
+    "notional": 147639.375
    }
   },
   "0xbb995c251b9797eb396ee9128662b1be4010863a": {},
@@ -6261,7 +6261,7 @@
   "0x5fc26e197e570bbe9ba522944a1937ba19167802": {},
   "0xd35945483add29d65f93e788956fb00aab6977f7": {}
  },
- "cycle": 27475,
+ "cycle": 27478,
  "fail_counts": {
   "0x3daf7f1cfd1c289e9b2fb7abb2efbd39f77455d7": 0,
   "0x6807f127eaf85e3d0b9dbc7971bbed2afd041f8d": 0,
@@ -144398,6 +144398,21 @@
   {
    "t": "2026-10-17T21:54:48+00:00",
    "cycle": 27475,
+   "equity_mtm": 145.0867
+  },
+  {
+   "t": "2026-10-17T21:59:56+00:00",
+   "cycle": 27476,
+   "equity_mtm": 145.0867
+  },
+  {
+   "t": "2026-10-17T22:05:04+00:00",
+   "cycle": 27477,
+   "equity_mtm": 145.0867
+  },
+  {
+   "t": "2026-10-17T22:10:11+00:00",
+   "cycle": 27478,
    "equity_mtm": 145.0867
   }
  ],
