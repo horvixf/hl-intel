@@ -6079,19 +6079,19 @@
     "side": "SHORT",
     "size": 1188.6088,
     "entry": 2645.34,
-    "notional": 2886179.88816
+    "notional": 2880712.28768
    },
    "SOL": {
     "side": "SHORT",
     "size": 550.0,
     "entry": 107.76,
-    "notional": 57359.5
+    "notional": 57114.75
    },
    "FARTCOIN": {
     "side": "SHORT",
     "size": 416363.1,
     "entry": 0.16658,
-    "notional": 62550.228513
+    "notional": 62154.683568
    }
   },
   "0x0eba880f6be60142c70019d2dd46c49c47204eea": {
@@ -6239,13 +6239,13 @@
     "side": "SHORT",
     "size": 100.0,
     "entry": 2551.47,
-    "notional": 242820.0
+    "notional": 242360.0
    },
    "HYPE": {
     "side": "SHORT",
     "size": 2200.0,
     "entry": 86.656,
-    "notional": 173210.4
+    "notional": 173019.0
    }
   },
   "0x9c575a602acb7a04dfa7c37fff770662a9a84341": {
@@ -6253,13 +6253,13 @@
     "side": "LONG",
     "size": 30285.0,
     "entry": 5.03038,
-    "notional": 154005.282
+    "notional": 153233.0145
    },
    "ZEC": {
     "side": "LONG",
     "size": 83.49,
     "entry": 1146.9035,
-    "notional": 97441.179
+    "notional": 96556.185
    }
   },
   "0xbb995c251b9797eb396ee9128662b1be4010863a": {},
@@ -6267,7 +6267,7 @@
   "0x5fc26e197e570bbe9ba522944a1937ba19167802": {},
   "0xd35945483add29d65f93e788956fb00aab6977f7": {}
  },
- "cycle": 27365,
+ "cycle": 27368,
  "fail_counts": {
   "0x3daf7f1cfd1c289e9b2fb7abb2efbd39f77455d7": 0,
   "0x6807f127eaf85e3d0b9dbc7971bbed2afd041f8d": 0,
@@ -7022,7 +7022,7 @@
   "0xd35945483add29d65f93e788956fb00aab6977f7": 0
  },
  "paper": {
-  "equity": 150.0868707295385,
+  "equity": 150.08651053637536,
   "positions": {
    "kPEPE": {
     "coin": "kPEPE",
@@ -7035,14 +7035,14 @@
     "opened_ts": 1792158889.3287513,
     "tag": "copy",
     "convergence": 1,
-    "last_funding_ts": 1792240708.1809008
+    "last_funding_ts": 1792241634.4934146
    }
   },
   "realized": 59.512132432383225,
   "fees_paid": 8.713362517170546,
   "wins": 151,
   "losses": 146,
-  "funding_net": -0.711899185672843
+  "funding_net": -0.7122593788360032
  },
  "equity_curve": [
   {
@@ -143869,6 +143869,21 @@
    "t": "2026-10-17T12:38:20+00:00",
    "cycle": 27365,
    "equity_mtm": 146.8812
+  },
+  {
+   "t": "2026-10-17T12:43:29+00:00",
+   "cycle": 27366,
+   "equity_mtm": 146.5849
+  },
+  {
+   "t": "2026-10-17T12:48:37+00:00",
+   "cycle": 27367,
+   "equity_mtm": 146.2885
+  },
+  {
+   "t": "2026-10-17T12:53:46+00:00",
+   "cycle": 27368,
+   "equity_mtm": 145.933
   }
  ],
  "elite": [
