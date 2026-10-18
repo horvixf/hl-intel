@@ -1275,7 +1275,7 @@
     "side": "LONG",
     "size": 1690.0,
     "entry": 2398.67,
-    "notional": 3993301.0
+    "notional": 3992574.3
    }
   },
   "0x3618785fed530c6ea5bc279afee6081da86555ae": {
@@ -4027,7 +4027,7 @@
     "side": "SHORT",
     "size": 4000.0,
     "entry": 91.796,
-    "notional": 308512.0
+    "notional": 308891.2
    }
   },
   "0x9d9531f11bb464fc2ea968c640dc401646ba0ee5": {},
@@ -6152,13 +6152,13 @@
     "side": "SHORT",
     "size": 64.8,
     "entry": 0.73,
-    "notional": 42.281352
+    "notional": 42.40836
    },
    "HYPE": {
     "side": "SHORT",
     "size": 143.0,
     "entry": 80.0516,
-    "notional": 11029.304
+    "notional": 11042.8604
    }
   },
   "0x69b05701f8175c276ecd0138387a197948e240bb": {},
@@ -6216,7 +6216,7 @@
     "side": "LONG",
     "size": 2.82543,
     "entry": 81443.0,
-    "notional": 229171.474929
+    "notional": 229131.07128
    }
   },
   "0x28a213d7d17a93bf6242064bd7270ab2140b9f10": {
@@ -6232,13 +6232,13 @@
     "side": "SHORT",
     "size": 100.0,
     "entry": 2551.47,
-    "notional": 236290.0
+    "notional": 236247.0
    },
    "HYPE": {
     "side": "SHORT",
     "size": 2200.0,
     "entry": 86.656,
-    "notional": 169710.2
+    "notional": 169890.16
    }
   },
   "0x9c575a602acb7a04dfa7c37fff770662a9a84341": {},
@@ -6258,7 +6258,7 @@
     "side": "SHORT",
     "size": 3800.0,
     "entry": 91.2619,
-    "notional": 293135.8
+    "notional": 293427.64
    }
   },
   "0x926fa6d5a99ca62b5839bc40bb4a4a5c72387725": {},
@@ -6267,7 +6267,7 @@
     "side": "SHORT",
     "size": 137.2346,
     "entry": 2365.3,
-    "notional": 324271.63634
+    "notional": 324212.625462
    }
   },
   "0x39fde624e251b42a43e2564ad9fd07160cb2abb2": {
@@ -6275,11 +6275,11 @@
     "side": "LONG",
     "size": 6407.0,
     "entry": 0.182069,
-    "notional": 1161.5891
+    "notional": 1161.65317
    }
   }
  },
- "cycle": 27719,
+ "cycle": 27721,
  "fail_counts": {
   "0x3daf7f1cfd1c289e9b2fb7abb2efbd39f77455d7": 0,
   "0x6807f127eaf85e3d0b9dbc7971bbed2afd041f8d": 0,
@@ -145640,6 +145640,16 @@
   {
    "t": "2026-10-18T18:34:46+00:00",
    "cycle": 27719,
+   "equity_mtm": 145.0867
+  },
+  {
+   "t": "2026-10-18T18:39:55+00:00",
+   "cycle": 27720,
+   "equity_mtm": 145.0867
+  },
+  {
+   "t": "2026-10-18T18:45:03+00:00",
+   "cycle": 27721,
    "equity_mtm": 145.0867
   }
  ],
