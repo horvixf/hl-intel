@@ -1275,7 +1275,7 @@
     "side": "LONG",
     "size": 2350.0,
     "entry": 2407.59,
-    "notional": 5698045.0
+    "notional": 5690407.5
    }
   },
   "0x3618785fed530c6ea5bc279afee6081da86555ae": {
@@ -4027,7 +4027,7 @@
     "side": "SHORT",
     "size": 4000.0,
     "entry": 91.796,
-    "notional": 317043.2
+    "notional": 316470.4
    }
   },
   "0x9d9531f11bb464fc2ea968c640dc401646ba0ee5": {},
@@ -6152,13 +6152,13 @@
     "side": "SHORT",
     "size": 64.8,
     "entry": 0.73,
-    "notional": 45.063216
+    "notional": 44.951112
    },
    "HYPE": {
     "side": "SHORT",
     "size": 143.0,
     "entry": 80.0516,
-    "notional": 11332.75
+    "notional": 11313.8168
    }
   },
   "0x69b05701f8175c276ecd0138387a197948e240bb": {},
@@ -6214,13 +6214,13 @@
     "side": "LONG",
     "size": 1.30154,
     "entry": 82514.8,
-    "notional": 107216.96058
+    "notional": 107144.07434
    },
    "ETH": {
     "side": "LONG",
     "size": 23.6296,
     "entry": 2426.78,
-    "notional": 57294.69112
+    "notional": 57217.89492
    }
   },
   "0x96208936e9a9414d3cf7db924babe36bd6a225d5": {},
@@ -6238,13 +6238,13 @@
     "side": "SHORT",
     "size": 100.0,
     "entry": 2551.47,
-    "notional": 242500.0
+    "notional": 242145.0
    },
    "HYPE": {
     "side": "SHORT",
     "size": 2200.0,
     "entry": 86.656,
-    "notional": 174373.76
+    "notional": 174058.72
    }
   },
   "0x9c575a602acb7a04dfa7c37fff770662a9a84341": {},
@@ -6264,7 +6264,7 @@
     "side": "SHORT",
     "size": 3800.0,
     "entry": 91.2619,
-    "notional": 301191.04
+    "notional": 300646.88
    }
   },
   "0x926fa6d5a99ca62b5839bc40bb4a4a5c72387725": {},
@@ -6274,11 +6274,11 @@
     "side": "LONG",
     "size": 6407.0,
     "entry": 0.182069,
-    "notional": 1201.9532
+    "notional": 1198.17307
    }
   }
  },
- "cycle": 27913,
+ "cycle": 27914,
  "fail_counts": {
   "0x3daf7f1cfd1c289e9b2fb7abb2efbd39f77455d7": 0,
   "0x6807f127eaf85e3d0b9dbc7971bbed2afd041f8d": 0,
@@ -146609,6 +146609,11 @@
   {
    "t": "2026-10-19T10:58:15+00:00",
    "cycle": 27913,
+   "equity_mtm": 145.0867
+  },
+  {
+   "t": "2026-10-19T11:03:26+00:00",
+   "cycle": 27914,
    "equity_mtm": 145.0867
   }
  ],
