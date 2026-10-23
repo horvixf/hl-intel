@@ -172,14 +172,7 @@
   },
   "0x7b51c5d9366077e1b3c1cba383389752f486071b": {},
   "0x6bde78a5b2091bcbc915155328bd138b534387d3": {},
-  "0x1b232b41b0e75550c59288b99874e4a8142fbe21": {
-   "ENA": {
-    "side": "LONG",
-    "size": 2911199.0,
-    "entry": 0.200277,
-    "notional": 584958.859866
-   }
-  },
+  "0x1b232b41b0e75550c59288b99874e4a8142fbe21": {},
   "0x0b506be94c45382b11685cff769e5e76fcd8bd65": {
    "BTC": {
     "side": "SHORT",
@@ -2079,7 +2072,7 @@
     "side": "LONG",
     "size": 279446.1,
     "entry": 0.08837,
-    "notional": 14869.326981
+    "notional": 14765.931924
    }
   },
   "0x4ee36a93b7794c04bde3c8941a62c5bd12f13267": {
@@ -6241,13 +6234,13 @@
     "side": "LONG",
     "size": 90.0,
     "entry": 2389.6,
-    "notional": 217134.0
+    "notional": 217062.0
    },
    "HYPE": {
     "side": "SHORT",
     "size": 3330.71,
     "entry": 86.1244,
-    "notional": 260041.85254
+    "notional": 259515.60036
    }
   },
   "0x1165647bdea6b9cb851f4ce99a2a0a66ea7d1356": {
@@ -6255,37 +6248,19 @@
     "side": "LONG",
     "size": 0.26096,
     "entry": 80987.5,
-    "notional": 21366.62192
+    "notional": 21369.75344
    },
    "ETH": {
     "side": "SHORT",
     "size": 10.6843,
     "entry": 1729.98,
-    "notional": 25779.07904
-   },
-   "SOL": {
-    "side": "LONG",
-    "size": 193.16,
-    "entry": 103.56,
-    "notional": 20221.9204
-   },
-   "BNB": {
-    "side": "LONG",
-    "size": 27.477,
-    "entry": 727.848,
-    "notional": 20259.973611
-   },
-   "XRP": {
-    "side": "LONG",
-    "size": 15220.0,
-    "entry": 1.3146,
-    "notional": 20146.714
+    "notional": 25767.32631
    },
    "HYPE": {
     "side": "LONG",
     "size": 255.14,
     "entry": 77.0445,
-    "notional": 19919.29008
+    "notional": 19878.34011
    }
   },
   "0x01c80f69cb27ff10506df825cff859ffc8721eb2": {
@@ -6355,7 +6330,7 @@
     "side": "LONG",
     "size": 9.67778,
     "entry": 81343.2,
-    "notional": 792387.59306
+    "notional": 792503.72642
    }
   },
   "0xe10aecac2f65a20b3aeed6a4298f0b7f4db461b3": {},
@@ -6394,7 +6369,7 @@
     "side": "SHORT",
     "size": 2.5826,
     "entry": 83632.1,
-    "notional": 211455.5402
+    "notional": 211486.5314
    }
   },
   "0xd14a0ffc2dd386d093e711f5323b6246e48c53fe": {},
@@ -6404,19 +6379,19 @@
     "side": "SHORT",
     "size": 2159.99,
     "entry": 109.7891,
-    "notional": 226064.5534
+    "notional": 225848.5544
    },
    "AVAX": {
     "side": "SHORT",
     "size": 26902.87,
     "entry": 9.8173,
-    "notional": 248943.017258
+    "notional": 248488.358755
    },
    "HYPE": {
     "side": "SHORT",
     "size": 8550.0,
     "entry": 84.9254,
-    "notional": 667532.7
+    "notional": 666181.8
    }
   },
   "0xd5cdced12319e63668d5fbd6e9f14fbae195edf3": {
@@ -6424,7 +6399,7 @@
     "side": "SHORT",
     "size": 4.21834,
     "entry": 84017.7,
-    "notional": 345345.793618
+    "notional": 345435.64426
    }
   },
   "0x3f5fdb2410cba492b7c3828c811c6662b2894d0b": {
@@ -6432,7 +6407,7 @@
     "side": "SHORT",
     "size": 23.51487,
     "entry": 82787.6,
-    "notional": 1925108.322699
+    "notional": 1925609.18943
    }
   },
   "0xe7d96b5fdab3dcb6ab5cb8b14b291e03a8ac496b": {
@@ -6440,7 +6415,7 @@
     "side": "LONG",
     "size": 1273.76,
     "entry": 156.4259,
-    "notional": 189293.4736
+    "notional": 189318.9488
    }
   },
   "0x1f250df59a777d61cb8bd043c12970f3afe4f925": {},
@@ -6449,23 +6424,23 @@
     "side": "LONG",
     "size": 0.01765,
     "entry": 81848.0,
-    "notional": 1444.964905
+    "notional": 1445.34085
    },
    "UNI": {
     "side": "LONG",
     "size": 537.7,
     "entry": 7.15844,
-    "notional": 3836.75835
+    "notional": 3845.52286
    },
    "ENA": {
     "side": "LONG",
     "size": 6596.0,
     "entry": 0.199546,
-    "notional": 1325.53216
+    "notional": 1321.11284
    }
   }
  },
- "cycle": 28944,
+ "cycle": 28947,
  "fail_counts": {
   "0x3daf7f1cfd1c289e9b2fb7abb2efbd39f77455d7": 0,
   "0x6807f127eaf85e3d0b9dbc7971bbed2afd041f8d": 0,
@@ -7248,7 +7223,7 @@
   "0x2547e8c386477751a7f50d435c60f871bda898d9": 0
  },
  "paper": {
-  "equity": 130.71816817567301,
+  "equity": 133.53490462336566,
   "positions": {
    "CHIP": {
     "coin": "CHIP",
@@ -7261,33 +7236,7 @@
     "opened_ts": 1792607284.8751185,
     "tag": "copy",
     "convergence": 1,
-    "last_funding_ts": 1792722738.0888417
-   },
-   "SOL": {
-    "coin": "SOL",
-    "side": "LONG",
-    "entry": 103.5860665,
-    "notional": 115.81241609524378,
-    "margin": 38.604138698414594,
-    "src": "0x1165647bdea6b9cb851f4ce99a2a0a66ea7d1356",
-    "opened": "2026-10-22T16:49:31+00:00",
-    "opened_ts": 1792687771.9101794,
-    "tag": "copy",
-    "convergence": 1,
-    "last_funding_ts": 1792722738.0888417
-   },
-   "BNB": {
-    "coin": "BNB",
-    "side": "LONG",
-    "entry": 727.3031255,
-    "notional": 115.79678141907092,
-    "margin": 38.59892713969031,
-    "src": "0x1165647bdea6b9cb851f4ce99a2a0a66ea7d1356",
-    "opened": "2026-10-22T16:49:31+00:00",
-    "opened_ts": 1792687771.9105623,
-    "tag": "copy",
-    "convergence": 1,
-    "last_funding_ts": 1792722738.0888417
+    "last_funding_ts": 1792723670.6407611
    },
    "BTC": {
     "coin": "BTC",
@@ -7300,14 +7249,14 @@
     "opened_ts": 1792710876.7163217,
     "tag": "copy",
     "convergence": 2,
-    "last_funding_ts": 1792722738.0888417
+    "last_funding_ts": 1792723670.6407611
    }
   },
-  "realized": 40.369802442302415,
-  "fees_paid": 9.036590059942723,
-  "wins": 152,
+  "realized": 43.22197628004453,
+  "fees_paid": 9.07175926564553,
+  "wins": 154,
   "losses": 152,
-  "funding_net": -0.6150442066845827
+  "funding_net": -0.6153123910312107
  },
  "equity_curve": [
   {
@@ -152029,6 +151978,21 @@
    "t": "2026-10-23T02:32:07+00:00",
    "cycle": 28944,
    "equity_mtm": 144.8059
+  },
+  {
+   "t": "2026-10-23T02:37:19+00:00",
+   "cycle": 28945,
+   "equity_mtm": 146.0125
+  },
+  {
+   "t": "2026-10-23T02:42:29+00:00",
+   "cycle": 28946,
+   "equity_mtm": 145.8752
+  },
+  {
+   "t": "2026-10-23T02:47:40+00:00",
+   "cycle": 28947,
+   "equity_mtm": 145.8148
   }
  ],
  "elite": [
