@@ -1098,7 +1098,7 @@
     "side": "LONG",
     "size": 10.97409,
     "entry": 79937.8,
-    "notional": 883886.13087
+    "notional": 883644.70089
    }
   },
   "0x9d6ca7aad4c3cbb1cc18b5e7b8e59496a03bb22f": {
@@ -1322,19 +1322,19 @@
     "side": "SHORT",
     "size": 63.3,
     "entry": 104.1117,
-    "notional": 6415.455
+    "notional": 6411.657
    },
    "LINK": {
     "side": "SHORT",
     "size": 571.8,
     "entry": 10.49038,
-    "notional": 6521.379
+    "notional": 6524.238
    },
    "HYPE": {
     "side": "SHORT",
     "size": 10862.15,
     "entry": 80.2748,
-    "notional": 834093.63635
+    "notional": 834560.7088
    }
   },
   "0x6e4d47dad1e97833f4ecb0ef56347ba8e6fd1c0e": {
@@ -4003,7 +4003,7 @@
     "side": "SHORT",
     "size": 2000.0,
     "entry": 91.796,
-    "notional": 153578.0
+    "notional": 153656.0
    }
   },
   "0x9d9531f11bb464fc2ea968c640dc401646ba0ee5": {},
@@ -4479,7 +4479,7 @@
     "side": "LONG",
     "size": 24418437.0,
     "entry": 0.003037,
-    "notional": 73646.005992
+    "notional": 73621.587555
    }
   },
   "0x8bf9b4f90d223f534b5670e01fa2ed2f9cf767fb": {
@@ -5955,7 +5955,7 @@
     "side": "LONG",
     "size": 167461.0,
     "entry": 0.91743,
-    "notional": 153379.20451
+    "notional": 153839.72226
    }
   },
   "0xc8b0b34cccb561401b0a98c57395c7e937097485": {},
@@ -6475,25 +6475,31 @@
     "side": "LONG",
     "size": 0.01,
     "entry": 79956.0,
-    "notional": 805.43
+    "notional": 805.18
+   },
+   "ETH": {
+    "side": "LONG",
+    "size": 0.5,
+    "entry": 2344.3,
+    "notional": 1170.9
    },
    "WLD": {
     "side": "LONG",
     "size": 1079.6,
     "entry": 0.46327,
-    "notional": 490.688996
+    "notional": 491.401532
    },
    "ZEC": {
     "side": "SHORT",
     "size": 15.0,
     "entry": 1200.4666,
-    "notional": 18160.5
+    "notional": 18120.0
    },
    "XMR": {
     "side": "SHORT",
     "size": 20.0,
     "entry": 620.565,
-    "notional": 12120.0
+    "notional": 12090.6
    }
   },
   "0xab2b399afcd0ecbcabfb3e6e3e5605d38ea98ab6": {},
@@ -6514,7 +6520,7 @@
     "side": "LONG",
     "size": 492864.4,
     "entry": 0.19528,
-    "notional": 82318.212088
+    "notional": 82535.072424
    }
   },
   "0x997ec678fb354904f57a8240866ad72b2988374c": {
@@ -6522,12 +6528,12 @@
     "side": "LONG",
     "size": 2.51659,
     "entry": 82717.0,
-    "notional": 202693.70837
+    "notional": 202638.34339
    }
   },
   "0x8c94949ef16f7e5711cb1dd1eec44f69bba173b0": {}
  },
- "cycle": 29672,
+ "cycle": 29675,
  "fail_counts": {
   "0x3daf7f1cfd1c289e9b2fb7abb2efbd39f77455d7": 0,
   "0x6807f127eaf85e3d0b9dbc7971bbed2afd041f8d": 0,
@@ -7325,7 +7331,7 @@
   "0x8c94949ef16f7e5711cb1dd1eec44f69bba173b0": 0
  },
  "paper": {
-  "equity": 148.07069712798096,
+  "equity": 148.05055195394092,
   "positions": {
    "SOL": {
     "coin": "SOL",
@@ -7338,14 +7344,27 @@
     "opened_ts": 1792794949.7322364,
     "tag": "copy",
     "convergence": 1,
-    "last_funding_ts": 1792945447.1727595
+    "last_funding_ts": 1792946374.4516854
+   },
+   "ETH": {
+    "coin": "ETH",
+    "side": "LONG",
+    "entry": 2345.953575,
+    "notional": 133.26362993844612,
+    "margin": 44.421209979482036,
+    "src": "0xadae40fc09f28dd60234a379fb0b451e5d7d4c0a",
+    "opened": "2026-10-25T16:34:25+00:00",
+    "opened_ts": 1792946065.71098,
+    "tag": "copy",
+    "convergence": 1,
+    "last_funding_ts": 1792946374.4516854
    }
   },
   "realized": 58.09511168201325,
-  "fees_paid": 9.329006690856584,
+  "fees_paid": 9.34899623534735,
   "wins": 157,
   "losses": 155,
-  "funding_net": -0.6954078631732807
+  "funding_net": -0.6955634927225508
  },
  "equity_curve": [
   {
@@ -155707,6 +155726,21 @@
    "t": "2026-10-25T16:23:59+00:00",
    "cycle": 29672,
    "equity_mtm": 146.0651
+  },
+  {
+   "t": "2026-10-25T16:29:09+00:00",
+   "cycle": 29673,
+   "equity_mtm": 146.0397
+  },
+  {
+   "t": "2026-10-25T16:34:17+00:00",
+   "cycle": 29674,
+   "equity_mtm": 146.1828
+  },
+  {
+   "t": "2026-10-25T16:39:26+00:00",
+   "cycle": 29675,
+   "equity_mtm": 145.7215
   }
  ],
  "elite": [
