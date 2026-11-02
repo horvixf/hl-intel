@@ -177,7 +177,7 @@
     "side": "SHORT",
     "size": 3031393.0,
     "entry": 0.181011,
-    "notional": 536495.93314
+    "notional": 536041.22419
    }
   },
   "0x0b506be94c45382b11685cff769e5e76fcd8bd65": {
@@ -2655,10 +2655,10 @@
   },
   "0xb67c4c91728e6865b216e11d54b50c75bbd3fd5f": {
    "HYPE": {
-    "side": "SHORT",
-    "size": 2946.01,
-    "entry": 86.0735,
-    "notional": 254069.79442
+    "side": "LONG",
+    "size": 150.03,
+    "entry": 85.9812,
+    "notional": 12916.38276
    }
   },
   "0x93c3cff3b7a8492c581a609d5312920a2a60a0f4": {},
@@ -5608,7 +5608,7 @@
     "side": "SHORT",
     "size": 14.13677,
     "entry": 77887.4,
-    "notional": 1101367.47716
+    "notional": 1102754.294297
    }
   },
   "0x6741bc2e53e9816213f4e785fad8b971048adba1": {},
@@ -6319,13 +6319,13 @@
     "side": "SHORT",
     "size": 15.31698,
     "entry": 76966.9,
-    "notional": 1193315.27784
+    "notional": 1195015.46262
    },
    "ETH": {
     "side": "SHORT",
     "size": 107.8178,
     "entry": 2290.8,
-    "notional": 246978.23446
+    "notional": 247129.17938
    }
   },
   "0x5f6eb0dceaae65eca27c926bdccb0a7fb13bc25e": {
@@ -6559,31 +6559,31 @@
     "side": "SHORT",
     "size": 10941.5,
     "entry": 9.14165,
-    "notional": 79680.3796
+    "notional": 79755.87595
    },
    "NEAR": {
     "side": "SHORT",
     "size": 24925.1,
     "entry": 4.47754,
-    "notional": 101273.17381
+    "notional": 101227.810128
    },
    "STRK": {
     "side": "SHORT",
     "size": 133562.4,
     "entry": 0.10482,
-    "notional": 5564.209584
+    "notional": 5562.87396
    },
    "ENA": {
     "side": "SHORT",
     "size": 256828.0,
     "entry": 0.196247,
-    "notional": 45453.41944
+    "notional": 45396.91728
    },
    "LIT": {
     "side": "SHORT",
     "size": 20414.0,
     "entry": 4.8985,
-    "notional": 64385.756
+    "notional": 64150.995
    }
   },
   "0x8738145ad4002f53f97198f2ea056c0404532c52": {
@@ -6929,7 +6929,7 @@
     "side": "LONG",
     "size": 1.5,
     "entry": 78078.0,
-    "notional": 116863.5
+    "notional": 117009.15
    }
   },
   "0xede4b988147f9ea559faef61e97d87d8d1230bad": {
@@ -6967,13 +6967,13 @@
     "side": "LONG",
     "size": 368.935,
     "entry": 246.011,
-    "notional": 84707.476
+    "notional": 84666.89315
    },
    "PUMP": {
     "side": "SHORT",
     "size": 15817912.0,
     "entry": 0.00421,
-    "notional": 66356.14084
+    "notional": 66103.054248
    }
   },
   "0x3d53a025e74d689cd196f5689b4e488957e7e56d": {},
@@ -7131,7 +7131,7 @@
   "0x1c63a1c6429b8efca39ed842f0d0e05f3afd6972": {},
   "0xac73d3028449b63b0430d89292bf0f44e92965fb": {}
  },
- "cycle": 31911,
+ "cycle": 31914,
  "fail_counts": {
   "0x3daf7f1cfd1c289e9b2fb7abb2efbd39f77455d7": 0,
   "0x6807f127eaf85e3d0b9dbc7971bbed2afd041f8d": 0,
@@ -7988,7 +7988,7 @@
   "0xac73d3028449b63b0430d89292bf0f44e92965fb": 0
  },
  "paper": {
-  "equity": 148.3740719687601,
+  "equity": 148.37361693245398,
   "positions": {
    "SOL": {
     "coin": "SOL",
@@ -8001,14 +8001,14 @@
     "opened_ts": 1793511627.9812505,
     "tag": "copy",
     "convergence": 1,
-    "last_funding_ts": 1793633414.370913
+    "last_funding_ts": 1793634343.6471348
    }
   },
   "realized": 58.99110290549074,
   "fees_paid": 10.217829330759841,
   "wins": 169,
   "losses": 162,
-  "funding_net": -0.399201605967868
+  "funding_net": -0.3996566422739649
  },
  "equity_curve": [
   {
@@ -167565,6 +167565,21 @@
    "t": "2026-11-02T15:30:06+00:00",
    "cycle": 31911,
    "equity_mtm": 146.6061
+  },
+  {
+   "t": "2026-11-02T15:35:17+00:00",
+   "cycle": 31912,
+   "equity_mtm": 146.1129
+  },
+  {
+   "t": "2026-11-02T15:40:25+00:00",
+   "cycle": 31913,
+   "equity_mtm": 146.2766
+  },
+  {
+   "t": "2026-11-02T15:45:34+00:00",
+   "cycle": 31914,
+   "equity_mtm": 146.5909
   }
  ],
  "elite": [
