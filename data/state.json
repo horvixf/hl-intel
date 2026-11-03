@@ -2648,10 +2648,10 @@
   },
   "0xb67c4c91728e6865b216e11d54b50c75bbd3fd5f": {
    "HYPE": {
-    "side": "LONG",
-    "size": 16.12,
-    "entry": 84.3613,
-    "notional": 1360.30232
+    "side": "SHORT",
+    "size": 1116.37,
+    "entry": 84.2928,
+    "notional": 94182.331776
    }
   },
   "0x93c3cff3b7a8492c581a609d5312920a2a60a0f4": {},
@@ -5599,9 +5599,9 @@
   "0xf53f1ba49097d98c405c7f7718c902bdf80d315f": {
    "TRX": {
     "side": "LONG",
-    "size": 929237.0,
-    "entry": 0.320787,
-    "notional": 297773.99665
+    "size": 925216.0,
+    "entry": 0.320753,
+    "notional": 296263.41536
    }
   },
   "0x6741bc2e53e9816213f4e785fad8b971048adba1": {},
@@ -6312,13 +6312,13 @@
     "side": "SHORT",
     "size": 15.31698,
     "entry": 76966.9,
-    "notional": 1182976.31634
+    "notional": 1182547.4409
    },
    "ETH": {
     "side": "SHORT",
     "size": 107.8178,
     "entry": 2290.8,
-    "notional": 243765.26402
+    "notional": 243711.35512
    }
   },
   "0x5f6eb0dceaae65eca27c926bdccb0a7fb13bc25e": {
@@ -6552,31 +6552,31 @@
     "side": "SHORT",
     "size": 10941.5,
     "entry": 9.14165,
-    "notional": 77371.7231
+    "notional": 77129.91595
    },
    "NEAR": {
     "side": "SHORT",
     "size": 24925.1,
     "entry": 4.47754,
-    "notional": 96711.88051
+    "notional": 96446.428195
    },
    "STRK": {
     "side": "SHORT",
     "size": 133562.4,
     "entry": 0.10482,
-    "notional": 5427.975936
+    "notional": 5410.612824
    },
    "ENA": {
     "side": "SHORT",
     "size": 256828.0,
     "entry": 0.196247,
-    "notional": 44089.66276
+    "notional": 43868.79068
    },
    "LIT": {
     "side": "SHORT",
     "size": 20414.0,
     "entry": 4.8985,
-    "notional": 63326.2694
+    "notional": 63281.3586
    }
   },
   "0x8738145ad4002f53f97198f2ea056c0404532c52": {
@@ -6922,7 +6922,7 @@
     "side": "LONG",
     "size": 1.3,
     "entry": 78078.0,
-    "notional": 100395.1
+    "notional": 100369.1
    }
   },
   "0xede4b988147f9ea559faef61e97d87d8d1230bad": {
@@ -6960,13 +6960,13 @@
     "side": "LONG",
     "size": 368.935,
     "entry": 246.011,
-    "notional": 82862.801
+    "notional": 82571.711285
    },
    "PUMP": {
     "side": "LONG",
     "size": 24705454.0,
     "entry": 0.003992,
-    "notional": 99044.165086
+    "notional": 98821.816
    }
   },
   "0x3d53a025e74d689cd196f5689b4e488957e7e56d": {},
@@ -7124,7 +7124,7 @@
   "0x1c63a1c6429b8efca39ed842f0d0e05f3afd6972": {},
   "0xac73d3028449b63b0430d89292bf0f44e92965fb": {}
  },
- "cycle": 32026,
+ "cycle": 32029,
  "fail_counts": {
   "0x3daf7f1cfd1c289e9b2fb7abb2efbd39f77455d7": 0,
   "0x6807f127eaf85e3d0b9dbc7971bbed2afd041f8d": 0,
@@ -168118,6 +168118,21 @@
   {
    "t": "2026-11-03T01:18:11+00:00",
    "cycle": 32026,
+   "equity_mtm": 142.493
+  },
+  {
+   "t": "2026-11-03T01:23:21+00:00",
+   "cycle": 32027,
+   "equity_mtm": 142.493
+  },
+  {
+   "t": "2026-11-03T01:28:31+00:00",
+   "cycle": 32028,
+   "equity_mtm": 142.493
+  },
+  {
+   "t": "2026-11-03T01:33:40+00:00",
+   "cycle": 32029,
    "equity_mtm": 142.493
   }
  ],
