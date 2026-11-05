@@ -177,7 +177,7 @@
     "side": "LONG",
     "size": 2448650.0,
     "entry": 0.183329,
-    "notional": 443940.245
+    "notional": 445238.0295
    }
   },
   "0x0b506be94c45382b11685cff769e5e76fcd8bd65": {
@@ -494,7 +494,7 @@
     "side": "LONG",
     "size": 124.25,
     "entry": 1208.1251,
-    "notional": 162519.0
+    "notional": 163438.45
    }
   },
   "0xb86c32de384f449ce1dc7e298dc80e39ca347db9": {},
@@ -2663,9 +2663,9 @@
   "0xb67c4c91728e6865b216e11d54b50c75bbd3fd5f": {
    "HYPE": {
     "side": "SHORT",
-    "size": 1566.9,
-    "entry": 84.4108,
-    "notional": 131846.8005
+    "size": 918.82,
+    "entry": 84.4162,
+    "notional": 77494.19762
    }
   },
   "0x93c3cff3b7a8492c581a609d5312920a2a60a0f4": {},
@@ -4844,7 +4844,7 @@
     "side": "LONG",
     "size": 20.0,
     "entry": 2441.85,
-    "notional": 48566.0
+    "notional": 48620.4
    }
   },
   "0x22f299d5f8fbacd25eccf9dcf45b62d4af14e47f": {
@@ -6201,7 +6201,7 @@
     "side": "LONG",
     "size": 6000.0,
     "entry": 83.3994,
-    "notional": 505056.0
+    "notional": 506148.0
    }
   },
   "0x8d1742dffbfa0756cae775899cf078d43ad13fc0": {
@@ -7144,7 +7144,7 @@
     "side": "SHORT",
     "size": 8.0,
     "entry": 78468.0,
-    "notional": 645184.0
+    "notional": 645864.0
    }
   },
   "0xe498d50f732faeecd60bf94911a7bd0553f78610": {},
@@ -7197,7 +7197,7 @@
     "side": "LONG",
     "size": 12.55849,
     "entry": 78158.3,
-    "notional": 1012804.54303
+    "notional": 1013771.54676
    }
   },
   "0xd7a04479bd972bbe03472a29cef0c241e374537e": {
@@ -7205,7 +7205,7 @@
     "side": "LONG",
     "size": 2.26245,
     "entry": 77301.2,
-    "notional": 182462.0676
+    "notional": 182647.5885
    }
   },
   "0x0c892a6f1d09eb80f65f67ecf6c0d0f1b344f2df": {
@@ -7213,7 +7213,7 @@
     "side": "SHORT",
     "size": 213942.0,
     "entry": 0.217878,
-    "notional": 38787.6846
+    "notional": 38905.3527
    }
   },
   "0x4bc9a771cd2c96cb2a4501f2c049402b4e7e11b3": {
@@ -7221,7 +7221,7 @@
     "side": "LONG",
     "size": 40.587,
     "entry": 2244.46,
-    "notional": 98557.4121
+    "notional": 98675.1144
    }
   },
   "0x0aab46857f897f467d0e5122949846d07ac2d06d": {
@@ -7229,13 +7229,13 @@
     "side": "LONG",
     "size": 19.73,
     "entry": 1226.4862,
-    "notional": 25800.921
+    "notional": 25941.004
    }
   },
   "0xbdf4e92e381248e30f63c138aee2c84e0d174a9b": {},
   "0x345359af77917c494f4282f389b534d64e1cb323": {}
  },
- "cycle": 32598,
+ "cycle": 32601,
  "fail_counts": {
   "0x3daf7f1cfd1c289e9b2fb7abb2efbd39f77455d7": 0,
   "0x6807f127eaf85e3d0b9dbc7971bbed2afd041f8d": 0,
@@ -8106,7 +8106,7 @@
   "0x345359af77917c494f4282f389b534d64e1cb323": 0
  },
  "paper": {
-  "equity": 129.01427308793905,
+  "equity": 129.00844160036945,
   "positions": {
    "ZEC": {
     "coin": "ZEC",
@@ -8119,7 +8119,7 @@
     "opened_ts": 1793713154.4602005,
     "tag": "copy",
     "convergence": 1,
-    "last_funding_ts": 1793844010.2774675
+    "last_funding_ts": 1793844944.58351
    },
    "TRUMP": {
     "coin": "TRUMP",
@@ -8132,7 +8132,7 @@
     "opened_ts": 1793758559.2851303,
     "tag": "copy",
     "convergence": 1,
-    "last_funding_ts": 1793844010.2774675
+    "last_funding_ts": 1793844944.58351
    },
    "BTC": {
     "coin": "BTC",
@@ -8145,14 +8145,14 @@
     "opened_ts": 1793789423.2882557,
     "tag": "copy",
     "convergence": 1,
-    "last_funding_ts": 1793844010.2774675
+    "last_funding_ts": 1793844944.58351
    }
   },
   "realized": 40.12891267660611,
   "fees_paid": 10.38804470869041,
   "wins": 169,
   "losses": 165,
-  "funding_net": -0.7265948799738614
+  "funding_net": -0.7324263675434591
  },
  "equity_curve": [
   {
@@ -171144,6 +171144,21 @@
    "t": "2026-11-05T01:59:58+00:00",
    "cycle": 32598,
    "equity_mtm": 157.8223
+  },
+  {
+   "t": "2026-11-05T02:05:12+00:00",
+   "cycle": 32599,
+   "equity_mtm": 158.5127
+  },
+  {
+   "t": "2026-11-05T02:10:22+00:00",
+   "cycle": 32600,
+   "equity_mtm": 158.6542
+  },
+  {
+   "t": "2026-11-05T02:15:33+00:00",
+   "cycle": 32601,
+   "equity_mtm": 159.4969
   }
  ],
  "elite": [
