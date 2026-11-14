@@ -1294,13 +1294,13 @@
     "side": "SHORT",
     "size": 24.56695,
     "entry": 78753.6,
-    "notional": 1651267.54425
+    "notional": 1649351.32215
    },
    "HYPE": {
     "side": "SHORT",
     "size": 8025.87,
     "entry": 78.8087,
-    "notional": 549988.79349
+    "notional": 545454.17694
    }
   },
   "0x37f2af56f635c108aa1324402c17ec0e9e3ee9af": {
@@ -6362,19 +6362,19 @@
     "side": "SHORT",
     "size": 2169.99,
     "entry": 109.7632,
-    "notional": 220666.2831
+    "notional": 164207.48328
    },
    "AVAX": {
     "side": "SHORT",
     "size": 27602.87,
     "entry": 9.8007,
-    "notional": 246275.566427
+    "notional": 221162.475301
    },
    "HYPE": {
     "side": "SHORT",
-    "size": 8550.0,
-    "entry": 84.9254,
-    "notional": 645114.6
+    "size": 12550.0,
+    "entry": 80.5746,
+    "notional": 852935.65
    }
   },
   "0xd5cdced12319e63668d5fbd6e9f14fbae195edf3": {
@@ -6656,87 +6656,9 @@
   "0x54d67347c9d04c363a05dfeafe3a36a097beb3bc": {
    "BTC": {
     "side": "LONG",
-    "size": 3.71563,
-    "entry": 81295.5,
-    "notional": 299907.07545
-   },
-   "ETH": {
-    "side": "LONG",
-    "size": 53.3996,
-    "entry": 2364.55,
-    "notional": 124874.9646
-   },
-   "SOL": {
-    "side": "LONG",
-    "size": 1474.86,
-    "entry": 102.6019,
-    "notional": 149639.2956
-   },
-   "DOGE": {
-    "side": "LONG",
-    "size": 63827.0,
-    "entry": 0.080176,
-    "notional": 5055.800497
-   },
-   "LINK": {
-    "side": "LONG",
-    "size": 433.5,
-    "entry": 11.76415,
-    "notional": 5026.866
-   },
-   "XRP": {
-    "side": "LONG",
-    "size": 19315.0,
-    "entry": 1.339175,
-    "notional": 25377.9785
-   },
-   "BCH": {
-    "side": "LONG",
-    "size": 16.863,
-    "entry": 298.394,
-    "notional": 4988.41266
-   },
-   "DOT": {
-    "side": "LONG",
-    "size": 4944.5,
-    "entry": 1.00854,
-    "notional": 4944.153885
-   },
-   "ADA": {
-    "side": "LONG",
-    "size": 24304.0,
-    "entry": 0.207205,
-    "notional": 4942.94752
-   },
-   "NEAR": {
-    "side": "LONG",
-    "size": 2130.9,
-    "entry": 4.71988,
-    "notional": 9828.35007
-   },
-   "JUP": {
-    "side": "LONG",
-    "size": 17940.0,
-    "entry": 0.283837,
-    "notional": 5015.6652
-   },
-   "HYPE": {
-    "side": "LONG",
-    "size": 91.61,
-    "entry": 81.8846,
-    "notional": 7371.49026
-   },
-   "PUMP": {
-    "side": "LONG",
-    "size": 576435.0,
-    "entry": 0.004388,
-    "notional": 2448.119445
-   },
-   "ZEC": {
-    "side": "LONG",
-    "size": 9.52,
-    "entry": 1320.5103,
-    "notional": 12259.856
+    "size": 1.34687,
+    "entry": 66907.5,
+    "notional": 90424.81119
    }
   },
   "0x5c051c0ff69b6f5fdd47e847eb370dd48726ec4d": {},
@@ -6863,7 +6785,7 @@
     "side": "SHORT",
     "size": 30.59863,
     "entry": 81670.3,
-    "notional": 2056748.11271
+    "notional": 2054300.22231
    }
   },
   "0xa9e59e6a0f3832f38ea3fdd4e9e761d2083c5c58": {},
@@ -7284,7 +7206,7 @@
     "side": "SHORT",
     "size": 690.63,
     "entry": 86.8346,
-    "notional": 51200.54568
+    "notional": 46936.59606
    }
   },
   "0xd79296bc1803dac8d4fa998719d8f5ac8fe1ab8d": {
@@ -7300,7 +7222,7 @@
     "side": "SHORT",
     "size": 5.65,
     "entry": 77575.4,
-    "notional": 379764.75
+    "notional": 379324.05
    }
   },
   "0x0d28d8359ce824aa248e2c30128ce2974f4562cc": {
@@ -7370,7 +7292,20 @@
   "0xd7dc4b4ad3a7840f042a46d24b897fbe6ad14cb5": {},
   "0x52e6c32f0eb44f707e9c159052fc5039fc7b7725": {},
   "0x68a410113fab274d4e66685c1242e289ae76c01a": {},
-  "0x184cd9380cc279c34443052775ab42fe63356b5e": {},
+  "0x184cd9380cc279c34443052775ab42fe63356b5e": {
+   "INJ": {
+    "side": "SHORT",
+    "size": 3138.0,
+    "entry": 8.10314,
+    "notional": 24739.6782
+   },
+   "WLFI": {
+    "side": "SHORT",
+    "size": 433688.0,
+    "entry": 0.047398,
+    "notional": 20683.448096
+   }
+  },
   "0x2830eb43ebe320e27b44f86c1ece3751d36dc293": {
    "SOL": {
     "side": "LONG",
@@ -7394,19 +7329,19 @@
     "side": "SHORT",
     "size": 2.0,
     "entry": 84300.0,
-    "notional": 146246.0
+    "notional": 134274.0
    },
    "ETH": {
     "side": "SHORT",
     "size": 300.0,
     "entry": 2473.83,
-    "notional": 609090.0
+    "notional": 571380.0
    },
    "SOL": {
     "side": "SHORT",
     "size": 2600.0,
     "entry": 102.1292,
-    "notional": 214383.0
+    "notional": 196747.2
    }
   },
   "0x991e044d97b946fe549e92ac9bfa5119592a0e54": {
@@ -7461,9 +7396,9 @@
   "0x65c252c410276e7aeb86154acf218b7ea6ca1ecf": {
    "HYPE": {
     "side": "SHORT",
-    "size": 2000.0,
-    "entry": 71.644,
-    "notional": 142302.0
+    "size": 1566.87,
+    "entry": 72.6721,
+    "notional": 106487.61894
    }
   },
   "0x0ec8e18bd05a60a6ff16e04e17d20a516c299886": {
@@ -7570,7 +7505,7 @@
     "side": "SHORT",
     "size": 810.4,
     "entry": 81.4304,
-    "notional": 60079.8144
+    "notional": 55076.4048
    }
   },
   "0x9a01f256dad5de92e3ef2c3f287ecaaecaf93888": {
@@ -7587,7 +7522,7 @@
     "side": "LONG",
     "size": 100.0,
     "entry": 1941.84,
-    "notional": 190740.0
+    "notional": 190460.0
    }
   },
   "0x4c28f4c1b229ccfd1b76455422aafbb811762bf2": {},
@@ -7597,7 +7532,7 @@
     "side": "SHORT",
     "size": 6.6609,
     "entry": 78240.4,
-    "notional": 447725.7153
+    "notional": 447192.8433
    }
   },
   "0x52aff2aafa35e9a7bb17755d2099d76753519eec": {
@@ -7605,7 +7540,7 @@
     "side": "SHORT",
     "size": 9.61204,
     "entry": 75618.5,
-    "notional": 646092.49268
+    "notional": 645323.52948
    }
   },
   "0xe56cfad394121c46e908f33533a9c15de430bb55": {
@@ -7613,13 +7548,13 @@
     "side": "SHORT",
     "size": 190.0,
     "entry": 2233.14,
-    "notional": 362406.0
+    "notional": 361874.0
    },
    "HYPE": {
     "side": "SHORT",
     "size": 100.0,
     "entry": 72.7858,
-    "notional": 6852.9
+    "notional": 6796.3
    }
   },
   "0x9bdce4593af401d8d62b69441d03768a02449ac5": {
@@ -7647,7 +7582,7 @@
     "side": "SHORT",
     "size": 7500.0,
     "entry": 81.3736,
-    "notional": 513952.5
+    "notional": 509715.0
    }
   },
   "0xc1a6982bd01376ba8b8f51482b8cd4317d3bd9c8": {
@@ -7655,7 +7590,7 @@
     "side": "SHORT",
     "size": 6.44188,
     "entry": 74340.1,
-    "notional": 432990.9642
+    "notional": 432488.49756
    }
   },
   "0x81d3ffbfd90252f5260c942c3e4930bef1155a10": {},
@@ -7665,27 +7600,51 @@
     "side": "LONG",
     "size": 4.32797,
     "entry": 115570.1,
-    "notional": 290892.385234
+    "notional": 290566.92189
    },
    "SOL": {
     "side": "LONG",
     "size": 1457.14,
     "entry": 119.8637,
-    "notional": 110509.4976
+    "notional": 110264.69808
    },
    "XRP": {
     "side": "LONG",
     "size": 112211.0,
     "entry": 1.554527,
-    "notional": 111607.30482
+    "notional": 111610.67115
    }
   },
   "0x03c8363592ecae2b8c2b24414c38da05ed08b9d0": {},
   "0x1e7fa78a14ec6399e2678035974e4690c8caf226": {},
   "0x4a20b9496610941053858bd0b7e92493f44c3c26": {},
-  "0xb938ef5ecbecb592b111b1a1b91f252480e2193b": {}
+  "0xb938ef5ecbecb592b111b1a1b91f252480e2193b": {},
+  "0x4cb35baaa6fe5dec74bfb02a82c653b60aa8042e": {},
+  "0xfc5ea402b686e1f3a72c8e745374562f48f09949": {
+   "ZEC": {
+    "side": "SHORT",
+    "size": 494.15,
+    "entry": 913.865,
+    "notional": 441137.588
+   }
+  },
+  "0x44fdbadba3b71d49ea4e9db0c3e35ee4bac1b4c1": {
+   "BTC": {
+    "side": "LONG",
+    "size": 15.968,
+    "entry": 80024.0,
+    "notional": 1072043.616
+   },
+   "ZEC": {
+    "side": "LONG",
+    "size": 132.77,
+    "entry": 1259.963,
+    "notional": 118526.4344
+   }
+  },
+  "0x67a060c35f9902ae6a019645f1ff3f04ac5c0ede": {}
  },
- "cycle": 35204,
+ "cycle": 35207,
  "fail_counts": {
   "0x3daf7f1cfd1c289e9b2fb7abb2efbd39f77455d7": 0,
   "0x6807f127eaf85e3d0b9dbc7971bbed2afd041f8d": 0,
@@ -8624,16 +8583,47 @@
   "0x03c8363592ecae2b8c2b24414c38da05ed08b9d0": 0,
   "0x1e7fa78a14ec6399e2678035974e4690c8caf226": 0,
   "0x4a20b9496610941053858bd0b7e92493f44c3c26": 0,
-  "0xb938ef5ecbecb592b111b1a1b91f252480e2193b": 0
+  "0xb938ef5ecbecb592b111b1a1b91f252480e2193b": 0,
+  "0x4cb35baaa6fe5dec74bfb02a82c653b60aa8042e": 0,
+  "0xfc5ea402b686e1f3a72c8e745374562f48f09949": 0,
+  "0x44fdbadba3b71d49ea4e9db0c3e35ee4bac1b4c1": 0,
+  "0x67a060c35f9902ae6a019645f1ff3f04ac5c0ede": 0
  },
  "paper": {
-  "equity": 132.17819118623862,
-  "positions": {},
+  "equity": 132.14252062929225,
+  "positions": {
+   "INJ": {
+    "coin": "INJ",
+    "side": "SHORT",
+    "entry": 7.926871225,
+    "notional": 118.96037206761477,
+    "margin": 39.65345735587159,
+    "src": "0x184cd9380cc279c34443052775ab42fe63356b5e",
+    "opened": "2026-11-14T12:37:45+00:00",
+    "opened_ts": 1794659865.0553432,
+    "tag": "copy",
+    "convergence": 1,
+    "last_funding_ts": 1794660484.6763222
+   },
+   "WLFI": {
+    "coin": "WLFI",
+    "side": "SHORT",
+    "entry": 0.0473397938,
+    "notional": 118.94431241738562,
+    "margin": 39.64810413912854,
+    "src": "0x184cd9380cc279c34443052775ab42fe63356b5e",
+    "opened": "2026-11-14T12:37:45+00:00",
+    "opened_ts": 1794659865.0555644,
+    "tag": "copy",
+    "convergence": 1,
+    "last_funding_ts": 1794660484.6763222
+   }
+  },
   "realized": 43.11649114623799,
-  "fees_paid": 11.176305616265962,
+  "fees_paid": 11.211991318938713,
   "wins": 179,
   "losses": 175,
-  "funding_net": 0.23800565626916428
+  "funding_net": 0.2380208019955292
  },
  "equity_curve": [
   {
@@ -184655,30 +184645,49 @@
    "t": "2026-11-14T12:37:10+00:00",
    "cycle": 35204,
    "equity_mtm": 132.1782
+  },
+  {
+   "t": "2026-11-14T12:37:35+00:00",
+   "cycle": 35205,
+   "equity_mtm": 132.0711
+  },
+  {
+   "t": "2026-11-14T12:42:45+00:00",
+   "cycle": 35206,
+   "equity_mtm": 132.7178
+  },
+  {
+   "t": "2026-11-14T12:47:55+00:00",
+   "cycle": 35207,
+   "equity_mtm": 131.9079
   }
  ],
  "elite": [
-  "0xcbd95a2d178ebd62440297d3306049a51a61b3ee",
   "0x2d23b731e5f04996a2dfdbe434c7d922afdb5e00",
+  "0xcbd95a2d178ebd62440297d3306049a51a61b3ee",
+  "0x0c83f9f0cec0598a37900dd19731fde34bb2fb2c",
+  "0x7299b18b688212b06bbb638612371e0542c6be30",
   "0x52aff2aafa35e9a7bb17755d2099d76753519eec",
-  "0x6e9989debf991affd8dfe4a73efcbfc8cb658473",
+  "0x65c252c410276e7aeb86154acf218b7ea6ca1ecf",
+  "0x37b9efbb4c16e2b1cd03fc03e65e2e45f722b61d",
+  "0x184cd9380cc279c34443052775ab42fe63356b5e",
+  "0x33fb9032a46393efbc22b4b43dd736f9bc20774a",
+  "0xccaeb98ce9ca54f76bf0029cf9f12c894e253dd6",
+  "0x4cb35baaa6fe5dec74bfb02a82c653b60aa8042e",
+  "0xc1a6982bd01376ba8b8f51482b8cd4317d3bd9c8",
   "0x8738542e8fa99afda8eecc8acdae17b68f532274",
   "0xe56cfad394121c46e908f33533a9c15de430bb55",
-  "0xccaeb98ce9ca54f76bf0029cf9f12c894e253dd6",
-  "0x9bdce4593af401d8d62b69441d03768a02449ac5",
-  "0x33fb9032a46393efbc22b4b43dd736f9bc20774a",
-  "0x0c83f9f0cec0598a37900dd19731fde34bb2fb2c",
-  "0x5f6d5cd51b5153ecb97c8bfa179bffba4c039df3",
-  "0xc1a6982bd01376ba8b8f51482b8cd4317d3bd9c8"
+  "0x654ed1d8631de7feb6b4e5fd9965687504a80c4a",
+  "0xdc7be236c4b1ee77d16758451a198275ec9839b6"
  ],
  "worst": [
-  "0x81d3ffbfd90252f5260c942c3e4930bef1155a10",
-  "0x60468ba27448f88b19f52ed02f1a8c52f7a0b21d",
+  "0xfc5ea402b686e1f3a72c8e745374562f48f09949",
+  "0x54d67347c9d04c363a05dfeafe3a36a097beb3bc",
   "0xc619b01f1a4f894c5e83338c42f98dcb82b710f5",
-  "0xee2b489196431a9442f73c52b2363436fdabd67e",
+  "0x44fdbadba3b71d49ea4e9db0c3e35ee4bac1b4c1",
+  "0x67a060c35f9902ae6a019645f1ff3f04ac5c0ede",
   "0x03c8363592ecae2b8c2b24414c38da05ed08b9d0",
-  "0x1e7fa78a14ec6399e2678035974e4690c8caf226",
   "0x4a20b9496610941053858bd0b7e92493f44c3c26",
-  "0xb938ef5ecbecb592b111b1a1b91f252480e2193b"
+  "0xee2b489196431a9442f73c52b2363436fdabd67e"
  ]
 }
