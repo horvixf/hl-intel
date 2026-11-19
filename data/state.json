@@ -438,7 +438,14 @@
     "notional": 606294.32898
    }
   },
-  "0xbc76170c8a15b34941ba9e00567d7e0f11ba417c": {},
+  "0xbc76170c8a15b34941ba9e00567d7e0f11ba417c": {
+   "BTC": {
+    "side": "LONG",
+    "size": 14.87843,
+    "entry": 63653.8,
+    "notional": 943277.58357
+   }
+  },
   "0x7c1ad4cc246da4a20e12fc16d4cf4f338d57fef5": {},
   "0x39d60548ec0f5be5613b249c3ce4269418c45e64": {},
   "0x35b5d0398429785e5071560252e8a33d0bd57248": {
@@ -1308,13 +1315,13 @@
     "side": "SHORT",
     "size": 24.56695,
     "entry": 78753.6,
-    "notional": 1560934.8691
+    "notional": 1557544.63
    },
    "HYPE": {
     "side": "SHORT",
     "size": 5025.87,
     "entry": 78.8087,
-    "notional": 346959.427689
+    "notional": 344774.682
    }
   },
   "0x37f2af56f635c108aa1324402c17ec0e9e3ee9af": {
@@ -7240,7 +7247,7 @@
     "side": "SHORT",
     "size": 6.0,
     "entry": 76812.7,
-    "notional": 381198.0
+    "notional": 380406.0
    }
   },
   "0x0d28d8359ce824aa248e2c30128ce2974f4562cc": {
@@ -7248,19 +7255,19 @@
     "side": "LONG",
     "size": 0.00838,
     "entry": 63501.0,
-    "notional": 532.43168
+    "notional": 531.28362
    },
    "SOL": {
     "side": "LONG",
     "size": 1.34,
     "entry": 74.788,
-    "notional": 100.38677
+    "notional": 100.23736
    },
    "FARTCOIN": {
     "side": "LONG",
     "size": 1761.0,
     "entry": 0.08622,
-    "notional": 151.99191
+    "notional": 151.67493
    }
   },
   "0xd8d5b0f7219aed171efb5ae2ac3b9941206f7349": {},
@@ -7525,7 +7532,7 @@
     "side": "SHORT",
     "size": 8.0009,
     "entry": 75996.3,
-    "notional": 508361.1842
+    "notional": 507265.0609
    }
   },
   "0x52aff2aafa35e9a7bb17755d2099d76753519eec": {
@@ -7533,7 +7540,7 @@
     "side": "SHORT",
     "size": 4.09484,
     "entry": 64237.2,
-    "notional": 260157.46972
+    "notional": 259616.95084
    }
   },
   "0xe56cfad394121c46e908f33533a9c15de430bb55": {
@@ -7583,7 +7590,7 @@
     "side": "SHORT",
     "size": 6.44188,
     "entry": 74340.1,
-    "notional": 409271.96204
+    "notional": 408492.49456
    }
   },
   "0x81d3ffbfd90252f5260c942c3e4930bef1155a10": {},
@@ -7616,61 +7623,61 @@
     "side": "SHORT",
     "size": 1.85,
     "entry": 65582.7,
-    "notional": 117545.3
+    "notional": 117290.0
    },
    "SOL": {
     "side": "SHORT",
     "size": 150.0,
     "entry": 110.5666,
-    "notional": 11236.95
+    "notional": 11220.75
    },
    "LINK": {
     "side": "SHORT",
     "size": 3400.0,
     "entry": 10.28749,
-    "notional": 31178.748
+    "notional": 31113.4
    },
    "XRP": {
     "side": "SHORT",
     "size": 5500.0,
     "entry": 1.8775,
-    "notional": 5426.96
+    "notional": 5413.65
    },
    "NEAR": {
     "side": "SHORT",
     "size": 1300.0,
     "entry": 3.11,
-    "notional": 4359.81
+    "notional": 4333.069
    },
    "NEO": {
     "side": "SHORT",
     "size": 3700.0,
     "entry": 2.7958,
-    "notional": 5871.9
+    "notional": 5873.75
    },
    "POPCAT": {
     "side": "SHORT",
     "size": 55900.0,
     "entry": 0.068112,
-    "notional": 1575.5415
+    "notional": 1566.318
    },
    "HYPE": {
     "side": "SHORT",
     "size": 525.0,
     "entry": 24.2,
-    "notional": 36243.2175
+    "notional": 36015.0
    },
    "FARTCOIN": {
     "side": "SHORT",
     "size": 38800.0,
     "entry": 0.24621,
-    "notional": 3348.828
+    "notional": 3341.456
    },
    "LIT": {
     "side": "SHORT",
     "size": 3000.0,
     "entry": 2.462,
-    "notional": 8858.295
+    "notional": 8831.214
    }
   },
   "0xb31e19b0a3f8e2c7234e12d9c014c2734558258a": {},
@@ -7688,7 +7695,7 @@
     "side": "SHORT",
     "size": 144.6525,
     "entry": 2433.4,
-    "notional": 260085.195
+    "notional": 259665.70275
    }
   },
   "0x77bb41b3a80982e19daae2cfe94403afcc613489": {
@@ -7708,13 +7715,13 @@
     "side": "LONG",
     "size": 3.31674,
     "entry": 62618.0,
-    "notional": 210739.02612
+    "notional": 210284.63274
    },
    "XLM": {
     "side": "LONG",
     "size": 18117.0,
     "entry": 0.137368,
-    "notional": 2478.4056
+    "notional": 2468.713005
    }
   },
   "0x7688b399c3237d098be4688d222d586ab5236451": {
@@ -7722,19 +7729,19 @@
     "side": "SHORT",
     "size": 5.01248,
     "entry": 66484.0,
-    "notional": 318482.95424
+    "notional": 317791.232
    },
    "ETH": {
     "side": "SHORT",
     "size": 12.0,
     "entry": 2319.2,
-    "notional": 21576.0
+    "notional": 21541.2
    },
    "POPCAT": {
     "side": "SHORT",
     "size": 10000.0,
     "entry": 0.12792,
-    "notional": 281.85
+    "notional": 280.2
    }
   },
   "0x7f70f12185d44067d45d1ebb21b497f311c7d67d": {},
@@ -7891,7 +7898,7 @@
     "side": "SHORT",
     "size": 7.62041,
     "entry": 63765.7,
-    "notional": 484170.36976
+    "notional": 483126.37359
    }
   },
   "0x5e0730c1a09e60ccc25057203865a0550a269fea": {},
@@ -7900,7 +7907,7 @@
     "side": "LONG",
     "size": 6.95122,
     "entry": 64587.3,
-    "notional": 441652.71392
+    "notional": 440700.39678
    }
   },
   "0x2cdb5cabed598d1b152906e4614c2db067f8e695": {},
@@ -7909,11 +7916,11 @@
     "side": "LONG",
     "size": 17.41699,
     "entry": 63635.9,
-    "notional": 1106605.87664
+    "notional": 1104219.74901
    }
   }
  },
- "cycle": 36638,
+ "cycle": 36641,
  "fail_counts": {
   "0x3daf7f1cfd1c289e9b2fb7abb2efbd39f77455d7": 0,
   "0x6807f127eaf85e3d0b9dbc7971bbed2afd041f8d": 0,
@@ -192093,6 +192100,21 @@
   {
    "t": "2026-11-19T14:59:46+00:00",
    "cycle": 36638,
+   "equity_mtm": 141.6832
+  },
+  {
+   "t": "2026-11-19T15:04:59+00:00",
+   "cycle": 36639,
+   "equity_mtm": 141.6832
+  },
+  {
+   "t": "2026-11-19T15:10:11+00:00",
+   "cycle": 36640,
+   "equity_mtm": 141.6832
+  },
+  {
+   "t": "2026-11-19T15:15:23+00:00",
+   "cycle": 36641,
    "equity_mtm": 141.6832
   }
  ],
