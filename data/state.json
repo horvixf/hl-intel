@@ -4281,13 +4281,13 @@
     "side": "LONG",
     "size": 1.83138,
     "entry": 60119.5,
-    "notional": 109463.41398
+    "notional": 109335.21738
    },
    "ZEC": {
     "side": "LONG",
     "size": 49.6,
     "entry": 732.866,
-    "notional": 36550.736
+    "notional": 36083.504
    }
   },
   "0x7927f49a74a5ea0f7d94414c92ce66c6a3be271b": {
@@ -5259,13 +5259,13 @@
     "side": "SHORT",
     "size": 1.5,
     "entry": 70962.8,
-    "notional": 89656.5
+    "notional": 89551.5
    },
    "ZEC": {
     "side": "LONG",
     "size": 43.0,
     "entry": 704.563,
-    "notional": 31687.13
+    "notional": 31282.285
    }
   },
   "0x0bcde2b0e3795daa6b3b5fa6d3e52550bbfe101e": {
@@ -7069,13 +7069,13 @@
     "side": "LONG",
     "size": 1000.0,
     "entry": 69.0,
-    "notional": 64003.0
+    "notional": 63680.0
    },
    "VVV": {
     "side": "SHORT",
     "size": 2013.36,
     "entry": 26.5953,
-    "notional": 52657.41744
+    "notional": 52899.02064
    }
   },
   "0x4bc9a771cd2c96cb2a4501f2c049402b4e7e11b3": {},
@@ -7472,7 +7472,7 @@
     "side": "LONG",
     "size": 9.02337,
     "entry": 60949.5,
-    "notional": 539335.84827
+    "notional": 538704.21237
    }
   },
   "0x52aff2aafa35e9a7bb17755d2099d76753519eec": {
@@ -7682,7 +7682,7 @@
     "side": "LONG",
     "size": 20.76426,
     "entry": 57703.0,
-    "notional": 1241100.58446
+    "notional": 1239647.08626
    }
   },
   "0xf6266b8c587635212738e2610a3311bbc29ffe29": {
@@ -8159,7 +8159,7 @@
     "side": "LONG",
     "size": 9.00744,
     "entry": 61671.0,
-    "notional": 538383.69624
+    "notional": 537753.17544
    }
   },
   "0x79d2707f6307fca7628fc4ef81ccd54a96e29237": {
@@ -8189,7 +8189,7 @@
     "side": "LONG",
     "size": 2047.77,
     "entry": 62.4229,
-    "notional": 131063.42331
+    "notional": 130401.9936
    }
   },
   "0xc2c060e3309461ec7c4291b1aac6c89aa228727e": {
@@ -8250,7 +8250,7 @@
     "side": "LONG",
     "size": 0.25,
     "entry": 60494.0,
-    "notional": 14942.75
+    "notional": 14925.25
    }
   },
   "0xaa04e410add2d662e33cbdfbb5320764d39b1486": {},
@@ -8304,13 +8304,13 @@
     "side": "SHORT",
     "size": 224.67,
     "entry": 900.3629,
-    "notional": 165561.5697
+    "notional": 163445.1783
    },
    "XMR": {
     "side": "SHORT",
     "size": 398.677,
     "entry": 530.87,
-    "notional": 161391.625786
+    "notional": 161217.00526
    }
   },
   "0x980263ee82685d190861ff7915584f563c3b1e8f": {},
@@ -8320,7 +8320,7 @@
     "side": "LONG",
     "size": 11.38171,
     "entry": 59959.0,
-    "notional": 680296.18841
+    "notional": 679499.46871
    }
   },
   "0xfd088e28b9589f15c3b560c7da2f67ed9a46176d": {
@@ -8328,7 +8328,7 @@
     "side": "SHORT",
     "size": 1.21242,
     "entry": 58416.1,
-    "notional": 72467.55582
+    "notional": 72382.68642
    }
   },
   "0xa72dc2d42398e54634fc28e6769f8ce3ae011807": {},
@@ -8338,13 +8338,13 @@
     "side": "LONG",
     "size": 1e-05,
     "entry": 78939.0,
-    "notional": 0.59771
+    "notional": 0.59704
    },
    "AVAX": {
     "side": "LONG",
     "size": 52586.22,
     "entry": 6.6484,
-    "notional": 348173.36262
+    "notional": 346374.913896
    }
   },
   "0xb386b3370f3c258d241fed394050d60f7c421be7": {},
@@ -8353,17 +8353,17 @@
     "side": "SHORT",
     "size": 12.02884,
     "entry": 61888.1,
-    "notional": 718975.79564
+    "notional": 718169.86336
    },
    "ZEC": {
     "side": "SHORT",
     "size": 100.6,
     "entry": 758.1663,
-    "notional": 74131.134
+    "notional": 73198.572
    }
   }
  },
- "cycle": 38904,
+ "cycle": 38907,
  "fail_counts": {
   "0x3daf7f1cfd1c289e9b2fb7abb2efbd39f77455d7": 0,
   "0x6807f127eaf85e3d0b9dbc7971bbed2afd041f8d": 0,
@@ -9416,7 +9416,7 @@
   "0x020bbb92f73b51042572beb2cce4643c532320e9": 0
  },
  "paper": {
-  "equity": 122.91700795229355,
+  "equity": 122.91743035332969,
   "positions": {
    "NEAR": {
     "coin": "NEAR",
@@ -9429,7 +9429,7 @@
     "opened_ts": 1795645854.3584697,
     "tag": "copy",
     "convergence": 1,
-    "last_funding_ts": 1795816434.6987994
+    "last_funding_ts": 1795817371.1612432
    },
    "VVV": {
     "coin": "VVV",
@@ -9442,14 +9442,14 @@
     "opened_ts": 1795801432.5039473,
     "tag": "copy",
     "convergence": 1,
-    "last_funding_ts": 1795816434.6987994
+    "last_funding_ts": 1795817371.1612432
    }
   },
   "realized": 34.93898456935475,
   "fees_paid": 12.483196428650817,
   "wins": 193,
   "losses": 190,
-  "funding_net": 0.46121981159177594
+  "funding_net": 0.4616422126279287
  },
  "equity_curve": [
   {
@@ -203971,6 +203971,21 @@
    "t": "2026-11-27T21:53:42+00:00",
    "cycle": 38904,
    "equity_mtm": 123.8621
+  },
+  {
+   "t": "2026-11-27T21:58:56+00:00",
+   "cycle": 38905,
+   "equity_mtm": 123.3196
+  },
+  {
+   "t": "2026-11-27T22:04:08+00:00",
+   "cycle": 38906,
+   "equity_mtm": 123.5819
+  },
+  {
+   "t": "2026-11-27T22:09:19+00:00",
+   "cycle": 38907,
+   "equity_mtm": 123.4993
   }
  ],
  "elite": [
